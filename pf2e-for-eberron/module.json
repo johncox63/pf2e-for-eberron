@@ -1,0 +1,278 @@
+{
+  "title": "PF2E for Eberron",
+  "description": "Here's my PF2E implementation of Eberron. It basically uses the fantastic Pathfinder's Guide to Eberron (located in the url below) as the starting point. The primary change between that and this version is the Kalashtar are now a Human Heritage.",
+  "version": "1.5",
+  "url": "https://scribe.pf2.tools/v/2qF7WjsY-pathfinders-guide-to-eberron",
+  "manifest": "https://www.dropbox.com/s/1pkl48zovjgszoo/module.json?dl=1",
+  "download": "https://www.dropbox.com/s/o5pfk4feufamo70/pf2e-for-eberron.zip?dl=1",
+  "packs": [
+    {
+      "name": "pf2e-for-eberron-actions",
+      "label": "PF2E for Eberron Actions",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-actions.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-ancestries",
+      "label": "PF2E for Eberron Ancestries",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-ancestries.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-ancestry-features",
+      "label": "PF2E for Eberron Ancestry Features",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-ancestry-features.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-backgrounds",
+      "label": "PF2E for Eberron Backgrounds",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-backgrounds.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-deities",
+      "label": "PF2E for Eberron Deities",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-deities.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-equipment",
+      "label": "PF2E for Eberron Equipment",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-equipment.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-feat-effects",
+      "label": "PF2E for Eberron Feat Effects",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-feat-effects.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-feats",
+      "label": "PF2E for Eberron Feats",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-feats.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-heritages",
+      "label": "PF2E for Eberron Heritages",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-heritages.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-spell-effects",
+      "label": "PF2E for Eberron Spell Effects",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-spell-effects.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-spells",
+      "label": "PF2E for Eberron Spells",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-spells.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-journals",
+      "label": "PF2E for Eberron Journals",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-journals.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "pf2e-for-eberron": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "gnoll-bow": "Gnoll Bow",
+          "myrnaxe-axehead": "Myrnaxe Axe",
+          "myrnaxe-spearhead": "Myrnaxe Spear",
+          "boomerang-talenta": "Talenta Boomerang",
+          "boomerang-xendrik": "Xen'drik Boomerang",
+          "sharrash": "Sharrash",
+          "tangat": "Tangat",
+          "double-bladed-scimitar": "Double-Bladed Scimitar",
+          "axe-staff": "Axe Staff",
+          "big-boom-staff": "Big Boom Staff",
+          "blast-staff": "Blast Staff",
+          "blast-wand": "Blast Wand",
+          "blunderstaff": "Blunderstaff",
+          "clan-wand": "Clan Wand",
+          "coat-wand": "Coat Wand",
+          "dagger-wand": "Dagger Wand",
+          "double-blast-staff": "Double Blast Staff",
+          "double-blast-wand": "Double Blast Wand",
+          "dragon-mouth-wand": "Dragon Mouth Wand",
+          "dueling-wand": "Dueling Wand",
+          "dwarven-scatterstaff": "Dwarven Scatterstaff",
+          "harmona-staff": "Harmona Staff",
+          "shard-cane": "Shard Cane",
+          "shard-cannon": "Shard Cannon",
+          "shard-hammer": "Shard Hammer",
+          "shard-rapier": "Shard Rapier",
+          "shard-sword": "Shard Sword",
+          "staff-cannon": "Staff Cannon"
+        },
+        "creatureTraits": {
+          "bugbear": "Bugbear",
+          "eberron-changelings": "Eberron Changeling",
+          "kalashtar": "Kalashtar",
+          "shifter": "Shifter",
+          "warforged": "Warforged",
+          "aberrant-mark": "Aberrant Mark",
+          "dragonmark": "Dragonmark",
+          "dragonmarked-heritage": "Dragonmarked Heritage",
+          "mark-of-detection": "Mark of Detection",
+          "mark-of-finding": "Mark of Finding",
+          "mark-of-handling": "Mark of Handling",
+          "mark-of-healing": "Mark of Healing",
+          "mark-of-hospitality": "Mark of Hospitality",
+          "mark-of-making": "Mark of Making",
+          "mark-of-passage": "Mark of Passage",
+          "mark-of-scribing": "Mark of Scribing",
+          "mark-of-sentinel": "Mark of Sentinel",
+          "mark-of-shadow": "Mark of Shadow",
+          "mark-of-storm": "Mark of Storm",
+          "mark-of-warding": "Mark of Warding"
+        },
+        "featTraits": {
+          "artificer": "Artificer",
+          "wandslinger": "Wandslinger",
+          "shardslinger": "Shardslinger",
+          "bugbear": "Bugbear",
+          "eberron-changelings": "Eberron Changeling",
+          "kalashtar": "Kalashtar",
+          "shifter": "Shifter",
+          "warforged": "Warforged",
+          "aberrant-feedback": "Aberrant Feedback",
+          "dragonmark": "Dragonmark",
+          "true-dragonmark": "True Dragonmark",
+          "aberrant-mark": "Aberrant Mark",
+          "dragonmarked-heritage": "Dragonmarked Heritage",
+          "mark-of-detection": "Mark of Detection",
+          "mark-of-finding": "Mark of Finding",
+          "mark-of-handling": "Mark of Handling",
+          "mark-of-healing": "Mark of Healing",
+          "mark-of-hospitality": "Mark of Hospitality",
+          "mark-of-making": "Mark of Making",
+          "mark-of-passage": "Mark of Passage",
+          "mark-of-scribing": "Mark of Scribing",
+          "mark-of-sentinel": "Mark of Sentinel",
+          "mark-of-shadow": "Mark of Shadow",
+          "mark-of-storm": "Mark of Storm",
+          "mark-of-warding": "Mark of Warding"
+        },
+        "languages": {
+          "riedran": "Riedran",
+          "argon": "Argon",
+          "daan": "Daan",
+          "daelkyr": "Daelkyr",
+          "irial": "Irial",
+          "kythric": "Kythric",
+          "mabran": "Mabran",
+          "quori": "Quori",
+          "risian": "Risian",
+          "syranian": "Syranian",
+          "skincant": "Skincant"
+        },
+        "weaponGroups": {
+          "boomerang": {
+            "label": "Boomerang",
+            "description": "Choose one creature other than the initial target within the first range increment of you. If its AC is lower than your attack roll result for the critical hit, you deal damage to that creature equal to the result of the weapon damage die you rolled (including extra dice for its potency rune, if any). This amount isn't doubled, and no bonuses or other additional dice apply to this damage."
+          },
+          "blastshard": "Blastshard"
+        },
+        "weaponTraits": {
+          "shifter": {
+            "label": "Shifter",
+            "description": "Shifters craft and use these weapons."
+          },
+          "drow": {
+            "label": "Drow",
+            "description": "Drow craft and use these weapons."
+          },
+          "volley-45": {
+            "label": "Volley 45 ft.",
+            "description": "PF2E.TraitDescriptionVolley"
+          },
+          "returning": {
+            "label": "Returning",
+            "description": "When you make a thrown attack with this weapon and roll a failure, the weapon returns to you if you have a free hand."
+          },
+          "dual": {
+            "label": "Dual",
+            "description": "A single dual weapon is balanced such that their flurry of blows land with the speed of two weapons. Dual weapons satisfy requirements of dual-wielding melee weapons, such as for the Ranger Twin Takedown feat."
+          }
+        },
+        "equipmentTraits": {
+          "artificer": "Artificer"
+        },
+        "spellTraits": {
+          "aberrant-feedback": "Aberrant Feedback",
+          "dragonmark": "Dragonmark",
+          "true-dragonmark": "True Dragonmark",
+          "aberrant-mark": "Aberrant Mark",
+          "dragonmarked-heritage": "Dragonmarked Heritage",
+          "mark-of-detection": "Mark of Detection",
+          "mark-of-finding": "Mark of Finding",
+          "mark-of-handling": "Mark of Handling",
+          "mark-of-healing": "Mark of Healing",
+          "mark-of-hospitality": "Mark of Hospitality",
+          "mark-of-making": "Mark of Making",
+          "mark-of-passage": "Mark of Passage",
+          "mark-of-scribing": "Mark of Scribing",
+          "mark-of-sentinel": "Mark of Sentinel",
+          "mark-of-shadow": "Mark of Shadow",
+          "mark-of-storm": "Mark of Storm",
+          "mark-of-warding": "Mark of Warding"
+        }
+      }
+    }
+  },
+  "id": "pf2e-for-eberron",
+  "authors": [
+    {
+      "name": "John Cox",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "0.6.0",
+    "verified": "0.9.6"
+  }
+}
