@@ -51,6 +51,15 @@
       "private": false,
       "flags": {}
     },
+    {
+      "name": "pf2e-for-eberron-class-features",
+      "label": "PF2E for Eberron Class Features",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-class-features.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
 	{
       "name": "pf2e-for-eberron-deities",
       "label": "PF2E for Eberron Deities",
@@ -141,18 +150,15 @@
           "blast-wand": "Blast Wand",
           "blunderstaff": "Blunderstaff",
           "clan-wand": "Clan Wand",
-          "coat-wand": "Coat Wand",
           "double-blast-staff": "Double Blast Staff",
           "double-blast-wand": "Double Blast Wand",
           "dragon-mouth-wand": "Dragon Mouth Wand",
           "dueling-wand": "Dueling Wand",
           "dwarven-scatterstaff": "Dwarven Scatterstaff",
           "harmona-staff": "Harmona Staff",
-          "multiblaster": "Multi-Blaster",
-          "multiblast-staff": "Multi-Blast Staff",
-		  "shard-cannon": "Shard Cannon",
+          "shard-cannon": "Shard Cannon",
           "shard-staff": "Shard Staff",
-		  "staff-cannon": "Staff Cannon"		  
+          "staff-cannon": "Staff Cannon"		  
         },
         "creatureTraits": {
           "bugbear": "Bugbear",
