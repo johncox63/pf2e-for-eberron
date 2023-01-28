@@ -1,7 +1,7 @@
 {
   "title": "PF2E for Eberron",
   "description": "Here's my PF2E implementation of Eberron. It basically uses the fantastic Pathfinder's Guide to Eberron (located in the url below) as the starting point. The primary change between that and this version is the Kalashtar are now a Human Heritage.",
-  "version": "1.5",
+  "version": "1.6",
   "url": "https://scribe.pf2.tools/v/2qF7WjsY-pathfinders-guide-to-eberron",
   "manifest": "https://www.dropbox.com/s/1pkl48zovjgszoo/module.json?dl=1",
   "download": "https://www.dropbox.com/s/o5pfk4feufamo70/pf2e-for-eberron.zip?dl=1",
@@ -38,6 +38,24 @@
       "label": "PF2E for Eberron Backgrounds",
       "system": "pf2e",
       "path": "packs/pf2e-for-eberron-backgrounds.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+	{
+      "name": "pf2e-for-eberron-classes",
+      "label": "PF2E for Eberron Classes",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-classes.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "pf2e-for-eberron-class-features",
+      "label": "PF2E for Eberron Class Features",
+      "system": "pf2e",
+      "path": "packs/pf2e-for-eberron-class-features.db",
       "type": "Item",
       "private": false,
       "flags": {}
@@ -106,10 +124,10 @@
       "flags": {}
     },
 	{
-      "name": "pf2e-for-eberron-journals",
-      "label": "PF2E for Eberron Journals",
+      "name": "pf2e-for-eberron-lore",
+      "label": "PF2E for Eberron Lore",
       "system": "pf2e",
-      "path": "packs/pf2e-for-eberron-journals.db",
+      "path": "packs/pf2e-for-eberron-lore.db",
       "type": "JournalEntry",
       "private": false,
       "flags": {}
@@ -127,26 +145,20 @@
           "sharrash": "Sharrash",
           "tangat": "Tangat",
           "double-bladed-scimitar": "Double-Bladed Scimitar",
-          "axe-staff": "Axe Staff",
           "big-boom-staff": "Big Boom Staff",
           "blast-staff": "Blast Staff",
           "blast-wand": "Blast Wand",
           "blunderstaff": "Blunderstaff",
           "clan-wand": "Clan Wand",
-          "coat-wand": "Coat Wand",
-          "dagger-wand": "Dagger Wand",
           "double-blast-staff": "Double Blast Staff",
           "double-blast-wand": "Double Blast Wand",
           "dragon-mouth-wand": "Dragon Mouth Wand",
           "dueling-wand": "Dueling Wand",
           "dwarven-scatterstaff": "Dwarven Scatterstaff",
           "harmona-staff": "Harmona Staff",
-          "shard-cane": "Shard Cane",
           "shard-cannon": "Shard Cannon",
-          "shard-hammer": "Shard Hammer",
-          "shard-rapier": "Shard Rapier",
-          "shard-sword": "Shard Sword",
-          "staff-cannon": "Staff Cannon"
+          "shard-staff": "Shard Staff",
+          "staff-cannon": "Staff Cannon"		  
         },
         "creatureTraits": {
           "bugbear": "Bugbear",
@@ -272,7 +284,8 @@
     }
   ],
   "compatibility": {
-    "minimum": "0.6.0",
-    "verified": "0.9.6"
+    "minimum": 10,
+    "verified": "10.291",
+	"maximum": 10
   }
 }
