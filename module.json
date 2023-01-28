@@ -124,10 +124,10 @@
       "flags": {}
     },
 	{
-      "name": "pf2e-for-eberron-journals",
-      "label": "PF2E for Eberron Journals",
+      "name": "pf2e-for-eberron-lore",
+      "label": "PF2E for Eberron Lore",
       "system": "pf2e",
-      "path": "packs/pf2e-for-eberron-journals.db",
+      "path": "packs/pf2e-for-eberron-lore.db",
       "type": "JournalEntry",
       "private": false,
       "flags": {}
