@@ -1,7 +1,7 @@
 {
   "title": "PF2E for Eberron",
   "description": "Here's my PF2E implementation of Eberron. It basically uses the fantastic Pathfinder's Guide to Eberron (located in the url below) as the starting point. The primary change between that and this version is the Kalashtar are now a Human Heritage.",
-  "version": "1.6",
+  "version": "1.6.0",
   "url": "https://scribe.pf2.tools/v/2qF7WjsY-pathfinders-guide-to-eberron",
   "manifest": "https://www.dropbox.com/s/1pkl48zovjgszoo/module.json?dl=1",
   "download": "https://www.dropbox.com/s/o5pfk4feufamo70/pf2e-for-eberron.zip?dl=1",
