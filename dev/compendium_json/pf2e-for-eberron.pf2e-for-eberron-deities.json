@@ -1,0 +1,537 @@
+[
+  {
+    "_id": "2Y2z02WUj0dthVvv",
+    "name": "Onatar: The Sovereign of Artifice and the Forge",
+    "type": "deity",
+    "img": "modules/pf2e-for-eberron/images/SovereignHost.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+      },
+      "cf": {
+        "id": null
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>Onatar, the neutral good deity of crafts, industry, and fire, is the patron of artisans and artificers, smiths and smelters, and all who make things. Dwarves, in particular, revere him; he commonly appears as a dwarf smith in holy texts, and sometimes as a brass dragon. Wizards who specialize in fire also place their faith in him.<br /><strong>Areas of Concern</strong> Crafts, weapons, tools, smithing, fire, innovation<br /><strong>Alignment</strong> NG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Strength or Intelligence<br /><strong>Divine Skill</strong> Crafting<br /><strong>Domains</strong> Creation, Fire, Toil<br /><strong>Cleric Spells</strong> 1st: temporary tool, 4th: creation, 7th: duplicate foe<br /><strong>Edicts</strong> Craft new creations, pay attention to details, share achievements.<br /><strong>Anathema</strong> Carelessly destroy others\u00e2\u20ac\u2122 creations or research, enslave intelligent constructs, abuse constructs, refuse to acknowledge or learn from mistakes.<br /><strong>Favoured Weapon</strong> Warhammer</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "category": "deity",
+      "alignment": {
+        "own": "NG",
+        "follower": [
+          "LG",
+          "NG",
+          "CG",
+          "LN",
+          "N",
+          "CN",
+          "LE",
+          "NE",
+          "CE"
+        ]
+      },
+      "domains": {
+        "primary": [
+          "creation",
+          "fire",
+          "toil"
+        ],
+        "alternate": []
+      },
+      "font": [
+        "heal"
+      ],
+      "ability": [
+        "str",
+        "int"
+      ],
+      "skill": "cra",
+      "weapons": [
+        "warhammer"
+      ],
+      "spells": {
+        "1": "Compendium.pf2e.spells-srd.TPI9fRCAYsDqpAe4",
+        "4": "Compendium.pf2e.spells-srd.TUj8eugNqAvB1vVR",
+        "7": "Compendium.pf2e.spells-srd.73rToy0v5Ra9NvL6"
+      },
+      "rules": [],
+      "slug": "abraxas",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:45:27.434-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027127435,
+      "modifiedTime": 1673041197246,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "5WgJEelESG3xJI8E",
+    "name": "The Keeper: The Sovereign of Death and Decay",
+    "type": "deity",
+    "img": "modules/pf2e-for-eberron/images/TheDarkSix.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+      },
+      "cf": {
+        "id": null
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<div>\n<div class=\"bg-paper page d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>The Keeper is the patron of those who put personal gain above all else. He guides those who use guile to gain gold, regardless of the cost to others. A rogue who invokes Olladra sees themselves as the hero of the story; one who calls on the Keeper has no compunctions about being the villain. Beyond guiding those who place profit before all else, the Keeper is also known for his willingness to make deals-though his bargains are always slanted in his favour. He is portrayed as a gaunt or grossly fat human, as a lich or a ghoul, or sometimes as a skeletal dragon.</p>\n<hr />\n<p><strong>Areas of Concern</strong> Death, entropy, greed, hunger, time<br /><strong>Alignment</strong> NE<br /><strong>Divine Font</strong> Harm<br /><strong>Divine Ability</strong> Strength or Charisma <br /><strong>Divine Skill</strong> Theivery<br /><strong>Domains</strong> Death, Decay, Dust, Indulgence, Trickery, Wealth<br /><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Cleric Spells</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> 1st: ill omen, 2nd: shatter, 6th: phantasmal calamity<br /></span><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Edicts</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Gain financial control over others, gather new wealth, count your riches.<br /></span><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Anathema</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Allow honour or tradition to prevent you from taking what you want, fail to take opportunities to increase your wealth.<br /></span><strong style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Favoured Weapon</strong><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\"> Scythe</span></p>\n</div>\n</div>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "Pathfinder's Guide to Eberron"
+      },
+      "category": "deity",
+      "alignment": {
+        "own": "NE",
+        "follower": [
+          "LN",
+          "N",
+          "CN",
+          "LE",
+          "NE",
+          "CE"
+        ]
+      },
+      "domains": {
+        "primary": [
+          "death",
+          "decay",
+          "dust",
+          "wealth"
+        ],
+        "alternate": [
+          "trickery",
+          "indulgence"
+        ]
+      },
+      "font": [
+        "harm"
+      ],
+      "ability": [
+        "str",
+        "cha"
+      ],
+      "skill": "thi",
+      "weapons": [
+        "scythe"
+      ],
+      "spells": {
+        "1": "Compendium.pf2e.spells-srd.6ZIKB0151LUR19Rw",
+        "2": "Compendium.pf2e.spells-srd.1xbFBQDRs0hT5xZ9",
+        "6": "Compendium.pf2e.spells-srd.0XP2XOxT9VSiXFDr"
+      },
+      "rules": [],
+      "slug": "abraxas",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:45:27.488-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027127490,
+      "modifiedTime": 1673041206851,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "5kjJPiR1eCzpN1Iw",
+    "name": "The Sovereign Host",
+    "type": "deity",
+    "img": "modules/pf2e-for-eberron/images/SovereignHost.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>The Sovereign Host consists of the deities most commonly worshipped by the majority of Khorvaire\u00e2\u20ac\u2122s population. Most people revere the Host as a whole pantheon, offering prayers to different deities in different situations. Even clerics are often devoted to the entire Host rather than to a specific patron. If you are a cleric of the sovereign host, you may take divine font, abilities, skills, domains, spells, edicts, anathemas, or favoured weapons of your worship from any Sovereign. However once you have selected one of these sources, you may not mix further increases (such as in the case of cleric spells at 1st, 3rd and 5th level). Taken as a whole, the pantheon is neutral good, and its favoured weapon is the longsword-the weapon of its martial champion, Dol Dorn.</p>\n<hr />\n<p><strong>Areas of Concern</strong> Any<br /><strong>Alignment</strong> Any<br /><strong>Divine Font</strong> Heal or Harm<br /><strong>Divine Ability</strong> Any<br /><strong>Divine Skill</strong> Any<br /><strong>Domains</strong> Any<br /><strong>Cleric Spells\u00c2\u00a0</strong>Any set granted by one of the sovereigns<br /><strong>Edicts</strong> Any<br /><strong>Anathema\u00c2\u00a0</strong>Any<br /><strong>Favoured Weapon</strong> Longsword, or [Uncommon] Any</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "category": "pantheon",
+      "alignment": {
+        "own": "NG",
+        "follower": [
+          "LG",
+          "NG",
+          "CG",
+          "LN",
+          "N",
+          "CN",
+          "LE",
+          "NE",
+          "CE"
+        ]
+      },
+      "domains": {
+        "primary": [],
+        "alternate": []
+      },
+      "font": [
+        "heal"
+      ],
+      "ability": [
+        "wis",
+        "cha"
+      ],
+      "skill": "soc",
+      "weapons": [
+        "longsword"
+      ],
+      "spells": {},
+      "rules": [],
+      "slug": "abraxas",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:45:27.053-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027127056,
+      "modifiedTime": 1673027151442,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "5mJM2jE12jTV8l4f",
+    "name": "Dol Arrah: The Sovereign of Honor and Sacrifice",
+    "type": "deity",
+    "img": "modules/pf2e-for-eberron/images/SovereignHost.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+      },
+      "cf": {
+        "id": null
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>Dol Arrah, the lawful good deity of honourable combat, self-sacrifice, and sunlight, manifests as a peacemaker, a careful planner, and a strategist. She serves as the patron of paladins, generals, and diplomats who fight their battles with words. In addition, in her role as a sun god, she brings light to pierce the darkest places of the world. She is commonly represented as a human or half-elf knight shining with holy radiance, and sometimes as a red dragon perched on a cloud. [29]<br /><strong>Areas of Concern</strong> Honor, sacrifice, light, the sun, diplomacy<br /><strong>Alignment</strong> LG<br /><strong>Divine Font</strong> Heal<br /><strong>Divine Ability</strong> Strength or Charisma<br /><strong>Divine Skill</strong> Diplomacy<br /><strong>Domains</strong> Confidence, Duty, Freedom, Might, Protection, Sun, Truth, Vigil, Zeal<br /><strong>Cleric Spells</strong> 1st: mage armor, 4th: creation, 7th: true target<br /><strong>Edicts</strong> Seek those that break oaths and enforce just restitution, uphold your promises.<br /><strong>Anathema</strong> Lie, dishonour yourself or your family, shirk your duties, break an oath.<br /><strong>Favoured Weapon</strong> Halberd</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "category": "deity",
+      "alignment": {
+        "own": "LG",
+        "follower": [
+          "LG",
+          "NG",
+          "CG",
+          "LN",
+          "N",
+          "CN",
+          "LE",
+          "NE",
+          "CE"
+        ]
+      },
+      "domains": {
+        "primary": [
+          "duty",
+          "protection",
+          "freedom",
+          "vigil"
+        ],
+        "alternate": [
+          "might",
+          "confidence",
+          "sun",
+          "protection"
+        ]
+      },
+      "font": [
+        "heal"
+      ],
+      "ability": [
+        "str",
+        "cha"
+      ],
+      "skill": "dip",
+      "weapons": [
+        "halberd"
+      ],
+      "spells": {
+        "1": "Compendium.pf2e.spells-srd.aAbfKn8maGjJjk2W",
+        "4": "Compendium.pf2e.spells-srd.TUj8eugNqAvB1vVR",
+        "7": "Compendium.pf2e.spells-srd.AlbpWWN87yGegoAF"
+      },
+      "rules": [],
+      "slug": "abraxas",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:45:27.361-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027127363,
+      "modifiedTime": 1673041197246,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "62bL86TCBjlg2YXb",
+    "name": "The Devourer: The Sovereign of Wave and Whelm",
+    "type": "deity",
+    "img": "modules/pf2e-for-eberron/images/TheDarkSix.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.deities.bLI1JMpI2GXQT5AC"
+      },
+      "cf": {
+        "id": null
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>The Devourer is the tsunami that overwhelms the tallest ship, the wildfire that consumes the grandest castle, the earthquake that levels the most glorious city. He is the vast and primordial power of nature, a force that will break any chain and wear down the strongest wall. Those who embrace the Devourer celebrate the glorious power of the wilds. They revel in the raging storm and gladly embrace their predatory instincts. They accept that nature is often bloody and cruel, and don\u00e2\u20ac\u2122t hesitate to follow its example. But while it may be harsh, nature is rarely evil. Priests of the Devourer often urge their parishioners to follow their instincts or teach people to live in accord with nature instead of forcing their will upon it. He is portrayed as a human or merfolk with seaweed in his hair and beard, as a sahuagin, as an enormous shark, or as a dragon turtle.<br /><strong>Areas of Concern</strong> Devastation, hunger, nautical travel, storms, water<br /><strong>Alignment</strong> NE<br /><strong>Divine Font</strong> Harm<br /><strong>Divine Ability</strong> Strength or Constitution<br /><strong>Divine Skill</strong> Nature<br /><strong>Domains</strong> Change, Cold, Decay, Destruction, Dust, Lightning, Nature, Plague, Void, Water<br /><strong>Cleric Spells</strong> 1st: gust of wind, 3rd: lightning bolt, 5th: control water<br /><strong>Edicts</strong> Embrace the glorious power of the wilds, live free of social or materialistic chains.<br /><strong>Anathema</strong> Bring civilization to intrude on the wild, become civilized.<br /><strong>Favoured Weapon</strong> Trident</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "category": "deity",
+      "alignment": {
+        "own": "NE",
+        "follower": [
+          "LN",
+          "N",
+          "CN",
+          "LE",
+          "NE",
+          "CE"
+        ]
+      },
+      "domains": {
+        "primary": [
+          "change",
+          "destruction",
+          "nature",
+          "decay"
+        ],
+        "alternate": [
+          "cold",
+          "dust",
+          "lightning",
+          "plague"
+        ]
+      },
+      "font": [
+        "harm"
+      ],
+      "ability": [
+        "str",
+        "con"
+      ],
+      "skill": "nat",
+      "weapons": [
+        "trident"
+      ],
+      "spells": {
+        "1": "Compendium.pf2e.spells-srd.g8QqHpv2CWDwmIm1",
+        "3": "Compendium.pf2e.spells-srd.9AAkVUCwF6WVNNY2",
+        "5": "Compendium.pf2e.spells-srd.zfn5RqAdF63neqpP"
+      },
+      "rules": [],
+      "slug": "abraxas",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:45:27.450-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027127451,
+      "modifiedTime": 1673041206851,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "6XJkrd5ozuqHXWHo",
+    "name": "Green Faith",
+    "type": "deity",
+    "img": "modules/pf2e-for-eberron/images/TheGreenFaith.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.deities.KT7HKL7vbZEwbzX4"
+      },
+      "cf": {
+        "id": null
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>Druidism originated in Khorvaire sixteen thousand years ago when Vvaraak, a black dragon (although some sources claim she is green), foretold a great planar invasion. In order to aid the humanoids in repelling this invasion she taught the first orc druids of the bond between the three progenitor dragons as well as how to tap into that power and use it to seal gates to other planes. These original druids are still known as the Gatekeepers and continue to protect Khorvaire from invasions of aberrations from other planes.</p>\n<p>Although the Eldeen Reaches often comes to mind when thinking of druids and druidism there are druids all across Khorvaire and indeed across Eberron and even in other planes of existence. Anywhere the wild calls one can find druids of every species. Druidism is common among the lizardfolk of Q'barra as well as among the fey in Thelanis even the drow among the ruins of Xen'drik hold to ancient druidic traditions. Whether these were also taught to them by dragons, or if the power was discovered through other means is not yet known.</p>\n<p>Virtually all followers of the Green Faith are druids that belong to the various circles described in @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-lore.t2gDJ56vdmc0Cnwt.JournalEntryPage.qHmMbPDXJeucS1sQ]{The Druidic Sects} journal entry. This deity entry is meant to provide the game mechanics necessary to those rare affiliates of the circles who may not be druids.</p>\n<p><strong>Edicts</strong> guide civilization to grow in harmony with nature, preserve areas of natural wilderness, protect endangered species</p>\n<p><strong>Anathema</strong> cause damage to natural settings, kill animals for reasons other than self-defense or sustenance, allow abuse of natural resources</p>\n<p><strong>Areas of Concern</strong> veneration of the natural world</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "category": "pantheon",
+      "alignment": {
+        "own": "N",
+        "follower": [
+          "NG",
+          "LN",
+          "N",
+          "CN",
+          "NE",
+          "LG",
+          "CG",
+          "LE",
+          "CE"
+        ]
+      },
+      "domains": {
+        "primary": [
+          "nature",
+          "air",
+          "earth",
+          "might"
+        ],
+        "alternate": []
+      },
+      "font": [
+        "heal"
+      ],
+      "ability": [
+        "con",
+        "wis"
+      ],
+      "skill": "nat",
+      "weapons": [
+        "staff"
+      ],
+      "spells": {
+        "1": "Compendium.pf2e.spells-srd.zlnXpME1T2uvn8Lr",
+        "2": "Compendium.pf2e.spells-srd.wp09USMB3GIW1qbp",
+        "3": "Compendium.pf2e.spells-srd.1HfusQ8NDWutGvMx"
+      },
+      "rules": [],
+      "slug": "green-faith",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:45:27.221-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027127224,
+      "modifiedTime": 1673041200761,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  }
+]

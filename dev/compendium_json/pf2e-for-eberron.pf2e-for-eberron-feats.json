@@ -1,0 +1,1940 @@
+[
+  {
+    "name": "Hybrid Form",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.bEh5qUgX5eFaQwzU"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Shifter Feats",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>You have strengthened your connection to your hybrid form. Your Change Shape no longer has a maximum frequency, and your hybrid form transformation has no maximum duration.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_shifter"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "catfolk-weapon-familiarity",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:53.616-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 9
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027813622,
+      "modifiedTime": 1673042391382,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "02ct43j2jo17osIM",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Stalker",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.LbyNDCxFEkjp0iG7"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Bugbear Feats",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>Stealth is an important tool in your arsenal. You can move 5 feet farther when you take the Sneak action, up to your Speed. In addition, as long as you continue to use Sneak actions and succeed at your Stealth check, you don't become @Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed} if you end a Sneak action in dim light or darkness<span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">, as long as you have cover or greater cover or are @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed} at the end of your turn.</span></p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_bugbear"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "slink",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:57.300-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027817309,
+      "modifiedTime": 1673041639015,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "0fsuB8m3Xwp125Ij",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Shapechanger's Intuition",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "effects": [],
+    "flags": {
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Changeling Feats",
+        "color": "#000000"
+      },
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.0mxN7fB0kwYh6k5A"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>A lifetime of experience helps you see through disguises. When you come within 10 feet of a creature that is transformed into another form or is Impersonating a specific creature, the GM rolls a secret Perception check for you to realize that the creature is transformed, even if you didn't spend an action to Seek against that creature.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_eberron-changelings"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:59.975-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027819987,
+      "modifiedTime": 1673042077275,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "0mxN7fB0kwYh6k5A",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "name": "Penetrating Fire",
+    "system": {
+      "description": {
+        "value": "<p><strong>Requirements</strong> You're wielding a loaded wand or staff.</p>\n<hr />\n<p>You blast through one foe and into another. Choose two targets, one of which would give the other lesser cover against your ranged attacks. Make a single ranged Strike with the required weapon against both targets. This attack ignores any lesser cover the nearer target provides the other. Roll damage only once and apply it to each creature you hit. Penetrating Fire counts as two attacks for your multiple attack penalty.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "penetrating-fire",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 10
+      },
+      "featType": {
+        "value": "class"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "action"
+      },
+      "actions": {
+        "value": 2
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.YlaLePtgDXGB0Fsf"
+      }
+    },
+    "effects": [],
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673584650073,
+      "modifiedTime": 1673626481741,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "0uaJ2xgBExOkfUSI",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Knight of the Silver Flame Dedication",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.bWYnjNa2RknMoibg"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Archetype Feats#/CF_SEP/Knight of the Silver Flame",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p><strong>Access</strong> You are a follower of the Silver Flame</p>\n<hr />\n<p>You've sworn yourself as a defender of the Silver Flame, the first line of defense against the evil that threatens Khorvaire at its edges and within its boundaries. Whether you\u00e2\u20ac\u2122re a Ghaash\u00e2\u20ac\u2122kala orc or a templar of Thrane, you stand in opposition to the existential evil threats to civilization. Your primary antagonists are the Daelkyr, The Lords of Dust, undead creatures and lycanthropes. You become trained in Athletics and in one of either Fiend, Aberration, Undead or Lycanthrope Lore; if you were already trained, you become an expert instead. Finally, you gain the @Compendium[pf2e.feats-srd.w8Ycgeq2zfyshtoS]{Reactive Shield} fighter feat.</p>\n<p><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the Knight of the Silver Flame archetype.</p>"
+      },
+      "source": {
+        "value": "Pathfinder Lost Omens: World Guide"
+      },
+      "traits": {
+        "value": [
+          "archetype",
+          "dedication"
+        ],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.ath.rank",
+          "value": 1
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.w8Ycgeq2zfyshtoS"
+        }
+      ],
+      "slug": "lastwall-sentry-dedication",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T13:29:53.219-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 2
+      },
+      "featType": {
+        "value": "archetype"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Worshiper of the Silver Flame"
+          },
+          {
+            "value": "Shield Block"
+          }
+        ]
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673029793230,
+      "modifiedTime": 1673041151876,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "16MqoxOLXK3FXZIG",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Resistance of the Silver Flame",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.MnqDDUekqd40HTZc"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Archetype Feats#/CF_SEP/Knight of the Silver Flame",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>As part of your training, you've inured yourself against necromancy through repeated exposure. You gain a +1 circumstance bonus to saves against necromancy effects and gain resistance to negative damage equal to half your level.</p>"
+      },
+      "source": {
+        "value": "Pathfinder Lost Omens: World Guide"
+      },
+      "traits": {
+        "value": [
+          "archetype"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "label": "vs necromancy (Necromantic Resistance)",
+          "predicate": [
+            "necromancy"
+          ],
+          "selector": "saving-throw",
+          "type": "circumstance",
+          "value": 1
+        },
+        {
+          "key": "Resistance",
+          "type": "negative",
+          "value": "@actor.level/2"
+        }
+      ],
+      "slug": "necromantic-resistance",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T13:29:56.707-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 4
+      },
+      "featType": {
+        "value": "archetype"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Knight of the Silver Flame Dedication"
+          }
+        ]
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673029796714,
+      "modifiedTime": 1673041151876,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "1GBdZCzd5ZHmp5yA",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Flexible Synergistic Spellcasting",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.UqA9GdO2pGQwg9cd"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Archetype Feats#/CF_SEP/Arcane Synergist",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>You broaden your ability to channel your power into synergistic magic. You gain one more common synergistic spell of each level of synergistic spell you can cast other than your highest (you do not gain an additional cantrip). You also gain one additional synergistic spell slot for each level of synergistic spell you can cast, other than the highest.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "archetype"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "flexible-halcyon-spellcasting",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T13:25:56.537-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 12
+      },
+      "featType": {
+        "value": "archetype"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Synergistic Spellcasting Initiate"
+          }
+        ]
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673029556544,
+      "modifiedTime": 1673041114731,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "1JFEx0XmqJLGGbAZ",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Emotionless",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.eEVZ19G2BAnHQZpa"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Warforged Feats",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>You have turned what some would consider a great weakness into a strength. You gain a +1 circumstance bonus to saving throws against emotion and fear effects. If you roll a success on a saving throw against an emotion or fear effect, you get a critical success instead.</p>\n<p><strong>Enhancement\u00c2\u00a0</strong>You have complete physical control over your body, if not always your mind. If you would start your turn confused, controlled, or fleeing due to a failed Will save, you can attempt a Will save against the same DC; on a success, you become paralyzed until your next turn, rather than act against your will.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_warforged"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "label": "Emotionless (vs. emotion and fear effects)",
+          "predicate": [
+            {
+              "or": [
+                "emotion",
+                "fear"
+              ]
+            }
+          ],
+          "selector": "saving-throw",
+          "type": "circumstance",
+          "value": 1
+        },
+        {
+          "key": "Note",
+          "predicate": [
+            {
+              "or": [
+                "emotion",
+                "fear"
+              ]
+            }
+          ],
+          "selector": "saving-throw",
+          "text": "When you roll a success on a save against an emotion or fear effect, you get a critical success instead.",
+          "title": "{item|name}"
+        },
+        {
+          "adjustment": {
+            "success": "one-degree-better"
+          },
+          "key": "AdjustDegreeOfSuccess",
+          "predicate": [
+            {
+              "or": [
+                "emotion",
+                "fear"
+              ]
+            }
+          ],
+          "selector": "saving-throw",
+          "type": "save"
+        }
+      ],
+      "slug": "emotionless",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:47.607-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027807610,
+      "modifiedTime": 1673041948405,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "1QxrS0za6mngBeXt",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Bully",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "effects": [],
+    "flags": {
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Bugbear Feats",
+        "color": "#000000"
+      },
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.1VEbhRKvQ5V3TYWi"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<div data-markdown=\"1\">\n<div data-markdown=\"1\">Your long limbs and great strength provide you with an advantage in physical contests on the battlefield. Whenever you use an Athletics skill with the attack trait on a creature smaller than you, you gain a +1 circumstance bonus.</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_bugbear"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:56.650-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027816658,
+      "modifiedTime": 1673041632578,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "1VEbhRKvQ5V3TYWi",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Stand By The Strong",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "effects": [],
+    "flags": {
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Bugbear Feats",
+        "color": "#000000"
+      },
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.1xS5xrrUwt7Z4YS6"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p><strong>Frequency\u00c2\u00a0</strong>once per day</p>\n<p><strong>Trigger\u00c2\u00a0</strong>An ally within 30 feet of you makes a saving throw against an effect with the fear trait.</p>\n<hr />\n<p>You can use your reaction with a shout to reinforce your ally's courage in battle. If your ally can hear you, your ally gains a +2 circumstance bonus to their save.</p>\n<p><strong>Special\u00c2\u00a0</strong>You can use your reaction after you know the result of the check.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "auditory",
+          "hb_bugbear",
+          "emotion",
+          "mental"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:57.390-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 9
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "reaction"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null,
+      "frequency": {
+        "max": 1,
+        "per": "day"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027817402,
+      "modifiedTime": 1673041738161,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "1xS5xrrUwt7Z4YS6",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Synergistic Redirection",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.FJdcQU6yjDVDBC4r"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Archetype Feats#/CF_SEP/Arcane Synergist",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>If the next action you use is to Cast a Spell from your spell slots that damages other creatures, you can bend some of that spell's offensive energy, protecting allies in the area and boosting your own defenses against certain foes. Select any number of targets of the spell and reduce the spell's damage to those targets by an amount equal to the spell's level. Until your next turn, when one of those targets damages you, that damage is reduced by twice the spell's level.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "archetype",
+          "metamagic"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "tempest-sun-redirection",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T13:26:32.435-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 6
+      },
+      "featType": {
+        "value": "archetype"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "action"
+      },
+      "actions": {
+        "value": 1
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Arcane Synergist Dedication"
+          }
+        ]
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673029592446,
+      "modifiedTime": 1673041114732,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "2DMEI82qxUZEgSKC",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Mark of Vengeance",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.SZ7I3MZmXy7mpbVt"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/General Feats",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your aberrant dragonmark strikes at the hearts of dragonmarked foes you attack. When you strike a foe with a true dragonmark, you gain a +2 status bonus to damage. If your attack would deal more than one die of damage, the bonus is equal to 1 + the number of dice.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_aberrant-mark",
+          "hb_dragonmark",
+          "general"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:46.649-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "general"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027806655,
+      "modifiedTime": 1673041493786,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "2KsXzERSR3HQceYJ",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Skin Glider",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "effects": [],
+    "flags": {
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Changeling Feats",
+        "color": "#000000"
+      },
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.2NwvQxffrbcmE0BQ"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>When you begin to fall, you're able to shift your shape to maximize your air resistance, not unlike a flying squirrel. Your fall slows to 60 feet per round. This rapid change is extremely obvious to any observers watching, and all of them become aware that you are a changeling.</p>\n<p><strong>Special </strong>If you have the Rapid Shift feat, the trigger is instead when you begin to fall more than 5 feet.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_eberron-changeling"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:57:00.326-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 5
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027820340,
+      "modifiedTime": 1673041124159,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "2NwvQxffrbcmE0BQ",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Everyone Duck!",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.amf2zZuW299eiHAZ"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Archetype Feats#/CF_SEP/Wayfinder Agent",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p><strong>Trigger</strong> You fail, but don't critically fail, an attempt to Disable a Device on a trap.</p>\n<hr />\n<p>You intentionally set off the trap, but you take special precautions to protect yourself and your allies from the trap's effects. For the next 2 rounds, if the trap rolls a critical success on an attack roll, it gets a normal success instead, and if anyone rolls a critical failure on their saving throw against the trap, they get a normal failure instead.</p>"
+      },
+      "source": {
+        "value": "Pathfinder Lost Omens: Character Guide"
+      },
+      "traits": {
+        "value": [
+          "archetype"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "everyone-duck",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T13:33:22.589-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 10
+      },
+      "featType": {
+        "value": "archetype"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "reaction"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Wayfinder Agent Dedication"
+          }
+        ]
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673030002596,
+      "modifiedTime": 1673041182705,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "2WelPOGDscv2LdcT",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Heavy Blows",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.JP5pptkl1Fx1JK4m"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Bugbear Feats",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your long limbs give extra strength to your blows. Your fist unarmed attacks no longer have the nonlethal trait and gain the shove weapon trait.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_bugbear"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "iron-fists",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:56.937-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027816945,
+      "modifiedTime": 1673041637319,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "2WxNX89l0reen1Gm",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Juvenile Flight",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.bEh5qUgX5eFaQwzU"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Shifter Feats",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Frequency</strong> once per day</p>\n<p class=\"hang\"><strong>Requirements</strong> You can use change shape</p>\n<hr />\n<p>You shift into your hybrid form, with special focus on your wings. You can keep this form for 10 minutes. You gain a fly Speed equal to your land Speed while your wings are unfurled. If you have Fledgling Flight, you gain a +10-foot status bonus to your fly Speed with Juvenile Flight. As normal, since your fly Speed is derived from your land Speed, this status bonus isn't cumulative with a status bonus to your land Speed, if you have one. This transformation counts against the frequency of your change shape.</p>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_shifter"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "catfolk-weapon-familiarity",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:53.732-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 9
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "action"
+      },
+      "actions": {
+        "value": 2
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Swiftwing shifter heritage"
+          }
+        ]
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027813739,
+      "modifiedTime": 1673041162834,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "2a4OKfdjziKY6iM0",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Warden of the Silver Flame",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.V5Y9r31BCTaCiNzi"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Archetype Feats#/CF_SEP/Knight of the Silver Flame",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>You use your shield to protect your allies, not just yourself, especially against the the implacable foes of the Silver Flame. When you have a shield raised, you can use your @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Shield Block} reaction when an attack is made against an ally adjacent to you, in addition to its usual trigger. If you do, the shield prevents that ally from taking damage instead of you, following the normal rules for a Shield Block.</p>\n<p>If a fiend, abberation, undead or lycanthrope makes an attack against an ally within 10 feet, you can Step to become adjacent to your ally and then use Shield Block as part of the same reaction.</p>"
+      },
+      "source": {
+        "value": "Pathfinder Lost Omens: World Guide"
+      },
+      "traits": {
+        "value": [
+          "archetype"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "lastwall-warden",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T13:30:01.797-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 10
+      },
+      "featType": {
+        "value": "archetype"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Knight of the Silver Flame Dedication"
+          }
+        ]
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673029801804,
+      "modifiedTime": 1673041151877,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "2bhK7ZjeQ9MdKoHY",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Mind Bender",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "effects": [],
+    "flags": {
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Kalashtar Feats",
+        "color": "#000000"
+      },
+      "core": {
+        "sourceId": "Compendium.world.eberron-for-pf2e.bYBWhhVDODgCm9zY"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>When you land a melee strike, you can manifest a pulse of energy that warps the target's mind. You can add +2 psychic damage to your attacks. If this melee strike reduces a creature to 0 hit points, you can choose to make the blow non-lethal by using the pulse of psychic energy to ward off the mortal wounds of the strike. You do not take any penalty for using a weapon without the non-lethal trait to do so.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_kalashtar",
+          "mental"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "damageType": "psychic",
+          "key": "FlatModifier",
+          "selector": "strike-damage",
+          "value": 2
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:51.608-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 13
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027811614,
+      "modifiedTime": 1673042317007,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "2gUDLk86bciaW2Sn",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Sentry of the Silver Flame Dedication",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.H86VNC6cNWhBI8Ed"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Archetype Feats#/CF_SEP/Sentry of the Silver Flame",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>You have sworn to the Silver Flame to actively oppose the existential evil threats to the world and are dedicated to meeting these threats on the edges of civilization before the threat they represent can grow. Whether you are a member of the Ghaash'kala guarding Khorvaire from the fiends of the Demon Wastes, or a member of the Thranish church dedicated to hunting these threats down wherever they emerge, you are active on the edges of civilization pushing back against the darkness and evil that threatens to encroach.</p>\n<p>You gain expert proficiency in Stealth and Survival. Whenever you roll a success on a saving throw against an undead's special ability, you get a critical success instead. This applies to any abilities that come from being undead, including an undead's innate spells (but not its prepared or spontaneous spells).</p>\n<p><strong>Special</strong> You cannot select another dedication feat until you have gained two other feats from the Sentry of the Silver Flame archetype.</p>"
+      },
+      "source": {
+        "value": "Pathfinder Lost Omens: Character Guide"
+      },
+      "traits": {
+        "value": [
+          "archetype",
+          "dedication"
+        ],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.ste.rank",
+          "value": 2
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.sur.rank",
+          "value": 2
+        }
+      ],
+      "slug": "knight-reclaimant-dedication",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T13:31:16.908-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 6
+      },
+      "featType": {
+        "value": "archetype"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "trained in Survival"
+          },
+          {
+            "value": "trained in Stealth"
+          },
+          {
+            "value": "Worshiper of the Silver Flame"
+          }
+        ]
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673029876914,
+      "modifiedTime": 1673041157303,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "2kxvTpt0o7idj31b",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Insignia Familiar",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.GByIIkeHN3JWkZIZ"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Archetype Feats#/CF_SEP/Arcane Synergist",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your insignia takes on a personality of its own, allowing it to serve as your familiar. Though you can still wear it as an insignia, you can detach it to grant it a bodily form of colored light that allows it to move around; usually, this is a miniature form of the animal the insignia incorporates. Detaching or reattaching the familiar to transform it is a two-action activity. Even in insignia form, the familiar can move around on its jewelry and speaks in a distinct voice (if it can talk). It is easily recognized as more than a simple insignia unless the familiar succeeds at a Deception check to Impersonate. Other than its appearance and the fact that it can be worn, it functions as other familiars.\u00c2\u00a0</p>\n<p>Your insignia familiar has access to the cloak insignia familiar ability.</p>\n<hr />\n<p><strong>Cloak Insignia</strong> When in insignia form, your familiar can hide its obvious supernatural qualities to pass as a simple insignia. It doesn\u00e2\u20ac\u2122t need to Impersonate to fool a passing glance, and it gains a +4 circumstance bonus to its Deception DC against an active observer Seeking or otherwise studying it.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "archetype"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.attributes.familiarAbilities.value",
+          "priority": 9,
+          "value": 2
+        }
+      ],
+      "slug": "mask-familiar",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T13:25:17.680-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 4
+      },
+      "featType": {
+        "value": "archetype"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Arcane Synergist Dedication"
+          }
+        ]
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673029517689,
+      "modifiedTime": 1673041114731,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "2vqvh1Db6W3FDcNP",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Spellslinger Dedication",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.BwDIwjHasZwcd61Z"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<div>\n<div class=\"bg-paper page d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p class=\"hang\"><strong>Prerequisites</strong> Way of the Spellslinger</p>\n<hr />\n<p>You've discovered an arcane breakthrough that allow you to embue even more magical energy into a vial of shardpowder that, when used to power a blastshard, allows you to cast actual spells through the weapon.</p>\n<p>You gain the Cast a Spell activity, and can cast arcane spells. Each time you gain a spell slot of a new level from the Spellslinger archetype, add a spell of that level or lower to your spellbook. However - unlike a normal spellcaster - you can only use the @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast a Spell} activity by using your blastshard to activate a special shardpowder vial that you embue with magical energy each day. For ease of reference we'll call these vials Shardpowder Spells.</p>\n<p>You gain a special spellbook with the formula for four common arcane cantrips of your choice. During your daily preparations, you create two vials of Shardpowder Spell cantrips, each capable of casting one of these cantrips. These cantrip vials have no limit to their use. These vials of Shardpowder Spells must be loaded into a blastshard (either a staff or wand) in order for you to cast them.</p>\n<p>Even though these are being cast through a blastshard, the use of these Shardpowder Spells still require the Cast a Spell activity rather than a Strike action, and may not be used as a replacement for Strikes as a result. You do not become trained in spell attack rolls or spell DCs from this source. Instead, when casting a Shardpowder Spell, and when using any standard magical wand or staff, you use your advanced firearm proficiency for the spell attack roll and wandslinger class DC for DCs. Your key spellcasting ability for spellslinger archetype spells is Intelligence, and they are arcane wandslinger spells.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div>\n<div class=\"bg-paper page d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"item d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<p>During your daily preparations, you can prepare a staff as a prepared spellcaster. If you do not have the basic bounded spellcasting benefits yet, your highest-level spell slot is considered 1st level for the purposes of preparing a staff during your daily preparations.</p>\n<p>You become trained in Arcana; if you were already trained in Arcana, you instead become trained in a skill of your choice.</p>\n</div>\n</div>\n</div>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "archetype",
+          "dedication",
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "wandslinger-dedication",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": {
+          "datetime": "2023-01-13T13:28:16.117-05:00",
+          "version": {
+            "schema": 0.812,
+            "foundry": "10.291",
+            "system": "4.6.5"
+          }
+        }
+      },
+      "level": {
+        "value": 2
+      },
+      "featType": {
+        "value": "archetype"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "way of the spellslinger"
+          }
+        ]
+      },
+      "location": null
+    },
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1672960306626,
+      "modifiedTime": 1673639991153,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "36XwAMMI0tVdPHLN"
+  },
+  {
+    "name": "Wildhunt Elite",
+    "type": "feat",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.feats-srd.bEh5qUgX5eFaQwzU"
+      },
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Shifter Feats",
+        "color": "#000000"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your shifter-enhanced instincts and senses allow you to detect concealed and invisible creatures. Your scent sense becomes precise.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_shifter"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "Sense",
+          "selector": "scent",
+          "acuity": "precise",
+          "range": 30
+        }
+      ],
+      "slug": "catfolk-weapon-familiarity",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:55.998-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 9
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": [
+          {
+            "value": "Wildhunt Shifter heritage"
+          }
+        ]
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027816005,
+      "modifiedTime": 1673042420919,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "3DAfbcHgxlfhHpqz",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "name": "Psi-Sense",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feats.webp",
+    "effects": [],
+    "flags": {
+      "cf": {
+        "id": null,
+        "path": "Feats#/CF_SEP/Ancestry Feats#/CF_SEP/Kalashtar Feats",
+        "color": "#000000"
+      },
+      "core": {
+        "sourceId": "Compendium.world.eberron-for-pf2e.jZtzl2YORrrBaVHg"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>With a sensation that something is wrong, you can detect dangers before they happen, giving you a slight advantage to react. You gain a +1 status bonus to your initiative rolls.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_kalashtar"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "label": "Psi-Sense",
+          "selector": "initiative",
+          "type": "status",
+          "value": 1
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:51.796-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 9
+      },
+      "featType": {
+        "value": "ancestry"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027811803,
+      "modifiedTime": 1673042304722,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "_id": "3Ne5VeLSIumkqKBF",
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  }
+]
