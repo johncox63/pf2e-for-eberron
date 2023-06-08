@@ -1,0 +1,1093 @@
+[
+  {
+    "img": "systems/pf2e/icons/features/classes/way-of-the-sniper.webp",
+    "name": "Way of the Sniper",
+    "system": {
+      "description": {
+        "value": "<p>You practice a style of blasting that relies on unerring accuracy and perfect placement of your first blast. You keep hidden or at a distance, staying out of the fray and bringing unseen death to your foes.</p>\n<p><strong>Slinger's Reload</strong> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.Shuc8xPKp8pv90OB]{Covered Reload}</p>\n<p><strong>Deeds</strong> <em>Initial</em> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.137j4bXO0MrIIJ28]{One Blast, One Kill}; <em>Advanced</em> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.KAJ6WKEILfQYp7FW]{Vital Shot}; <em>Greater</em> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.m09tKAwjkO93hCnl]{Ghost Shot}</p>\n<p><strong>Way Skill</strong> Stealth</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "class:wandslinger"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.Shuc8xPKp8pv90OB"
+        },
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "class:wandslinger"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.137j4bXO0MrIIJ28"
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.ste.rank",
+          "value": 1
+        }
+      ],
+      "slug": "way-of-the-sniper",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.QWXvksGJhOjXbBqi"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673530343937,
+      "modifiedTime": 1673631364439,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "13G4Nn3pIsGekmWs"
+  },
+  {
+    "img": "systems/pf2e/icons/features/classes/way-of-the-pistolero.webp",
+    "name": "Way of the Duelist",
+    "system": {
+      "description": {
+        "value": "<p>Whether you're a professional duelist or a wand-twirling entertainer, you have quick feet and quicker hands that never seem to let you down, and an equally sharp wit and tongue that jab your foes. You might leave a hand free or cultivate the ambidexterity for twin weapons. Either way, you stay close enough to your enemies to leverage your superior reflexes while leaving enough space to safely fire.</p>\n<p><strong>Slinger's Reload</strong> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.UTx5k5fueTKUe8f7]{Raconteur's Reload}</p>\n<p><strong>Deeds</strong> <em>Initial</em> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.HcjUG0kKJKrYhVGf]{Ten Paces}; <em>Advanced</em> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.A8fgb9OF5IdcSqr1]{Duelist's Retort}; <em>Greater</em> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.v9E3oRqc0yFeh4fB]{Grim Swagger}</p>\n<p><strong>Way Skill</strong> choose Deception or Intimidation</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "class:wandslinger"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.UTx5k5fueTKUe8f7"
+        },
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "class:wandslinger"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.HcjUG0kKJKrYhVGf"
+        },
+        {
+          "adjustName": false,
+          "choices": [
+            {
+              "label": "PF2E.SkillDec",
+              "value": "dec"
+            },
+            {
+              "label": "PF2E.SkillItm",
+              "value": "itm"
+            }
+          ],
+          "flag": "skill",
+          "key": "ChoiceSet",
+          "prompt": "PF2E.SpecificRule.Prompt.Skill"
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.{item|flags.pf2e.rulesSelections.skill}.rank",
+          "value": 1
+        }
+      ],
+      "slug": "way-of-the-pistolero",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.qRLRrHf0kzaJ7xt0"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673530339621,
+      "modifiedTime": 1673631358709,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "2jeTilunUgtrPTkl"
+  },
+  {
+    "img": "systems/pf2e/icons/features/classes/way-of-the-drifter.webp",
+    "name": "Way of the Drifter",
+    "system": {
+      "description": {
+        "value": "<p>You're a wanderer traveling from land to land with your wand and a melee weapon as company. Maybe you learned to fight with blade and wand as a Lhazaar pirate, mastered the shard cannon and sword in Aundair, or practiced with a hatchet and clan wand in the Mror Holds. You win battles by relying on mobility and flexible use of your weapons.</p>\n<p><strong>Slinger's Reload</strong> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.bS3lIOo717XQIwTg]{Drifter's Wake}</p>\n<p><strong>Deeds</strong> <em>Initial</em> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.GS4ppzyUlJmGQnMs]{Into the Fray}; <em>Advanced</em> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.tg4uOjcDdbziv6gM]{Finish The Job}; <em>Greater</em> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.bS3lIOo717XQIwTg]{Drifter's Wake}</p>\n<p><strong>Way Skill</strong> Acrobatics</p>"
+      },
+      "source": {
+        "value": "Pathfinder Guns & Gears"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "class:wandslinger"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.GS4ppzyUlJmGQnMs"
+        },
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "class:wandslinger"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.b37pR9AMc9Gd4k5k"
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.acr.rank",
+          "value": 1
+        }
+      ],
+      "slug": "way-of-the-drifter",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.a3pSIKkDVTvvNSRO"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673530337688,
+      "modifiedTime": 1673641938447,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "4JbTM9k9yq2XKLC8"
+  },
+  {
+    "img": "systems/pf2e/icons/features/classes/gunslinger-weapon-mastery.webp",
+    "name": "Wandslinger Weapon Mastery",
+    "system": {
+      "description": {
+        "value": "<p>You fully understand the best way to utilize your unique weapons. Your proficiency rank increases to master with simple and martial blastshards. Your proficiency rank for advanced blastshards, simple weapons, martial weapons, and unarmed attacks increases to expert. You gain access to the critical specialization effects for blastshards.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.unarmed.rank",
+          "value": 2
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.simple.rank",
+          "value": 2
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.martial.rank",
+          "value": 2
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.advanced-blastshards.rank",
+          "value": 2
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.simple-blastshards.rank",
+          "value": 3
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.martial-blastshards.rank",
+          "value": 3
+        },
+        {
+          "key": "CriticalSpecialization",
+          "predicate": [
+            {
+              "gte": [
+                "item:proficiency:rank",
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "slug": "gunslinger-weapon-mastery",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 5
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.9nRT8aq05Fy2D3i3"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673537562969,
+      "modifiedTime": 1673583343983,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "8Jvhv7GMJFyGudBL"
+  },
+  {
+    "img": "systems/pf2e/icons/features/classes/singular-expertise.webp",
+    "name": "Singular Expertise",
+    "system": {
+      "description": {
+        "value": "<p>You have particular expertise with blastshards that grants you greater proficiency with them and the ability to deal more damage. You gain a +1 circumstance bonus to damage rolls with blastshards.</p>\n<p>This intense focus on blastshards prevents you from reaching the same heights with other weapons. Your proficiency with unarmed attacks and with weapons other than blastshards can't be higher than trained, even if you gain an ability that would increase your proficiency in one or more other weapons to match your highest weapon proficiency (such as the weapon expertise feats many ancestries have). If you have wandslinger weapon mastery, the limit is expert, and if you have wandslinging legend, the limit is master.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": "hb_blastshard-weapon-group-damage",
+          "type": "circumstance",
+          "value": 1
+        }
+      ],
+      "slug": "singular-expertise",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.vXbk7Nm1TOTTUNvF"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673537361739,
+      "modifiedTime": 1673631345829,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "HXLraSSvFDkhSoqa"
+  },
+  {
+    "img": "systems/pf2e/icons/features/classes/advanced-deed.webp",
+    "name": "Advanced Deed",
+    "system": {
+      "description": {
+        "value": "<p>You've learned a powerful new technique of your chosen way. You gain the advanced deed ability of the way you chose at 1st level.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "feature:way-of-the-drifter"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.tg4uOjcDdbziv6gM"
+        },
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "feature:way-of-the-pistolero"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.A8fgb9OF5IdcSqr1"
+        },
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "feature:way-of-the-sniper"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.KAJ6WKEILfQYp7FW"
+        },
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "feature:way-of-the-vanguard"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.8pIraSs41eWjU5GJ"
+        }
+      ],
+      "slug": "advanced-deed",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 9
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.3JLW5vPshsJf3nCY"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673537844354,
+      "modifiedTime": 1673631334292,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "LHebQmqCHQXsb40x"
+  },
+  {
+    "img": "systems/pf2e/icons/features/classes/way-of-the-vanguard.webp",
+    "name": "Way of the Vanguard",
+    "system": {
+      "description": {
+        "value": "<p>You practice a unique combat style originated by dwarven siege engineers, using heavy weapons with wide attack areas to blast holes through enemy lines, clear an opening for your allies, and defend the conquered territory.</p>\n<p><strong>Slinger's Reload</strong> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.rZ4b7OhMonf3l7kj]{Clear a Path}</p>\n<p><strong>Deeds</strong> <em>Initial @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.1QSgBIUTvgBDJOKF]{Living Fortification}</em>; <em>Advanced</em> @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.8pIraSs41eWjU5GJ]{Spinning Crush}; <em>Greater </em>@UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.bWUKfdDI91YQADc0]{Siegebreaker}</p>\n<p><strong>Way Skill</strong> Athletics</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "class:wandslinger"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.rZ4b7OhMonf3l7kj"
+        },
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "class:wandslinger"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.1QSgBIUTvgBDJOKF"
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.ath.rank",
+          "value": 1
+        }
+      ],
+      "slug": "way-of-the-vanguard",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.vB0yVFxJVZwalt2g"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673530350892,
+      "modifiedTime": 1673631370270,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "Q8wXaYW21AvLJ5qp"
+  },
+  {
+    "img": "systems/pf2e/icons/features/classes/choice-feature.webp",
+    "name": "Wandslinger's Way",
+    "system": {
+      "description": {
+        "value": "<p>All wandslingers have a particular way they follow, a combination of philosophy and combat style that defines both how they fight and the weapons they excel with. At 1st level, your way grants you an initial deed, a unique reload action called a slinger's reload, and proficiency with a particular skill. You also gain advanced and greater deeds at later levels, as well as access to way-specific feats.</p>\n<p><strong>@UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-class-features.4JbTM9k9yq2XKLC8]{Way of the Drifter}</strong> You wander across the battlefield, equally at home in and out of the fray.</p>\n<p><strong>@UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-class-features.2jeTilunUgtrPTkl]{Way of the Duelist}</strong> You carefully maintain your distance at a duelist's 10 paces with wand in hand.</p>\n<p><strong>@UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-class-features.13G4Nn3pIsGekmWs]{Way of the Sniper}</strong> You practice a methodical style of shooting, striking from far cover.</p>\n<p><strong>@UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-class-features.Q8wXaYW21AvLJ5qp]{Way of the Vanguard}</strong> You rely on a brutal combat style that uses heavy weapons and explosive attacks.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "adjustName": false,
+          "allowedDrops": {
+            "label": "level 1 wandslinger class feature",
+            "predicate": [
+              "item:level:1",
+              "item:trait:wandslinger",
+              "item:type:feature"
+            ]
+          },
+          "choices": [
+            {
+              "value": "Compendium.pf2e-for-eberron.pf2e-for-eberron-class-features.4JbTM9k9yq2XKLC8"
+            },
+            {
+              "value": "Compendium.pf2e-for-eberron.pf2e-for-eberron-class-features.2jeTilunUgtrPTkl"
+            },
+            {
+              "value": "Compendium.pf2e-for-eberron.pf2e-for-eberron-class-features.13G4Nn3pIsGekmWs"
+            },
+            {
+              "value": "Compendium.pf2e-for-eberron.pf2e-for-eberron-class-features.Q8wXaYW21AvLJ5qp"
+            }
+          ],
+          "flag": "wandslingerway",
+          "key": "ChoiceSet",
+          "prompt": "PF2E.SpecificRule.Wandslinger.WandslingerWay.Prompt"
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "{item|flags.pf2e.rulesSelections.wandslingerway}"
+        }
+      ],
+      "slug": "gunslingers-way",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 1
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.LDqVxLKrwEqSegiu"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673530303379,
+      "modifiedTime": 1673583782020,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "eqFKjbs5M4sxnb3h"
+  },
+  {
+    "img": "systems/pf2e/icons/features/classes/shootists-edge.webp",
+    "name": "Blaster's Edge",
+    "system": {
+      "description": {
+        "value": "<p>You make shots others find impossible. Your proficiency rank for your wandslinger class DC increases to master. When using a ranged weapon in which you have master or greater proficiency, you ignore the penalty for attacking within the weapon's second and third range increments.</p>"
+      },
+      "source": {
+        "value": "Pathfinder Guns & Gears"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.proficiencies.classDCs.wandslinger.rank",
+          "value": 3
+        },
+        {
+          "domain": "ranged-attack-roll",
+          "key": "RollOption",
+          "option": "ignore-range-penalty:3",
+          "phase": "beforeRoll",
+          "predicate": [
+            {
+              "gte": [
+                "item:proficiency:rank",
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "slug": "shootists-edge",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 17
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.RkofVX55ciXZyfAA"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673538490517,
+      "modifiedTime": 1673547845164,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "kiJ9sQzDHOQxhPc2"
+  },
+  {
+    "img": "systems/pf2e/icons/features/classes/gunslinging-legend.webp",
+    "name": "Wandslinging Legend",
+    "system": {
+      "description": {
+        "value": "<p>You've learned unique techniques for wielding blastshards that give you unmatched skill in their use. Your proficiency rank increases to legendary with simple and martial blastshards and to master with advanced blastshards. Your proficiency rank for simple weapons, martial weapons, and unarmed attacks increases to expert.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.unarmed.rank",
+          "value": 3
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.simple.rank",
+          "value": 3
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.martial.rank",
+          "value": 3
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.advanced-blastshards.rank",
+          "value": 3
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.simple-blastshards.rank",
+          "value": 4
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.martial.martial-blastshards.rank",
+          "value": 4
+        }
+      ],
+      "slug": "gunslinging-legend",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 13
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.ULOAZWZEokbJC6Rq"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673538240191,
+      "modifiedTime": 1673548474884,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "s9UJoiVLzekxjVdw"
+  },
+  {
+    "img": "systems/pf2e/icons/features/classes/gunslinger-expertise.webp",
+    "name": "Wandslinger Expertise",
+    "system": {
+      "description": {
+        "value": "<p>Your special shots become harder for opponents to predict or resist. Your proficiency rank for your wandslinger class DC increases to expert.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.proficiencies.classDCs.wandslinger.rank",
+          "value": 2
+        }
+      ],
+      "slug": "gunslinger-expertise",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 9
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.aKr6OE8vI2BsJzf1"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673537729977,
+      "modifiedTime": 1673581413068,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "uBXNnvjMCWXUOF86"
+  },
+  {
+    "img": "systems/pf2e/icons/features/classes/greater-deed.webp",
+    "name": "Greater Deed",
+    "system": {
+      "description": {
+        "value": "<p>You've mastered the pinnacle technique of your chosen way. You gain the greater deed ability of the way you chose at 1st level.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_wandslinger"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "feature:way-of-the-drifter"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.bS3lIOo717XQIwTg"
+        },
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "feature:way-of-the-pistolero"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.v9E3oRqc0yFeh4fB"
+        },
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "feature:way-of-the-sniper"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.m09tKAwjkO93hCnl"
+        },
+        {
+          "key": "GrantItem",
+          "predicate": [
+            "feature:way-of-the-vanguard"
+          ],
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.bWUKfdDI91YQADc0"
+        }
+      ],
+      "slug": "greater-deed",
+      "schema": {
+        "version": 0.813,
+        "lastMigration": null
+      },
+      "level": {
+        "value": 15
+      },
+      "featType": {
+        "value": "classfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "type": "feat",
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.classfeatures.yc9RuXXxmZ9YidH6"
+      }
+    },
+    "effects": [],
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.5",
+      "coreVersion": "10.291",
+      "createdTime": 1673538115382,
+      "modifiedTime": 1673631340202,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "_id": "xwi9AFQY8TOuyrrc"
+  }
+]

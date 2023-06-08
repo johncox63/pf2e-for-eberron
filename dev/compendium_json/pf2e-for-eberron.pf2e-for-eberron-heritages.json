@@ -1,0 +1,3389 @@
+[
+  {
+    "_id": "0oWf1bAjyprHLQpr",
+    "name": "Persona Changeling",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "cf": null,
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.0oWf1bAjyprHLQpr"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>You have developed multiple personas that have developed as entirely separate lives - and are connected to the network of changeling personas across Khorvaire. You gain the Different Worlds feat. In addition, when you approach a new community you may already be aware of local changeling personas that you can use. At the GM's discretion, make a DC 15 flat check. If you succeed, you may interact with this settlement as if you had a second identity from the Different Worlds feat, but without the benefit of the lore skill. You could have already established a persona as a priest who will receive sustenance at the local temple, a folk hero who will be sheltered by the common people, or a veteran soldier who can always get a bed at the local garrison. Once this check has been made against a settlement, you may not make it again for another month.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.z1Z22gTp7J1VRLSR"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.471-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Changeling",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.tUOhW7iwigDphydN"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769472,
+      "modifiedTime": 1673033808341,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "1R1tH7Mz2SwvujxZ",
+    "name": "Mark of Handling",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfHandling.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.heritages.zVf0Hlp5xG0Q7kmc"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a human descendant of the Mark of Handling bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage and Mark of Handling traits. In addition, you can pick human, dragonmarked heritage, and Mark of Handling feats whenever you gain an ancestry feat.</p>\n<p>\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-handling"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": "skilled-heritage",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.642-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Human",
+        "uuid": "Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769644,
+      "modifiedTime": 1673033808338,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "2Qky6m9kD2IeMPzm",
+    "name": "Mark of Finding",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfFinding.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.heritages.tLd8Qg82AwEbbmgX"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a half-orc descendant of the mark of finding bloodline, whether or not they manifested a mark. You have a green tinge to your skin and other indicators of orc heritage. You gain the orc trait, the half-orc trait, the dragonmarked heritage trait, and @Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Low-Light Vision}.\u00c2\u00a0In addition, you can pick orc, half-orc, human, dragonmarked heritage, and mark of finding feats whenever you gain an ancestry feat.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "half-orc"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "Sense",
+          "label": "PF2E.SensesLowLightVision",
+          "selector": "lowLightVision"
+        },
+        {
+          "add": [
+            "orc",
+            "half-orc",
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-finding"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": "half-orc",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.617-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Human",
+        "uuid": "Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769619,
+      "modifiedTime": 1673033808338,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "6PG8w2RVUdMm7dwk",
+    "name": "Mark of Sentinel",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfSentinel.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.heritages.zVf0Hlp5xG0Q7kmc"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a human descendant of the Mark of Sentinel bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage and Mark of Sentinel traits. In addition, you can pick human, dragonmarked heritage, and Mark of Sentinel feats whenever you gain an ancestry feat.</p>\n<p>\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-sentinel"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": "skilled-heritage",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.874-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Human",
+        "uuid": "Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769877,
+      "modifiedTime": 1673033808339,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "7ebTQgkvl0G1wu9b",
+    "name": "Mark of Making",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfMaking.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.heritages.zVf0Hlp5xG0Q7kmc"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a human descendant of the Mark of Making bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage and Mark of Making traits. In addition, you can pick human, dragonmarked heritage, and Mark of Making feats whenever you gain an ancestry feat.</p>\n<p>\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-making"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": "skilled-heritage",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.728-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Human",
+        "uuid": "Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769731,
+      "modifiedTime": 1673033808339,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "81FXgVtZbTfVMcUQ",
+    "name": "Aberrant Mark (1/2 Elf)",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/AberrantMark.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.3lnCC4F3vqFG5dtR"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Aberrant marks often appear when people from different dragonmarked families produce a child, and for this reason, such unions are forbidden by the Twelve. However, Aberrant marks can appear at any time on any ancestry that has not already manifested a dragonmark. You gain the elf trait, the half-elf trait, the dragonmarked heritage trait, aberrant mark trait, and @Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Low-Light Vision}. In addition, you can pick elf, half-elf, human, dragonmarked heritage, and aberrant mark feats whenever you gain an ancestry feat.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "elf",
+            "half-elf",
+            "hb_dragonmarked-heritage",
+            "hb_aberrant-marked"
+          ],
+          "key": "ActorTraits"
+        },
+        {
+          "key": "Sense",
+          "label": "low-light vision",
+          "selector": "lowLightVision"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.503-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769504,
+      "modifiedTime": 1673033808329,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "8LGBatsGb9BEgbEg",
+    "name": "Mark of Warding",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfWarding.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.heritages.zVf0Hlp5xG0Q7kmc"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a dwarf descendant of the Mark of Warding bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage and Mark of Warding traits. In addition, you can pick dwarf, dragonmarked heritage, and Mark of Warding feats whenever you gain an ancestry feat.</p>\n<p>\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-warding"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": "skilled-heritage",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.935-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Dwarf",
+        "uuid": "Compendium.pf2e.ancestries.BYj5ZvlXZdpaEgA6"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769936,
+      "modifiedTime": 1673033808340,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "8N5X0FVsdz9rQD6w",
+    "name": "Longtooth Shifter",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Typically manifesting traits of a canine, tiger, hyena, or other predator, Longtooth shifters can have traits of any animal with a fierce bite. Longtooth shifters have the greatest connectedness with the natural order of all shifters. Sometimes considered savage by others, they rather prefer to live in tune with their surroundings.</p>\n<p>Using the menace of your teeth, you intimidate others. You gain the @Compendium[pf2e.feats-srd.xQMz6eDgX75WX2ce]{Intimidating Glare}\u00c2\u00a0feat.</p>\n<p>\u00c2\u00a0</p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, your long fangs are formidable weapons. You have a jaws unarmed attack that deals 1d6 piercing damage. Your jaws are in the pick group and have the grapple trait.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.KxcEPQC2NCe2bmVw"
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.xQMz6eDgX75WX2ce"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.596-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Shifter",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.9QYQVCfnmDWagSbE"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770598,
+      "modifiedTime": 1673033808338,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "BKDLmDA1yXQv2g1I",
+    "name": "Dreamsight Shifter",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Dreamsight shifters are rare among shifters, and their personage extends beyond their beast within.\u00c2\u00a0<span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">Dreamsight shifters have a sharpened instinct and senses compared to other shifters, as they have a deeper connection to the plane of Lamannia. A dreamsight shifter may have any kind of beast within - though the animal is typically found in other shifter heritages too. Dreamsight shifters are usually calm and contemplative, especially when compared to other shifters.</span></p>\n<p>You gain a +1 circumstance to use the Diplomacy or Nature skill checks with animals and beasts.</p>\n<p>\u00c2\u00a0</p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you have the ability to detect the presence of other creatures. You gain an imprecise lifesense of 15 feet which can detect any animal, beast, humanoid, or plant creature. This allows you to sense the life force within living creatures of the natural world.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.7x1C0URJASrezrUw"
+        },
+        {
+          "key": "FlatModifier",
+          "label": "Dreamsight Animal or Beast",
+          "predicate": [
+            "target:is-beast-or-animal"
+          ],
+          "selector": "diplomacy",
+          "type": "circumstance",
+          "value": 1
+        },
+        {
+          "key": "FlatModifier",
+          "label": "Dreamsight Animal or Beast",
+          "predicate": [
+            "target:is-beast-or-animal"
+          ],
+          "selector": "nature",
+          "type": "circumstance",
+          "value": 1
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.535-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Shifter",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.9QYQVCfnmDWagSbE"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770537,
+      "modifiedTime": 1673033808331,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "ChzNEPiPOWGBMS8P",
+    "name": "Dravago Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your clan is tied to the moon Dravago - the Herder.</p>\n<p>Your connection to the moon Dravago grants you resistance to the cold. You gain cold resistance equal to half your level (minimum 1). In addition, due to your large paws and sharp claws, snow and ice do not count as difficult terrain for you.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "Resistance",
+          "type": "cold",
+          "value": "max(1,floor(@actor.level/2))"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.995-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769997,
+      "modifiedTime": 1673033808331,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "D2dVPAXRroBDdO3B",
+    "name": "Juggernaut Warforged",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/alternatives/ancestries/automaton.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.RKKEVzbMhhcYGNSd"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Used as shock troops in the last war, the Juggernaut warforged were a later development of Cannith and only saw deployment toward the end of the war. Developed as a heavier version of the Vanguard Warforged, the Juggernaut Warforged has many of the same physical attributes, with the exception of a much more dense plating over their body. These warforged were often more trained than the Vanguard in the aspects of intimidation, granting them a slight edge in humanoid interactions. However, their physical prowess on the battlefield leads to overconfidence in many situations off the battlefield.</p>\n<p>You have @Compendium[pf2e-for-eberron.pf2e-for-eberron-equipment.2GShGp1PGOz29jc1]{Heavy Integrated Armor} and gain the @Compendium[pf2e.feats-srd.BStw1cANwx5baL6d]{Armor Proficiency} <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">general feat.</span></p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.BStw1cANwx5baL6d"
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-equipment.2GShGp1PGOz29jc1"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.339-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Warforged",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.72Q9tuBT32gfOoVT"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770340,
+      "modifiedTime": 1673033808334,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "DvDKegdPwEj9CitN",
+    "name": "Nymm Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<div class=\"bg-paper page d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>Your clan is tied to the moon Nymm - the Crown.</p>\n<p>Your clan specializes in leadership in battle, and the ability to direct allies simultaneously. You gain access to the @Compendium[pf2e-for-eberron.pf2e-for-eberron-actions.WnZPCB9YHwVjkxLA]{Bark Orders} action.</p>\n</div>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.WnZPCB9YHwVjkxLA"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.169-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770173,
+      "modifiedTime": 1673033808340,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "Ega2oNyQOCnVjwoT",
+    "name": "Truedive Shifter",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>Typically manifesting traits of a crocodile or shark, truedive shifters can have traits of any animal with aquatic capabilities. Truedive shifters can be considered by others to be somewhat remote or callous, but they are steadfast through turmoil and waves of change.</p>\n<p>When you succeed at an Athletics check to Swim, you get a critical success instead.</p>\n<p>\u00c2\u00a0</p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you gain the amphibious trait and a swim Speed of 15 feet.\u00c2\u00a0</p>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.D60SEqiEN1bbq3l0"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.656-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Shifter",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.9QYQVCfnmDWagSbE"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770658,
+      "modifiedTime": 1673033808343,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "FuBPxJ4IVqa9xFQ6",
+    "name": "Razorclaw Shifter",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Typically manifesting traits of a feline, Longtooth shifters can have traits of any animal with sharp claws. Razorclaw shifters prioritize their physical might and constitution more than others. They are ardent protectors of those they love, and vigilant warriors against those who have wronged them.</p>\n<p>As a razorclaw shifter in your humanoid form, you still have particularly long, sharp claws. You gain a claw unarmed attack that deals 1d4 slashing damage. Your claws are in the brawling group and have the agile, finesse, and unarmed traits.</p>\n<p>\u00c2\u00a0</p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, your claws become capable of delivering vicious wounds with a wicked swipe. Your claw attack deals 1d6 damage is part of the knife group and gains the versatile (piercing) trait.\u00c2\u00a0\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.sBLlYgS6eUpuz5qe"
+        },
+        {
+          "category": "unarmed",
+          "damage": {
+            "base": {
+              "damageType": "piercing",
+              "dice": 1,
+              "die": "d4"
+            }
+          },
+          "group": "brawling",
+          "key": "Strike",
+          "label": "Hybrid Form Claws",
+          "range": null,
+          "replaceAll": false,
+          "traits": [
+            "agile",
+            "finesse",
+            "unarmed"
+          ]
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.620-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Shifter",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.9QYQVCfnmDWagSbE"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770622,
+      "modifiedTime": 1673033808341,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "GOxjUpiDeTLA0YWE",
+    "name": "Sypheros Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<div class=\"bg-paper page d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>Your clan is tied to the moon Sypheros - the Shadow. You have a natural resilience to the dark manifestations of the world. You gain negative resistance equal to half your level (minimum 1). You also have @Compendium[pf2e.ancestryfeatures.HHVQDp61ehcpdiU8]{Darkvision} instead of Low-Light vision.</p>\n</div>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "Resistance",
+          "type": "negative",
+          "value": "max(1,floor(@actor.level/2))"
+        },
+        {
+          "key": "Sense",
+          "label": "PF2E.SensesDarkvision",
+          "selector": "darkvision"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.249-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770250,
+      "modifiedTime": 1673033808342,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "GejILt8upCoAnUf9",
+    "name": "Barrakas Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your clan is tied to the moon Barrakas - the Lantern.</p>\n<p>Considered the best trackers of the Znir pact, you gain a special sense: imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine the location of a creature, but it remains hidden.</p>\n<p>In addition, you become trained in survival and you gain a +1 circumstance bonus to Survival checks to Track creatures that you have previously sensed with your scent.\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "label": "Barrakas Clan(Track smelled creatures)",
+          "predicate": [
+            "action:track",
+            "target:previously-smelled"
+          ],
+          "selector": "survival",
+          "type": "circumstance",
+          "value": 1
+        },
+        {
+          "acuity": "imprecise",
+          "key": "Sense",
+          "label": "PF2E.SensesScent",
+          "range": 30,
+          "selector": "scent"
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.srv.rank",
+          "value": 1
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.980-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769981,
+      "modifiedTime": 1673033808330,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "HYeVXO9HxOsH2wqj",
+    "name": "Kesh Guul'dar",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "cf": null,
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.HYeVXO9HxOsH2wqj"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your stealth is uncanny, your step light, and your muddy yellow fur seems to blend with the natural world more than most bugbears. You are trained in Stealth (or another skill if you were already trained in Stealth). In addition, you gain the Terrain Stalker feat.</p>\n<p>\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.ste.rank",
+          "value": 1
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.beyw5bdA5hkQbmaG"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.401-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Bugbear",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.eKAOzEHT8ptpzd7L"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769405,
+      "modifiedTime": 1673033808337,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "Hf9u3K8zdGqbhcvh",
+    "name": "Living Wand Warforged",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/alternatives/ancestries/automaton.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.EFkwoPkLp024N5yW"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>The Living Wand Warforged were Cannith's attempt at creating a warforged capable of innate spellcraft. Though the introduction of arcane properties into the warforged creation process worked, the produced warforged were unpredictable in their capabilities. The Living Wand Warforged required additional training after production in order to determine their abilities and to match them with other alike warforged. Due to the complexity and non-standard nature of the average Living Wand warforged, they did not see widespread deployment across Khorvaire. The ones that did were typically formed into extremely effective wand troops.</p>\n<p>You have @Compendium[pf2e-for-eberron.pf2e-for-eberron-equipment.bL9CXmb3A6ZloNlI]{Nominal Integrated Armor}, and gain one cantrip from the arcane spell list. You can cast this spell as an arcane innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-equipment.bL9CXmb3A6ZloNlI"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.356-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Warforged",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.72Q9tuBT32gfOoVT"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770357,
+      "modifiedTime": 1673033808337,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "LY4PdgmTOnNy7SiB",
+    "name": "Zarantyr Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<div class=\"bg-paper page d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>Your clan is tied to the moon Zarantyr - the Storm.</p>\n<p>You can take advantage of the chaos of battle, ripping and tearing through the enemy. You gain the reaction @Compendium[pf2e-for-eberron.pf2e-for-eberron.mYelhf3JIkP4fAyq]{Rampage}.</p>\n</div>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.mYelhf3JIkP4fAyq"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.301-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770302,
+      "modifiedTime": 1673033808344,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "N3SmUhnacpfSMoEi",
+    "name": "Ghaal Guul'dar",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "cf": null,
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.N3SmUhnacpfSMoEi"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>You are bigger than most bugbears, and you use that to your advantage. You are trained in Athletics (or another skill if you were already trained in Athletics). In addition, you gain the Assurance general skill feat in the Athletics skill.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.ath.rank",
+          "value": 1
+        },
+        {
+          "key": "GrantItem",
+          "preselectChoices": {
+            "assurance": "athletics"
+          },
+          "uuid": "Compendium.pf2e.feats-srd.W6Gl9ePmItfDHji0"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.386-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Bugbear",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.eKAOzEHT8ptpzd7L"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769388,
+      "modifiedTime": 1673033808333,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "NWm8LdQohieWDzZb",
+    "name": "Gorebrute Shifter",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Typically manifesting traits of a bull or ram, Gorebrute shifters can have traits of any animal with a violent charge. Gorebrute shifters value assertiveness and confidence, although these shifters' love for a challenge can be viewed as aggressive. These shifters tend to follow a code of honour or have strong principles of how one should carry themselves in conflict.</p>\n<p>You use your bulk to gain a +1 circumstance bonus to Athletics checks to Shove or Trip foes.</p>\n<p>\u00c2\u00a0</p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid shape, gain a natural weapon of your animal such as horns or tusks to make unarmed attacks that deal 1d6 bludgeoning damage. Your natural weapon is in the brawling group and has the shove trait.\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.Aa4U7gT8rYQqrvwJ"
+        },
+        {
+          "key": "FlatModifier",
+          "label": "Gorebrute Shove or Trip",
+          "predicate": [
+            "target:foe"
+          ],
+          "selector": "athletics",
+          "type": "circumstance",
+          "value": 1
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.558-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Shifter",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.9QYQVCfnmDWagSbE"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770559,
+      "modifiedTime": 1673033808333,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "NhIC5RGwzSqI2YD6",
+    "name": "Watchful Changeling",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "cf": null,
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.NhIC5RGwzSqI2YD6"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>You're experienced with the deceptions of shapeshifters, given that you specialize in it. You are trained in the Deception skill (or another skill if you were already trained in Deception), and gain the Lie To Me skill feat. In addition, you gain a +2 circumstance bonus to detect polymorphed creatures.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.dec.rank",
+          "value": 1
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.Dvz54d6aPhjsmUux"
+        },
+        {
+          "key": "FlatModifier",
+          "label": "Watchful Changeling",
+          "selector": "perception",
+          "type": "circumstance",
+          "value": 2,
+          "predicate": [
+            "To detect polymorphed creatures"
+          ]
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.487-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Changeling",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.tUOhW7iwigDphydN"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769489,
+      "modifiedTime": 1673033808344,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "O5wO2ZCZdOPEywPT",
+    "name": "Aberrant Mark (1/2 Orc)",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/AberrantMark.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.3lnCC4F3vqFG5dtR"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Aberrant marks often appear when people from different dragonmarked families produce a child, and for this reason, such unions are forbidden by the Twelve. However, Aberrant marks can appear at any time on any ancestry that has not already manifested a dragonmark. You gain the orc trait, the half-orc trait, the dragonmarked heritage trait, aberrant mark trait, and @Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Low-Light Vision}. In addition, you can pick orc, half-orc, human, dragonmarked heritage, and aberrant mark feats whenever you gain an ancestry feat.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "orc",
+            "half-orc",
+            "hb_dragonmarked-heritage",
+            "hb_aberrant-marked"
+          ],
+          "key": "ActorTraits"
+        },
+        {
+          "key": "Sense",
+          "label": "low-light vision",
+          "selector": "lowLightVision"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.519-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769521,
+      "modifiedTime": 1673033808329,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "O5wWzMgU7kAMt9Nr",
+    "name": "Beasthide Shifter",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Typically manifesting traits of the bear or the boar, beasthide shifters can have traits of any animal known for its toughness. Beasthide shifters are known for being straightforward, although sometimes this leads them to be misunderstood as rude. These shifters are also characterized by a steadfast - sometimes stubborn - drive to complete the tasks they take up.</p>\n<p>\u00c2\u00a0</p>\n<p>You gain 10 Hit Points from your ancestry instead of 8, and Change Shape loses the concentrate trait.\u00c2\u00a0</p>\n<p>\u00c2\u00a0</p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you gain the following action @Compendium[pf2e-for-eberron.pf2e-for-eberron-actions.NrvvROgzL67zq2Ze]{Brace}</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.NrvvROgzL67zq2Ze"
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "override",
+          "path": "system.attributes.ancestryhp",
+          "value": 10
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.DyR9zrUnGzhfCPKt"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.433-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Shifter",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.9QYQVCfnmDWagSbE"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770435,
+      "modifiedTime": 1673033808330,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "RcUTrMU4A13sVhWv",
+    "name": "Therendor Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your clan is tied to the moon Therendor - The Healer's Moon.</p>\n<p>You become trained in Medicine (or another skill if you were already trained in Medicine), and you gain the @Compendium[pf2e.feats-srd.wYerMk6F1RZb0Fwt]{Battle Medicine} skill feat. In addition, when you roll a medicine check to Administer First Aid a critical failure becomes a failure, and a failure becomes a success.\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.med.rank",
+          "value": 1
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.wYerMk6F1RZb0Fwt"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.266-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770268,
+      "modifiedTime": 1673033808343,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "UXvIT1uba7cIlHMF",
+    "name": "Aryth Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your clan is tied to the moon Aryth - the Gateway.</p>\n<p>Considered the best Archers of the Znir gnolls, you become trained in Simple and Martial ranged weapons. Advanced gnoll weapons count as martial weapons for you.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "definition": [
+            "item:trait:gnoll",
+            "item:category:advanced"
+          ],
+          "key": "MartialProficiency",
+          "label": "PF2E.SpecificRule.MartialProficiency.AdvancedGnollWeapons",
+          "sameAs": "martial",
+          "slug": "advanced-gnoll-weapons"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.954-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769956,
+      "modifiedTime": 1673033808330,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "WAmFuF4Wd4ZeAAMt",
+    "name": "Aberrant Mark (Versatile)",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/AberrantMark.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.3lnCC4F3vqFG5dtR"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Aberrant marks often appear when people from different dragonmarked families produce a child, and for this reason, such unions are forbidden by the Twelve. However, Aberrant marks can appear at any time on any ancestry that has not already manifested a dragonmark. You gain the Dragonmarked Heritage, and the Aberrant Mark traits, in addition to the traits from your ancestry. In addition, you can pick from your original ancestry, dragonmarked heritage, and aberrant mark feats whenever you gain an ancestry feat.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "hb_dragonmarked-heritage",
+            "hb_aberrant-mark"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.568-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769570,
+      "modifiedTime": 1673033808330,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "YD420OLqGeKpt8N7",
+    "name": "Swiftwing Shifter",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>A swiftwing shifter's beast within is typically a bird such as an eagle or falcon but can have an animal representing any aerial predator. Swiftwing shifters often come across as twitchy or nervous but instead are incredibly perceptive and quick to respond to signs of danger. As adept scouts, Swiftwing shifters value perceptiveness and caution.</p>\n<p>While in your humanoid form, your lighter bones and connection to your beast within allows you to slow your falls. When you fall, you take only half the normal damage and don't land prone.</p>\n<p>\u00c2\u00a0</p>\n<h3>Hybrid form</h3>\n<p>Despite your beast within, flying is extraordinarily challenging for a swiftwing shifter. However, while in their hybrid form most can use a strong flap of their</p>\n</div>\n</div>\n<p>\u00c2\u00a0</p>\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>wings to travel longer distances when jumping. When in your hybrid form, if you leap horizontally, you move an additional 5 feet. You don't automatically fail your checks to High Jump or Long Jump if you don't Stride at least 10 feet first. In addition, when you make a Long Jump, you can jump a distance up to 10 feet further than your Athletics check result, though still with the normal maximum of your Speed. In addition, while in your hybrid form you take no damage from falling, regardless of the distance you fall.</p>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.n4tSQZR56zgf0Azh"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.638-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Shifter",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.9QYQVCfnmDWagSbE"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770640,
+      "modifiedTime": 1673033808342,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "ZG7srHI4P5jamJVw",
+    "name": "Mark of Passage",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfPassage.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.heritages.zVf0Hlp5xG0Q7kmc"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a human descendant of the Mark of Passage bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage and Mark of Passage traits. In addition, you can pick human, dragonmarked heritage, and Mark of Passage feats whenever you gain an ancestry feat.</p>\n<p>\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-passage"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": "skilled-heritage",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.778-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Human",
+        "uuid": "Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769782,
+      "modifiedTime": 1673033808339,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "bTTnbHE2VKwhET51",
+    "name": "Mark of Healing",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfHealing.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.heritages.zVf0Hlp5xG0Q7kmc"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a halfling descendant of the Mark of Healing bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage and Mark of Healing traits. In addition, you can pick halfling, dragonmarked heritage, and Mark of Healing feats whenever you gain an ancestry feat.</p>\n<p>\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-healing"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": "skilled-heritage",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.665-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Halfling",
+        "uuid": "Compendium.pf2e.ancestries.GgZAHbrjnzWOZy2v"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769667,
+      "modifiedTime": 1673033808338,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "bY1lcOXwSjTaafPs",
+    "name": "Longstride Shifter",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Longstride shifters typically manifest traits of cats, hares, or rats, though can have traits of any swift animal. Longstride shifters are graceful and quick. Longstride shifters are aloof and difficult to pin down physically or socially.</p>\n<p>You are nimble and can easily recover from a fall. You gain the\u00c2\u00a0@Compendium[pf2e.feats-srd.LQw0yIMDUJJkq1nD]{Cat Fall} feat.</p>\n<p>\u00c2\u00a0</p>\n<h3>Hybrid form</h3>\n<p>While in your Hybrid form, you can use bursts of speed to outrun your competition. Your speed increases by 5 feet.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.ckRlc2fYyxt0Xg1l"
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.LQw0yIMDUJJkq1nD"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.583-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Shifter",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.9QYQVCfnmDWagSbE"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770584,
+      "modifiedTime": 1673033808337,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "dBFW4wjPj7fHiaIC",
+    "name": "Skirmisher Warforged",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/alternatives/ancestries/automaton.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.EFkwoPkLp024N5yW"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Designed as lightly armoured but more mobile warforged, the Skirmisher Warforged were also widely deployed throughout Khorvaire. Frequently used in archer or scouting units, these variants of the standard warforged soldier were capable of longer skirmish engagements that took advantage of the warforged's tireless nature to drain the enemy's morale. Similar to the Vanguard warforged, these warforged were never trained in the finer points of socialization and frequently struggle to understand other humanoid creatures.</p>\n<p>You have @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-equipment.rte0PfHc0XzPfAqQ]{Light Integrated Armor} and gain the @Compendium[pf2e.feats-srd.Ux73dmoF8KnavyUD]{Fleet} general feat.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.Ux73dmoF8KnavyUD"
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-equipment.rte0PfHc0XzPfAqQ"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.395-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Warforged",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.72Q9tuBT32gfOoVT"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770397,
+      "modifiedTime": 1673033808342,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "eigb9BQtFlRK6cih",
+    "name": "Changeling Traveler",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "cf": null,
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.eigb9BQtFlRK6cih"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>You're an urban nomad, wandering from city to city. You become trained in the Society Skill (or another skill if you were already trained in Society) and gain the Streetwise skill feat. You have experience fitting into the local culture and blending with the common folk, so you're easily able to get a feel for the pulse of the local settlement. You may use the streetwise skill in any settlement in which you have spent at least a day.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.soc.rank",
+          "value": 1
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.X2jGFfLU5qI5XVot"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.437-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Changeling",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.tUOhW7iwigDphydN"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769439,
+      "modifiedTime": 1673033808331,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "fLWan0IF1iPpyx8S",
+    "name": "Vult Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<div class=\"bg-paper page d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>Your clan is tied to the moon Vult - the Warding Moon.</p>\n<p>You gain the @Compendium[pf2e.feats-srd.BStw1cANwx5baL6d]{Armor Proficiency} general feat. In addition, you may cast the @Compendium[pf2e.spells-srd.TVKNbcgTee19PXZR]{Shield} cantrip as an innate occult spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</p>\n</div>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.BStw1cANwx5baL6d"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.284-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770286,
+      "modifiedTime": 1673033808344,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "g4MKkF3rxEg7n3Jd",
+    "name": "Hidden Changeling",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "cf": null,
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.g4MKkF3rxEg7n3Jd"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<div data-markdown=\"1\">\n<p>While changelings are common in major cities, there are many villages and towns where changelings are treated with fear and suspicion. You might have been born into such a community, possibly never even knowing another changeling. As a hidden changeling, you have crafted a single identity that you consider to be your true face. You gain a +4 circumstance bonus to Impersonate checks to pretend you are of the ancestry which you were raised as. In addition, you gain the adopted ancestry feat for that ancestry.</p>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.ihN8gkHSdPG9Trte"
+        },
+        {
+          "key": "FlatModifier",
+          "label": "Hidden Changeling",
+          "selector": "deception",
+          "type": "circumstance",
+          "value": 4,
+          "predicate": [
+            "To impersonate the ancestry you were raised as"
+          ]
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.454-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Changeling",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.tUOhW7iwigDphydN"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769456,
+      "modifiedTime": 1673033808333,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "hvcffssnZz5TBWPp",
+    "name": "Mark of Hospitality",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfHospitality.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.heritages.zVf0Hlp5xG0Q7kmc"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a halfling descendant of the Mark of Hospitality bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage and Mark of Hospitality traits. In addition, you can pick halfling, dragonmarked heritage, and Mark of Hospitality feats whenever you gain an ancestry feat.</p>\n<p>\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-hospitality"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": "skilled-heritage",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.683-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Halfling",
+        "uuid": "Compendium.pf2e.ancestries.GgZAHbrjnzWOZy2v"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769687,
+      "modifiedTime": 1673033808339,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "jn7uWFxqjzHSpHNw",
+    "name": "Rhaan Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<div class=\"bg-paper page d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>Your clan is tied to the moon Rhaan - the Book.</p>\n<p>The Rhaan clan maintains the history of the clans through story and song, and you have a deeper connection to the Primal energies of the world. Choose one cantrip from the primal spell list. You can cast this spell as a primal innate spell at will. A cantrip is heightened to a spell level equal to half your level rounded up.</p>\n<p>You can change this cantrip to a different one from the same list once per day by meditating and connecting to the Primal energies of Eberron; this is a 10-minute activity that has the concentrate trait.</p>\n</div>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.222-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770224,
+      "modifiedTime": 1673033808341,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "mewiOqN9knYQp8f7",
+    "name": "Mark of Shadow",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfShadow.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.heritages.zVf0Hlp5xG0Q7kmc"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a elf descendant of the Mark of Shadow bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage and Mark of Shadow traits. In addition, you can pick elf, dragonmarked heritage, and Mark of Shadow feats whenever you gain an ancestry feat.</p>\n<p>\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-shadow"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": "skilled-heritage",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.895-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Elf",
+        "uuid": "Compendium.pf2e.ancestries.PgKmsA2aKdbLU6O0"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769896,
+      "modifiedTime": 1673033808340,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "ngFtXXA3YRghg2HL",
+    "name": "Mark of Detection",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfDetection.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.k56fY2AzhrlJPGHe"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a half-elf descendant of a mark of detection bloodline, whether or not they manifested a mark. You have slightly pointed ears and other telltale signs of half-elf heritage. You gain the elf trait, the half-elf trait, the dragonmarked heritage trait, mark of detection trait, and @Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Low-Light Vision}. In addition, you can pick elf, half-elf, human, dragonmarked heritage, and mark of detection feats whenever you gain an ancestry feat.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "Sense",
+          "label": "PF2E.SensesLowLightVision",
+          "selector": "lowLightVision"
+        },
+        {
+          "add": [
+            "elf",
+            "half-elf",
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-detection"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.603-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Human",
+        "uuid": "Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769605,
+      "modifiedTime": 1673033808338,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "pCVKlCQjtVRO91vl",
+    "name": "Lharvion Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<div>\n<div class=\"bg-paper page d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>Your clan is tied to the moon Lharvion - the Eye.</p>\n<p>Your clan has unnatural insights and experience with the otherworldly. You become trained in Occultism (or another skill if you were already trained in Occultism) and gain the Root Magic skill feat. When crafting Root Magic talismans you are always able to produce one for yourself, in addition to one which <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">you give to one ally (excluding yourself).</span></p>\n</div>\n</div>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.occ.rank",
+          "value": 1
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.22P7IFyhrF7Fbw8B"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.075-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770079,
+      "modifiedTime": 1673033808337,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "pSqbV1Oh3vHEKdwg",
+    "name": "Olarune Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<div class=\"bg-paper page d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>Your clan is tied to the moon Olarune - The Sentinel. Considered the strongest and most disciplined of the Znir gnolls, you gain the @Compendium[pf2e.feats-srd.jM72TjJ965jocBV8]{Shield Block} general feat and the <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">@Compendium[pf2e-for-eberron.pf2e-for-eberron-actions.zXYocC5yO7QBQpJw]{Rapid Cover} </span><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">action.</span></p>\n</div>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.zXYocC5yO7QBQpJw"
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.jM72TjJ965jocBV8"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.205-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770207,
+      "modifiedTime": 1673033808341,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "pwYoGQKz40KimBDr",
+    "name": "Wildhunt Shifter",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>Wildhunt shifters typically show traits of the wolf, but their animal may be any type of hunting pack animal. Wildhunt shifters can be suspicious and untrusting, but their loyalty when earned is a nearly impossible bond to break.</p>\n<p>You gain imprecise scent with a range of 30 feet. This means you can use your sense of smell to determine a creature's location. The GM will usually double the range if you're downwind from the creature or halve the range if you're upwind.</p>\n<p>In addition, you gain a +2 circumstance bonus to Track a creature or object if you've smelled it before.</p>\n<p>\u00c2\u00a0</p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you can use the Seek action to sense undetected creatures within a 30-foot burst instead of a 15-foot burst.</p>\n</div>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.tRMBD2WpcFNEK2V2"
+        },
+        {
+          "acuity": "imprecise",
+          "key": "Sense",
+          "label": "PF2E.SensesScent",
+          "range": 30,
+          "selector": "scent"
+        },
+        {
+          "key": "FlatModifier",
+          "label": "Wildhunt track previously smelled creature",
+          "predicate": [
+            "action:track",
+            "target:previously-smelled"
+          ],
+          "selector": "survival",
+          "type": "circumstance",
+          "value": 2
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.676-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Shifter",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.9QYQVCfnmDWagSbE"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770678,
+      "modifiedTime": 1673033808344,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "stRstbbHlqm4UUMs",
+    "name": "Skilled Warforged",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/alternatives/ancestries/automaton.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.EFkwoPkLp024N5yW"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>The Skilled Warforged were a creation of Cannith with both Military and Civilian purposes in mind. Each Skilled Warforged was created to be proficient in a particular area or field of expertise, and as a result, are more uncommon than most other warforged. Some of these warforged were developed with an arcane focus in mind, others to assist with Cannith artifice. On the battlefield, these warforged saw limited deployment as wand troops but were less common than the Living Wand warforged heritage on the battlefield.</p>\n<p>You have @Compendium[pf2e-for-eberron.pf2e-for-eberron-equipment.bL9CXmb3A6ZloNlI]{Nominal Integrated Armor} and become trained in one lore and one common or uncommon language of your choice. At 5th level, you become an expert in the selected lore.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-equipment.bL9CXmb3A6ZloNlI",
+          "reevaluateOnUpdate": true
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.375-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Warforged",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.72Q9tuBT32gfOoVT"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770376,
+      "modifiedTime": 1673033808342,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "uVb4HYVLJPcRFE2H",
+    "name": "Vanguard Warforged",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/alternatives/ancestries/automaton.svg",
+    "effects": [],
+    "flags": {
+      "cf": null,
+      "core": {
+        "sourceId": "Compendium.world.eberron-for-pf2e.Mp2XlYc6EINzfbWH"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>The primary soldier of the warforged armies of the last war, the Vanguard warforged was the most commonly created of the warforged. Their development for the exclusive use of warfare means that most of these warforged struggle with socialization, and other aspects Cannith deemed unnecessary to a soldier - it simply wasn't necessary to train them. Given their frequent deployment to front-lines of the most dangerous battlefields of the war, these warforged also frequently suffered the most. Many of the warforged veterans of the war now carry lasting wounds and permanent reminders of the role they played, but some have turned this experience as a soldier into newfound employment after the war.</p>\n<p>\u00c2\u00a0</p>\n<p>You have @UUID[Compendium.pf2e-for-eberron.pf2e-for-eberron-equipment.L7wfooNFA94HMOfg]{Medium Integrated Armor} and gain the @Compendium[pf2e.feats-srd.x9wxQ61HNkAVbDHr]{Weapon Proficiency} <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">general feat.</span></p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.x9wxQ61HNkAVbDHr"
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-equipment.L7wfooNFA94HMOfg"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.415-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Warforged",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.72Q9tuBT32gfOoVT"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770416,
+      "modifiedTime": 1673033808344,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "uc5dKfg5YmCXUtNV",
+    "name": "Thradaask Guul'Dar",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "cf": null,
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.uc5dKfg5YmCXUtNV"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>You have resilience and an unshakable spirit that can keep you standing through wounds that would be fatal to others. You gain the Diehard general feat and gain a +1 circumstance bonus to all Recovery Checks.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.I0BhPWqYf1bbzEYg"
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "recovery-check",
+          "type": "circumstance",
+          "value": 1
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.420-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Bugbear",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.eKAOzEHT8ptpzd7L"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769422,
+      "modifiedTime": 1673033808343,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "uhOQ8WjXS7B3li7u",
+    "name": "Kalashtar",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/Kalashtar%20Header.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.n0brsvyn1wYvkGue"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p><em>Kalashtar are born with a bond to an otherworldly being. They have memories of lives never lived, visions of combat with fiends that they never fought, and the sense of an endless struggle against darkness. For all the pain and suffering in the world, the Kalashtar know that there is a path to light. Some faceless enemies would hunt all the Kalashtar down and would see their bloodlines eradicated. The Kalashtar's path to light is a dangerous one, as death awaits in the shadows.</em></p>\n<hr style=\"border-top:1px solid var(--color-border-light-primary);border-bottom:1px solid var(--color-border-light-highlight)\" />\n<div class=\"content w-100\"><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">The Kalashtar, throughout Khorvaire, are viewed as deeply spiritual people with an other-worldly quality that is hard for many to place. This alien nature is a result of what the Kalashtar are; creatures born from the willing union between humans and quori spirits from the Plane of Dreams, Dal Quor. These Quori spirits are born of the periodic cycles of Dal Quor - which alternate between Light and Dark. As each cycle comes to an end, it is destroyed and reborn as the other. The current phase of Dal Quor is darkness, it is that of il-Lashtavar - also known as the Dreaming Dark. The quori of the Dreaming Dark rule Dal Quor and aim to extend their cycle forever and block out the light to come. However, centuries ago, a handful of quori spirits rejected these machinations and fled from Dal Quor.</span></div>\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>Sixty-seven of these rebel spirits escaped into Eberron and found sanctuary in the minds and bodies of Sarlonan monks. These monks are the ancestors of the modern-day Kalashtar. The quori spirits live through the bloodlines of their first hosts, inherited through generations. By maintaining these bloodlines, the mere existence of the Kalashtar is a protest to the evil of the Dreaming Dark and its goals. However, the Dreaming Dark seeks to extinguish these rebel spirits. If they succeed, and a bloodline is terminated, it means the loss of the spirit, and its return into Dal Quor to be reborn and moulded to the Dreaming Dark.</p>\n<p>While most kalashtar quori are one of the original sixty-seven escaped spirits, it is possible for a Kalashtar to join with a Quori spirit who recently abandoned the Dreaming Dark.</p>\n<p>As a result of their bonds to their Quori spirit, Kalashtar experience the world differently than other creatures. Their bonded nature enables an aptitude for psionics and greater resistance against psionic attacks. Not only this, but the Kalashtar have an ability to greater influence the emotional domain <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">of their once fiendish quori. </span></p>\n<p><span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">The quori represent concepts of nightmares - pride, rage, aggression, deceit - and these concepts were once the source of their power, before turning away from the Dreaming Dark. Now embedded into a Kalashtar, the quori provide their host with a greater understanding of what these emotions are. Coupled with their psionics, Kalashtar can influence the emotional states of their enemies, allies, or even themselves, temporarily. While aptitude in using these skills might vary between Kalashtar, all have the ability to develop and grow their powers through rigorous training and meditation.</span></p>\n</div>\n</div>\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>Though the Kalashtar are bonded with their Quori, they cannot speak to their quori directly \u00e2\u20ac\u201c instead, the relationship is experienced as a sense of inspiration and instinct. Some Kalashtar experience the presence of their quori in the way they feel some emotions more intensely than others; other Kalashtar find they can inspire those around them to feel or fight back against fear, cruelty, or malice.</p>\n<p>One of the unique results of the quori flight from Dal Quor is that both the Kalashtar and their Quori spirit are unable to return to Dal Quor when they sleep. Instead, Kalashtar experience a trance state shared with their Quori. This trance enables them to relive moments belonging to the ancestors of their Kalashtar line, and even the memories of their quori before it bonded. The adage of the wise Kalashtar often comes from the fact that in their singular life they hold the experiences of many more.</p>\n<p>Throughout the centuries, the machinations of the Dreaming Dark have not yielded, and the evil spirits of Dal Quor still aim to dampen the coming of the Light. For this reason, agents of the Dreaming Dark exist in Khorvaire to eradicate the lineages housing the escaped quori. On the continent of Sarlonna, the Dreaming Dark has taken hostage humans and pose <span style=\"font-family:var(--font-primary);font-size:var(--font-size-14)\">as Inspired, spiritual guides that now lead the Riedran nation. Not all Kalashtar characters are aware of the Dreaming Dark and its connection to Sarlona, but the Dreaming Dark hunts for them all the same.</span></p>\n</div>\n</div>\n<div>\n<div class=\"bg-paper page d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">You might\u00e2\u20ac\u00a6</h2>\n<ul>\n<li>Aim to understand the emotions of those around you, even if the situation doesn't call for it.</li>\n<li>Very rarely consider the limitations you may encounter as you draw up your goals and aspirations.</li>\n<li>Believe that the rules of reality can be bent like those in dreams.</li>\n</ul>\n<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Others Probably\u00e2\u20ac\u00a6</h2>\n<ul>\n<li>Think you're human, though you move and act in a slightly otherworldly way.</li>\n<li>Find themselves drawn to the wisdom you display, which seems beyond your years.</li>\n<li>Opening their emotions to you, even before they realize they are doing so.</li>\n</ul>\n<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Physical Description\u00e2\u20ac\u00a6</h2>\n<p>Kalashtar appear human, but their spiritual connection affects them in a variety of ways. Kalashtar have symmetrical, slightly angular features, and their eyes often glow when they are focused or expressing strong emotions. Beyond this, most creatures struggle to tell Kalshtar and Humans apart at a glance. [52]</p>\n<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Society\u00e2\u20ac\u00a6</h2>\n<p>There are three main kalashtar societies.</p>\n<p>The Adaran Kalashtar live lives most similar to the first monks that opened their arms to the refugee quori spirits. They still live on the continent Sarlona, but belong to the land of Adar. The Empire of Riedra, ruled by agents of the Dreaming Dark, currently dominates Sarlona, and imperial forces endlessly siege Adar. The monks and priests of Adar believe that the war against the Inspired and the Dreaming Dark won\u00e2\u20ac\u2122t be won with weapons; instead, prayer and guided meditation will ultimately shift the balance from darkness to light. They believe the Age of Light will come to Dal Quor, and through their passive actions, they sustain their quori and protect it from returning to the Dreaming Dark. Adaran kalashtar rarely take direct action without reason. They are also ascetic, disciplined, and focused on the Path of Light. They are taught to inspire those who live in fear and enlighten those lost to darkness.</p>\n</div>\n</div>\n<div class=\"flex-even column\" data-markdown=\"1\">\n<div class=\"content\" data-markdown=\"1\">\n<p>The Khorvairian kalashtar exist in communities of several major cities of the Five Nations, including the Overlook district in Sharn and Whitewalls in Fairhaven. They prefer to stay close to one another, both to practice their shared traditions and to stand together against any threats posed by the Dreaming Dark. They are familiar with the Path of Light and other kalashtar customs, but there\u00e2\u20ac\u2122s no Riedran army at the gates; they know the Dreaming Dark is a threat, but it\u00e2\u20ac\u2122s a ghost in the shadows. These kalashtar believe that the Age of Light will be supported through their daily actions, such as showing kindness and compassion or mediating disputes.<br />On the other hand, some of the kalashtar of Khorvaire have embraced a grim path in the battle against darkness. The Shadow Watchers don\u00e2\u20ac\u2122t believe that evil can be fought merely with kindness and prayer. Members of this order seek to identify sources of corruption and ruthlessly eliminate them. They believe the Age of Light will come when the Darkness is defeated. As such, a Shadow Watcher\u00e2\u20ac\u2122s focus is typically on agents of the Dreaming Dark, although they can pursue any force of evil, supernatural or otherwise.</p>\n<p>However, your kalashtar might not belong to a community with others of their kind at all. An orphaned kalashtar without spiritual guidance might not be able to understand their trances, the way their quori influences their emotions or the manifestations of their psionic abilities. If your Kalashtar does not know fully what they are, what is their relationship with their unique abilities? [53]</p>\n<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Alignment and Religion\u00e2\u20ac\u00a6</h2>\n<p>All quori spirits that inhabit the Kalashtar were born of the Dreaming Dark \u00e2\u20ac\u201c\u00c2\u00a0they represent nightmare qualities, those of rage, deceit, and pride. However, this does not lend Kalashtar to fall easily into evil alignments. These connections can instead result in Kalashtar gaining a greater sense of empathy: understanding the pains of fear, the hubris of pride, and the folly of deceit.<br />Kalashar, just like the humans they originated from, can have an evil alignment. However, those raised with an understanding of their quori tend to develop positive relationships with the darkness their spirit may represent. However lofty their goals are, they will achieve their motivations in any number of ways, so neither law nor chaos has strong sway over the kalashtar. Most kalashtar are devoted to the Path of Light, and</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"page-overlay\">\u00c2\u00a0</div>\n<div class=\"right d-flex flex-wrap\" data-markdown=\"1\">\n<div class=\"flex-even column\" data-markdown=\"1\">\n<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Link minds</h2>\n<p>You gain the link mind cantrip as an innate occult spell that you can cast at will. A cantrip is automatically heightened to half your level rounded up.</p>\n</div>\n</div>\n<div class=\"content\" data-markdown=\"1\">\n<p>though its faithful worship no gods, the faith itself can be a source of divine magic.</p>\n<h2 style=\"border-bottom:1px solid var(--color-underline-header)\">Names\u00e2\u20ac\u00a6</h2>\n<p>A kalashtar name adds a personal prefix to the name of the quori spirit within the kalashtar. Such names have no relation to the kalashtar\u00e2\u20ac\u2122s gender. Kalashtar orphans are unlikely to know the name of their spirit and take names from another source.</p>\n<h3>Sample Names</h3>\n<p class=\"hang\"><strong>Quori Names:</strong>\u00c2\u00a0Ashana, Ashtai, Ishara, Hareth, Khad, Kosh, Melk, Nari, Tana, Tari, Tash, Ulad, Vakri, Vash</p>\n<p class=\"hang\"><strong>Kalashtar Names:</strong>\u00c2\u00a0Coratash, Dalavash, Dolishara, Halakosh, Khoratari, Koratana, Lanhareth, Molavakri, Nevitash, Sorashana, Torashtai, Valakhad, Vishara</p>\n</div>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "hb_kalashtar"
+          ],
+          "key": "ActorTraits"
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-spells.mC2zpg1YucNfdXIv"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.320-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Human",
+        "uuid": "Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770325,
+      "modifiedTime": 1673033808336,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "uo52Pvo8D3kgdHoR",
+    "name": "Mark of Storm",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfStorm.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.heritages.N36ZR4lh9eCazDaN"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a half-elf descendant of a mark of storm bloodline, whether or not they manifested a mark. You have slightly pointed ears and other telltale signs of half-elf heritage. You gain the elf trait, the half-elf trait, the dragonmarked heritage trait, mark of storm trait, and @Compendium[pf2e.ancestryfeatures.DRtaqOHXTRtGRIUT]{Low-Light Vision}. In addition, you can pick elf, half-elf, human, dragonmarked heritage, and mark of storm feats whenever you gain an ancestry feat.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "half-elf"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "Sense",
+          "label": "PF2E.SensesLowLightVision",
+          "selector": "lowLightVision"
+        },
+        {
+          "add": [
+            "elf",
+            "half-elf",
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-storm"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": "half-elf",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.916-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Human",
+        "uuid": "Compendium.pf2e.ancestries.IiG7DgeLWYrSNXuX"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769918,
+      "modifiedTime": 1673033808340,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "xMR0VDFPcRcAN9yI",
+    "name": "Eyre Clan",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.Lmck7hav1o39lmNG"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your clan is tied to the moon Eyre - the Anvil.</p>\n<p>You become trained in Crafting (or another skill if you were already trained in Crafting), and you gain the @Compendium[pf2e.feats-srd.ASy9AKEIRxPYUi5o]{Quick Repair} skill feat. In addition, if you roll a Critical Failure on a Repair check, you get a failure instead.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "upgrade",
+          "path": "system.skills.cra.rank",
+          "value": 1
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.ASy9AKEIRxPYUi5o"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.019-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Eberron Gnoll",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.mUoArD9V8jjvHGDr"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770020,
+      "modifiedTime": 1673033808332,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "yFk9G9WxyxRtaxa6",
+    "name": "Cliffwalk Shifter",
+    "type": "heritage",
+    "img": "systems/pf2e/icons/default-icons/heritage.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.U9pPWeHnnSoOCNZQ"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Typically manifesting traits of the mountain goat, cliffwalk shifters can have traits of any animal with an aptitude for climbing. Cliffwalk shifters often have a shy and introverted nature but have a strong sense of kindness and justice for those around them.</p>\n<p>\u00c2\u00a0</p>\n<p>You are talented at scaling surfaces without focusing on the climb itself. You gain the @Compendium[pf2e.feats-srd.09PurtIanNUPfNRq]{Combat Climber} feat.</p>\n<p>\u00c2\u00a0</p>\n<h3>Hybrid form</h3>\n<p>While in your hybrid form, you gain a +1 circumstance bonus to your Athletics check to climb or Grab an Edge.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.dFUdUm4JzjzpWB46"
+        },
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e.feats-srd.09PurtIanNUPfNRq"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:10.483-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Shifter",
+        "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-ancestries.9QYQVCfnmDWagSbE"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027770485,
+      "modifiedTime": 1673033808331,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "zMBjsa5rxsFVoL5u",
+    "name": "Mark of Scribing",
+    "type": "heritage",
+    "img": "modules/pf2e-for-eberron/images/MarkOfScribing.png",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.heritages.zVf0Hlp5xG0Q7kmc"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>At least one of your parents is a gnome descendant of the Mark of Scribing bloodline, whether or not they manifested a mark. You gain the Dragonmarked Heritage and Mark of Scribing traits. In addition, you can pick gnome, dragonmarked heritage, and Mark of Scribing feats whenever you gain an ancestry feat.</p>\n<p>\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "uncommon",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "add": [
+            "hb_dragonmarked-heritage",
+            "hb_mark-of-scribing"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "slug": "skilled-heritage",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:56:09.825-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "ancestry": {
+        "name": "Gnome",
+        "uuid": "Compendium.pf2e.ancestries.CYlfsYLJcBOgqKtD"
+      }
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027769828,
+      "modifiedTime": 1673033808339,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  }
+]

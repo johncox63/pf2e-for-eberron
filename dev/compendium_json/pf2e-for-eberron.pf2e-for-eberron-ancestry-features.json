@@ -1,0 +1,411 @@
+[
+  {
+    "_id": "Tf14aydx5k7EBYGq",
+    "name": "Living Construct",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Compendium.pf2e.ancestryfeatures.E28a45fUC2OkXZXY"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your physiological needs are different than those of living creatures. You don't need to eat or drink. You don't need to sleep, but you still need a daily period of rest. During this period of rest, you must enter a recuperating standby state for 2 hours, which is similar to sleeping except you are aware of your surroundings and don't take penalties for being @Compendium[pf2e.conditionitems.fBnFDH2MTzgFijKf]{Unconscious}. Much like with sleeping, if you go too long without entering your standby state, you become @Compendium[pf2e.conditionitems.HL2l2VRSaQHu9lUw]{Fatigued} and can't recover until you enter standby for 2 hours.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_warforged"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": "constructed-body",
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:55:54.373-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 0
+      },
+      "featType": {
+        "value": "ancestryfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027754375,
+      "modifiedTime": 1673030980647,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "WbbUFJXfCGFf0NvE",
+    "name": "Emotionally Unaware",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.DT8UYUuBHpRkzd4l"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Warforged find it difficult to understand and express complex emotions. You take a \u00e2\u20ac\u201c1 circumstance penalty to Diplomacy, and Performance checks, and on Perception checks to Sense Motive.</p>\n<p>\u00c2\u00a0</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_warforged"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "label": "Emotionally Unaware (Sense Motive)",
+          "predicate": [
+            "action:sense-motive"
+          ],
+          "selector": "perception",
+          "type": "circumstance",
+          "value": -1
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "diplomacy",
+          "type": "circumstance",
+          "value": -1,
+          "label": "Emotionally Unaware (Diplomacy)"
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "performance",
+          "type": "circumstance",
+          "value": -1,
+          "label": "Emotionally Unaware (Performance)"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:55:54.322-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 0
+      },
+      "featType": {
+        "value": "ancestryfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027754329,
+      "modifiedTime": 1673030980646,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "XRS2jREDNVLLv5s8",
+    "name": "Living Body",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.OQwTU7gSI1zRbmTx"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your body is formed of both wood and steel which by the powers of the creation forge are granted life. This life energy flows through you much like the blood of humanoids. As a result, you are a living creature. You don't have the typical construct immunities, can be affected by effects that target a living creature, and can recover Hit Points normally via positive energy. Additionally, you are not destroyed when reduced to 0 Hit Points. Instead, your life energy attempts to keep you active even in dire straits; you are knocked out and begin dying when reduced to 0 Hit Points.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_warforged"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:55:54.394-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 0
+      },
+      "featType": {
+        "value": "ancestryfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027754396,
+      "modifiedTime": 1673030980647,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "nKa6IV40AKB9OHqa",
+    "name": "Shapeshifters",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "effects": [],
+    "flags": {
+      "cf": null,
+      "core": {
+        "sourceId": "Compendium.pf2e-for-eberron.pf2e-for-eberron.nKa6IV40AKB9OHqa"
+      }
+    },
+    "system": {
+      "description": {
+        "value": "<p>You gain the @Compendium[pf2e-for-eberron.pf2e-for-eberron-actions.0FHwmQKFPgiObDNF]{Shift Shape} action</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "GrantItem",
+          "uuid": "Compendium.pf2e-for-eberron.pf2e-for-eberron-actions.0FHwmQKFPgiObDNF"
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:55:54.288-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 0
+      },
+      "featType": {
+        "value": "ancestryfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027754290,
+      "modifiedTime": 1673030995929,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  },
+  {
+    "_id": "vrsCcveAQzsY2Oo9",
+    "name": "Constructed Resistance",
+    "type": "feat",
+    "img": "systems/pf2e/icons/default-icons/feat.svg",
+    "effects": [],
+    "flags": {
+      "core": {
+        "sourceId": "Item.WgteeMGaBLssT09N"
+      },
+      "cf": null
+    },
+    "system": {
+      "description": {
+        "value": "<p>Your constructed body has advantages and disadvantages that most humanoid creatures do not. You gain a +1 circumstance bonus to saving throws against diseases, and poisons. However, you are considered to be a creature composed entirely of wood and metal for the purposes of magical or other effects - regardless of your integrated armour type.</p>"
+      },
+      "source": {
+        "value": "PF2E for Eberron"
+      },
+      "traits": {
+        "value": [
+          "hb_warforged"
+        ],
+        "rarity": "common",
+        "custom": ""
+      },
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "label": "Constructed Resistance (vs. diseases and poisons)",
+          "predicate": [
+            {
+              "or": [
+                "disease",
+                "poison"
+              ]
+            }
+          ],
+          "selector": "saving-throw",
+          "type": "circumstance",
+          "value": 1
+        }
+      ],
+      "slug": null,
+      "schema": {
+        "version": 0.812,
+        "lastMigration": {
+          "datetime": "2023-01-06T12:55:54.301-05:00",
+          "version": {
+            "schema": 0.769,
+            "foundry": "10.291",
+            "system": "4.6.3"
+          }
+        }
+      },
+      "level": {
+        "value": 0
+      },
+      "featType": {
+        "value": "ancestryfeature"
+      },
+      "onlyLevel1": false,
+      "maxTakable": 1,
+      "actionType": {
+        "value": "passive"
+      },
+      "actions": {
+        "value": null
+      },
+      "prerequisites": {
+        "value": []
+      },
+      "location": null
+    },
+    "_stats": {
+      "systemId": "pf2e",
+      "systemVersion": "4.6.3",
+      "coreVersion": "10.291",
+      "createdTime": 1673027754303,
+      "modifiedTime": 1673030980645,
+      "lastModifiedBy": "knTUi1bTspduSmIG"
+    },
+    "folder": null,
+    "sort": 0,
+    "ownership": {
+      "default": 0,
+      "knTUi1bTspduSmIG": 3
+    }
+  }
+]
