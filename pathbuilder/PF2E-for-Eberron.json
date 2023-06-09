@@ -1,5 +1,5 @@
 {
-    "customPackID": "a1b4aa8f-436f-41f1-a452-d2d37aed5de8",
+    "customPackID": "3fa98d1f-4827-40f1-9b04-3416b62749f5",
     "customPackName": "PF2E-for-Eberron",
     "listCustomArmor": [
         {
@@ -142,6 +142,18 @@
         }
     ],
     "listCustomFeats": [
+        {
+            "id": "ead9167b-0c7b-47b3-b413-c52059210037",
+            "name": "Dragonmarked Focus",
+            "level": 10,
+            "reqFeats": [
+                "d86b11d4-b86a-4761-b2a3-6e075e453789"
+            ],
+            "textDescription": "As your control over your mark increases, you are better able to restore your energy. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1.",
+            "traits": "Archetype, Dragonmark, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1
+        },
         {
             "id": "af25cc94-ecdb-463e-a630-49b9c9b5e66e",
             "name": "Alchemical Resistance",
@@ -386,7 +398,7 @@
                     "bonusAmount": 2
                 },
                 {
-                    "proficiencyName": "",
+                    "proficiencyName": "Lore: Bugbear",
                     "effectType": 11,
                     "bonusAmount": 2
                 }
@@ -524,7 +536,8 @@
             "listCustomEffects": [
                 {
                     "effectType": 13,
-                    "string0": "7c5ae3f8-675b-4474-a89f-123a7c935ab0"
+                    "string0": "7c5ae3f8-675b-4474-a89f-123a7c935ab0",
+                    "reference": "90c79bfc-4e4d-4175-8317-dc4d4100870f"
                 }
             ]
         },
@@ -597,14 +610,104 @@
             "timestamp": "1686136458215",
             "listCustomEffects": [
                 {
-                    "effectType": 13,
-                    "string0": "a932440a-8f33-4560-9162-22f62d9b04ce"
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 1,
+                    "string0": "a932440a-8f33-4560-9162-22f62d9b04ce",
+                    "reference": "86e76331-1908-4263-affb-60ef8b804c20"
                 },
                 {
-                    "effectType": 13,
-                    "string0": "13ee3db4-c78a-4eca-83fc-e52b41c745a6"
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "string0": "13ee3db4-c78a-4eca-83fc-e52b41c745a6",
+                    "reference": "6f9163dd-9a02-432d-9130-8a7f3d3f815d"
                 }
             ]
+        },
+        {
+            "id": "ead9167b-0c7b-47b3-b413-c52059210037",
+            "name": "Dragonmarked Focus",
+            "level": 10,
+            "reqFeats": [
+                "d86b11d4-b86a-4761-b2a3-6e075e453789"
+            ],
+            "textDescription": "As your control over your mark increases, you are better able to restore your energy. If you have spent at least 2 Focus Points since the last time you Refocused, you recover 2 Focus Points when you Refocus instead of 1.",
+            "traits": "Archetype, Dragonmark, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1
+        },
+        {
+            "id": "148f8e14-ef89-4c45-9543-1a0c9de751b7",
+            "name": "Dragonmarked Power",
+            "level": 6,
+            "selectable": 10,
+            "reqFeats": [
+                "d86b11d4-b86a-4761-b2a3-6e075e453789"
+            ],
+            "textDescription": "<b>Prerequisites</b> Dragonmarked Scion Dedication<br><br>The well of power that you draw from your dragonmark grows deeper. You increase the size of your focus pool by 1. In addition, you may pick another dragonmark focus spell from your list. This spell can be up to the maximum level you can currently cast.<br><br><b>Special</b> you may pick this feat multiple times, each time picking a different focus spell.",
+            "traits": "Archetype, Dragonmark, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 1,
+                    "reference": "f3684c86-02ac-4a94-be28-e970b1802055"
+                }
+            ]
+        },
+        {
+            "id": "d86b11d4-b86a-4761-b2a3-6e075e453789",
+            "name": "Dragonmarked Scion Dedication",
+            "level": 2,
+            "reqFeats": [
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "<b>Prerequisites</b> The dragonmark trait<br><br>You train to empower your mark and the reserves of power that you can draw on. You can select an additional dragonmarked focus spell to cast. In addition, if you spend a week of downtime retraining, you can switch your known dragonmark focus spells for different dragonmark focus spells that you have access to. Your house provides this retraining free of charge.",
+            "traits": "Archetype, Dedication, Dragonmark, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "reference": "27991317-3ffe-4c8a-af1b-afe251d46480"
+                }
+            ]
+        },
+        {
+            "id": "49b80602-efa0-4550-9875-23e8ec89f20d",
+            "name": "Dragonmarked Study",
+            "level": 2,
+            "selectable": 10,
+            "reqFeats": [
+                "d86b11d4-b86a-4761-b2a3-6e075e453789"
+            ],
+            "textDescription": "<b>Prerequisites</b> Dragonmarked Scion Dedication<br><br>You study to hold more of your powers in mind, you may pick another dragonmark focus spell from your list. This spell can be up to the maximum level you can currently cast.<br><br><b>Special</b> you may pick this feat multiple times, each time picking a different focus spell.",
+            "traits": "Archetype, Dragonmark, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "reference": "32fb3e8c-74ef-47a4-ba47-b53a2162faf3"
+                }
+            ]
+        },
+        {
+            "id": "a81d9510-3316-4942-b8b7-277f541da0eb",
+            "name": "Dragonmarked Wellspring",
+            "level": 16,
+            "reqFeats": [
+                "d86b11d4-b86a-4761-b2a3-6e075e453789",
+                "558105ee-0273-4e96-992f-6af45ba0624f"
+            ],
+            "textDescription": "As you approach mastery over your mark, energy seems to return to you naturally. If you have spent at least 3 Focus Points since the last time you Refocused, you recover 3 Focus Points when you Refocus instead of 1.",
+            "traits": "Archetype, Dragonmark, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1
         },
         {
             "id": "d937ffa2-877b-4c32-a6e3-fc7c04a4c437",
@@ -649,7 +752,7 @@
                     "bonusAmount": 2
                 },
                 {
-                    "proficiencyName": "Lore: Music",
+                    "proficiencyName": "Lore: Eberron Changeling",
                     "effectType": 11,
                     "bonusAmount": 2
                 }
@@ -825,8 +928,28 @@
             "timestamp": "1686136458215",
             "listCustomEffects": [
                 {
-                    "effectType": 13,
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
                     "string0": "234036db-e3d0-40e0-8d2b-2837bc37b509"
+                }
+            ]
+        },
+        {
+            "id": "517b9290-0bdd-421c-873f-c4efc07bf158",
+            "name": "Greater Dragonmarked Focus",
+            "level": 14,
+            "reqFeats": [
+                "d86b11d4-b86a-4761-b2a3-6e075e453789",
+                "558105ee-0273-4e96-992f-6af45ba0624f"
+            ],
+            "textDescription": "<b>Prerequisites</b> Lesser Dragonmark<br><br>You have trained to develop your talents and your dragonmark. You gain the Greater Dragonmark feat.<br><br><b>Special</b> Since this manifests a physical change in the powers and size of your dragonmark, you may not retrain out of this feat.",
+            "traits": "Archetype, Dragonmark, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "listCustomEffects": [
+                {
+                    "effectType": 14,
+                    "string0": "bb42e9a7-4fba-4b6a-86fe-480f620c82ae"
                 }
             ]
         },
@@ -1019,7 +1142,9 @@
             "timestamp": "1686136458215",
             "listCustomEffects": [
                 {
-                    "effectType": 13,
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 1,
                     "string0": "26d1b9fd-2e93-445a-b6eb-19a4f7cf1d05",
                     "reference": "b29f0fd9-4ad4-4e43-b311-d5703727a2a4"
                 }
@@ -1048,9 +1173,28 @@
             "timestamp": "1686136458216",
             "listCustomEffects": [
                 {
-                    "effectType": 13,
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
                     "string0": "4b552b95-fbce-449f-998a-f446e244b0a8",
                     "reference": "4d3d5a60-269f-4fb7-9f76-f6d709d8e181"
+                }
+            ]
+        },
+        {
+            "id": "ab453a8f-34bc-4fa7-8114-067e7b3a3e54",
+            "name": "Lesser Dragonmarked Scion",
+            "level": 6,
+            "reqFeats": [
+                "d86b11d4-b86a-4761-b2a3-6e075e453789"
+            ],
+            "textDescription": "<b>Prerequisites</b> Dragonmarked Scion Dedication, Least Mark<br><br>You have trained to develop your talents and your dragonmark. You gain the Lesser Dragonmark feat.<br><br><b>Special</b> Since this manifests a physical change in the powers and size of your dragonmark, you may not retrain out of this feat.",
+            "traits": "Archetype, Dragonmark, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "listCustomEffects": [
+                {
+                    "effectType": 14,
+                    "string0": "558105ee-0273-4e96-992f-6af45ba0624f"
                 }
             ]
         },
@@ -1497,7 +1641,7 @@
                     "reference": "e9c0ea15-ebf6-4006-8fc3-b5410bb48fea"
                 },
                 {
-                    "proficiencyName": "Lore: Music",
+                    "proficiencyName": "Lore: Shifter",
                     "effectType": 11,
                     "bonusAmount": 2,
                     "reference": "0a814c57-1ad8-4fe5-8807-cfc6164c0253"
@@ -1587,7 +1731,9 @@
             "timestamp": "1686136458216",
             "listCustomEffects": [
                 {
-                    "effectType": 13,
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 1,
                     "string0": "dacc566f-5850-4226-b229-8df00ab16e53"
                 }
             ]
@@ -1928,17 +2074,20 @@
                 {
                     "proficiencyName": "Arcana",
                     "effectType": 11,
-                    "bonusAmount": 2
+                    "bonusAmount": 2,
+                    "reference": "335570f5-e966-4185-9e2b-1b160ab75b2b"
                 },
                 {
                     "proficiencyName": "Crafting",
                     "effectType": 11,
-                    "bonusAmount": 2
+                    "bonusAmount": 2,
+                    "reference": "849f2773-4000-4fb7-b9d7-f02e9c99c548"
                 },
                 {
-                    "proficiencyName": "Lore: Music",
+                    "proficiencyName": "Lore: Warforged",
                     "effectType": 11,
-                    "bonusAmount": 2
+                    "bonusAmount": 2,
+                    "reference": "d7bac1d8-b32d-4c14-8c6a-eba90267e989"
                 }
             ]
         },
@@ -2217,7 +2366,8 @@
             "listCustomEffects": [
                 {
                     "proficiencyName": "Electric Arc",
-                    "effectType": 9
+                    "effectType": 9,
+                    "reference": "92057f90-9f4b-464d-aaa9-05f9850e8a25"
                 }
             ]
         },
@@ -2542,6 +2692,578 @@
     ],
     "listCustomSpells": [
         {
+            "uniqueID": "8ee86a67-4dea-43fb-bb57-937191defd6c",
+            "name": "Aberrant Cantrip",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, enchantment, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br><br>When you cast the Aberrant Cantrip, you can choose Chill Touch or Daze. Aberrant Cantrip gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell.<br><br>A spell cast by Aberrant Cantrip doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "455f7d27-e5d3-4e33-87dc-e0f6708ddcbe",
+            "name": "Animal Friendship",
+            "type": "Focus",
+            "traits": "dragonmark, mark of handling, enchantment, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to calm animal emotions and aid your interactions with animals. <br><br>When you Cast the Spell, unwilling targets must attempt a Will save, with a +4 circumstance bonus if you or your allies recently threatened it or used hostile actions against it.<br><br>You can Dismiss the spell. If you use hostile actions against the target, the spell ends. If the spell ends before the full duration, the creature reverts to its original attitude. If the spell is sustained for the full duration, the effects remain and the spell ends.<br><br><b>Critical Success</b> The target's Attitude towards you decreases by one step. This does not revert if dismissed early.<br><br><b>Success</b> The target's Attitude towards you is unchanged.<br><br><b>Failure</b> The target's Attitude towards you increases by one step, to a minimum of indifferent.<br><br><b>Critical Failure</b> The target's Attitude towards you increases by two steps, to a minimum of friendly.<br><br><b>Heightened (3rd)</b> Even if the target succeeds its save, its Attitude becomes a minimum of unfriendly.<br><br><b>Heightened (4th)</b> You may target up to 2 living creatures with the Animal or Beast trait.<br><br><b>Heightened (6th)</b> You may target up to 4 living creatures with the Animal or Beast trait.<br><br><b>Heightened (7th)</b> The duration is reduced to 18 seconds after which the effects remain and the spell ends.<br><br><b>Heightened (8th)</b> You may target any number of living creatures with the Animal or Beast trait in range.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "1 living creature with the Animal or Beast trait",
+            "duration": "Sustained up to 1 minute",
+            "range": "30 feet",
+            "save": "will"
+        },
+        {
+            "uniqueID": "a1f2a6a0-1cb6-4b4b-ac1b-86000a8ee5af",
+            "name": "Become Shadow",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of shadow, illusion, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "You blend yourself with shadow, losing visual definition. For the duration, while in dim light or darkness, you gain a +2 status bonus to hide and sneak.<br><br><b>Heightened (6th)</b> The duration becomes 10 minutes.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "sustained up to 10 minutes"
+        },
+        {
+            "uniqueID": "fb16e35a-cf69-4647-9708-139c6edbe1f6",
+            "name": "Cantrip of Detection",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of detection, divination, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br><br>When you cast the Cantrip of Detection you can choose Detect Magic or Read the Air. Cantrip of Detection gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell.<br><br>A spell cast by Cantrip of Detection doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "1576281a-9c3d-400c-ad6d-c87e746a235a",
+            "name": "Cantrip of Finding",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of finding, divination, 3rd Party",
+            "cast": "focus, somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br><br>When you cast the Cantrip of Finding you can choose Detect Magic or Know Direction. Cantrip of Finding gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell.<br><br>A spell cast by Cantrip of Finding doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "dd5869f6-d427-41e0-aaff-c34eb131c67c",
+            "name": "Cantrip of the Courier",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of passage, conjuration, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br><br>When you cast the Cantrip of the Courier, you can choose to cast Know Direction or Warp Step. The Cantrip of the Courier gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell.<br><br>A spell cast by Cantrip of the Courier doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "8c1ac56f-f8b5-42eb-b76f-3d8209335d4c",
+            "name": "Cantrip of the Crafter",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of making, transmutation, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br><br>When you cast the Cantrip of the Crafter, you can choose Read Aura or Sigil. Cantrip of the Crafter gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell.<br><br>A spell cast by Cantrip of the Crafter doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "8383d3f6-15fc-42c6-98ef-44c7f25ce71d",
+            "name": "Cantrip of the Guard",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of warding, abjuration, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br><br>When you cast the Cantrip of the Guard you can choose Forbidding Ward or Sigil. Cantrip of the Guard gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell.<br><br>A spell cast by Cantrip of the Guard doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "79e68016-59b0-45e7-b73c-ad936f8e3ea6",
+            "name": "Cantrip of the Handler",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of handling, enchantment, 3rd Party",
+            "cast": "focus, somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br><br>When you cast the Cantrip of the Handler you can choose Protect Companion or Tame. Cantrip of the Handler gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell. <br><br>A spell cast by Cantrip of the Handler doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "e822668c-09f6-463f-90a7-4f26226cf55b",
+            "name": "Cantrip of the Messenger",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of scribing, illusion, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br><br>When you cast the Cantrip of the Messenger, you can choose Message or Sigil. Cantrip of the Messenger gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell.<br><br>A spell cast by Cantrip of the Messenger doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "c4116c24-a7be-469c-9448-23d11d88413f",
+            "name": "Cantrip of the Sentinel",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of sentinel, abjuration, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br><br>When you cast the Cantrip of the Sentinel you can choose Forbidding Ward or Shield. Cantrip of the Sentinel gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell.<br><br>A spell cast by Cantrip of the Sentinel doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "db4b59a8-7836-4eb6-8806-2f777939510e",
+            "name": "Cantrip of the Shadow",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of shadow, illusion, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br><br>When you cast the Cantrip of the Shadow you can choose Dancing Lights or Ghost Sound. Cantrip of the Shadow gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell.<br><br>A spell cast by Cantrip of the Shadow doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "a63794c9-1e44-469e-9201-a3e11b92fd2f",
+            "name": "Cantrip of the Storm",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of storm, evocation, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you.<br><br>When you cast the Cantrip of the Storm you can choose Electric Arc or Gale Blast. Cantrip of the Storm gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell.<br><br>A spell cast by Cantrip of the Storm doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "b081152b-9fda-4592-9ce2-75343c3061db",
+            "name": "Construction Savant",
+            "type": "Focus",
+            "level": 5,
+            "traits": "dragonmark, mark of making, conjuration, 3rd Party",
+            "cast": "material, somatic, verbal",
+            "descriptionHeightened": "You begin to craft an item as if using the crafting activity, but with the empowering effects of your dragonmark guiding you, your efficiency is increased exponentially.<br><br>When you begin the Crafting activity, you can cast Construction Savant as part of your activity. When you have spent a full day of the Crafting Activity under the effects of Construction Savant, you may immediately make the crafting activity check to complete the item. On a critical success, you can finish the item, bypassing any remaining time to its completion as if you had completed the prerequisite days of work. Otherwise, you may continue on the item again the next day without any penalty. If you use Construction Savant on your last day of work, you instead gain a +1 status bonus to the final crafting check. Once the item is completed, it follows the rules of the crafting activity to reduce cost which Construction Savant may not assist with.<br><br>The materials and labour involved in assembling an item satisfy all of the required spell components and casting time of Construction Savant.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "dfc0d280-b2c2-4273-95f5-d8325cda7eee",
+            "name": "Corrupted Replication",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, abberant mark, aberrant feedback, 3rd Party",
+            "cast": "focus, somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Corrupted Replication, you can select a spell from the Corrupted Replication spell list at the heightened level of Corrupted Replication or lower. Corrupted Replication gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Corrupted Replication.<br>A spell cast by Corrupted Replication doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>CORRUPTED REPLICATION SPELL LIST</b><br>Level 2: Acidic Burst<br>Level 3: Slough Skin<br>Level 4: Stinking Cloud<br>Level 5: Rusting Grasp<br>Level 6: Acid Storm<br>Level 7: Abyssal Plague<br>Level 8: Eclipse Burst<br>Level 9: Volcanic Eruption<br>Level 10: Storm of Vengeance<br><br>The above list is themed around acid and storms<br><br>While Aberrant marks are generally chaotic and destructive, they tend to follow a theme. Some potential themes are Acid, Blood Bending, Plagues, Curses, Fire, Ice, Mental Assaults, or Vermin. When building your Corrupted Replication, you should pick spells that follow a general format - even if it might be suboptimal. Part of the balance of dragonmarks is that they don't always provide the strongest effect that they can at their level.<br><br>When building the Heightened Level list, spells should be placed at the heightened level one higher than their base spell level. For example, Acid Storm, a 5th level spell should be placed at Heightened Level 6. Only rarely should the spell be placed at its actual level. You get one spell per level. Start with spells from the following list.<br><br><b>Heightened (3rd)</b> You may cast Corrupted Replication up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Corrupted Replication up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Corrupted Replication up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Corrupted Replication.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "fc158a87-dd1e-4bb4-81c2-fd27bb5f6569",
+            "name": "Courier's Skill",
+            "type": "Focus",
+            "traits": "dragonmark, mark of passage, abjuration, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to enable swift travel. When you Cast the Spell, any time you make a check with the Move trait, or Piloting check on a land vehicle you gain a +1 status bonus to the skill or perception used for the roll. This bonus remains as long as you Sustain the Spell.\n<hr style=\"border-top:1px solid var(--color-border-light-primary);border-bottom:1px solid var(--color-border-light-highlight)\" />\n<b>Heightened (3rd)</b> You do not need to sustain Courier's Skill.<br><br><b>Heightened (5th)</b>The bonus increases to +2.<br><br><b>Heightened (7th)</b>The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 10 minute"
+        },
+        {
+            "uniqueID": "30c7820b-33c4-4992-adeb-784a05f12ad1",
+            "name": "Deductive Intuition",
+            "type": "Focus",
+            "traits": "dragonmark, mark of detection, divination, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to better uncover secrets. When you Cast the Spell, any time you Recall Knowledge, Seek, or Sense Motive you gain a +1 status bonus to the skill or Perception used for the roll. This bonus remains as long as you Sustain the Spell.<br><br><b>Heightened (3rd)</b>You do not need to sustain Discern Secrets.<br><br><b>Heightened (5th)</b>The bonus increases to +2.<br><br><b>Heightened (7th)</b>The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 10 minutes"
+        },
+        {
+            "uniqueID": "e8fcfe6a-4beb-4fdb-a1eb-ca0f4701a1d7",
+            "name": "Detect Danger",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of detection, divination, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to forewarn your target of impending danger. When you cast the spell, the target gains a +1 status bonus to initiative rolls and isn't flat-footed against undetected creatures. This bonus remains as long as you Sustain the Spell. The target is temporarily immune to Detect Danger for 1 hour.<br><br><b>Heightened (3rd)</b> You do not need to sustain Detect Danger.<br><br><b>Heightened (5th)</b> The bonus increases to +2.<br><br><b>Heightened (7th)</b> The duration is sustained up to 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "1 creature",
+            "duration": "Sustained up to 10 minutes",
+            "range": "touch"
+        },
+        {
+            "uniqueID": "1e0187b7-0a46-44d9-b2b1-52456deed2b2",
+            "name": "Dimension Step",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of passage, teleportation, conjuration, 3rd Party",
+            "actions": 1,
+            "cast": "somatic",
+            "descriptionHeightened": "You instantly transfer yourself from your current location to another spot you can see within range. You always arrive at exactly the spot desired. You can bring along any objects you are touching as the spell is cast, so long as you are not encumbered. You cannot bring along other creatures.<br><br>If this spell would put you in a place that is already occupied or is not empty, the spell fails.<br><br><b>Heightened (+2)</b> The distance you can teleport increases by 15 feet.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "range": "30 feet"
+        },
+        {
+            "uniqueID": "6900917c-254d-46ab-9891-3e7bdd7533f1",
+            "name": "Dragonmarked Construction",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of making, conjuration, 3rd Party",
+            "cast": "focus, somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Construction, you can select a spell from the Dragonmarked Construction spell list at the heightened level of Dragonmarked Construction or lower. Dragonmarked Construction gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Construction.<br>A spell cast by Dragonmarked Construction doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED CONSTRUCTION SPELL LIST</b><br>Level 1: Mending, Temporary Tool<br>Level 2: Summon Construct<br>Level 3: Dismantle<br>Level 4: Shrink Item<br>Level 5: Creation<br>Level 6: Wall of Gears*<br>Level 7: Fabricate*<br>Level 8: Blade Barrier<br><br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Construction up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Construction up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Construction up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Construction.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "adff664b-b6c2-463c-a6af-18386fb95c5a",
+            "name": "Dragonmarked Detector",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of detection, divination, 3rd Party",
+            "cast": "focus, somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br><br>When you begin to cast Dragonmarked Detector, you can select a spell from the Dragonmarked Detector spell list at the heightened level of Dragonmarked Detector or lower. Dragonmarked Detector gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Detector.<br><br>A spell cast by Dragonmarked Detector doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED DETECTOR SPELL LIST</b><br>Level 2: Detect Poison, See Invisibility<br>Level 3: Object Reading<br>Level 4: Clairvoyance<br>Level 5: Discern Lies<br>Level 6: Detect Scrying<br>Level 7: True Seeing<br>Level 8: Retrocognition<br>Level 9: Foresight<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Detector up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Detector up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Detector up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Detector.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "8b731280-14cd-4560-af02-a79838402f79",
+            "name": "Dragonmarked Guidance",
+            "type": "Focus",
+            "traits": "dragonmark, true dragonmark, divination, 3rd Party",
+            "actions": 1,
+            "cast": "verbal",
+            "descriptionHeightened": "You may substitute your speciality for the creature for the duration of the spell. When the target creature makes the check, the creature may choose to use your modifier rather than their own. This check depends on your mark.<br><br><b>Mark of Detection</b> perception<br><br><b>Mark of Finding</b> perception<br><br><b>Mark of Handling</b> nature<br><br><b>Mark of Healing</b> medicine<br><br><b>Mark of Hospitality</b> diplomacy<br><br><b>Mark of Making</b> crafting<br><br><b>Mark of Passage</b> acrobatics<br><br><b>Mark of Scribing</b> lore<br><br><b>Mark of Sentinel</b> athletics<br><br><b>Mark of Shadow</b> stealth<br><br><b>Mark of Storm</b> acrobatics<br><br><b>Mark of Warding</b> thievery",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "1 creature",
+            "duration": "until the start of your next turn",
+            "range": "30 feet"
+        },
+        {
+            "uniqueID": "a9030e31-c289-4e9a-b0f8-7beb93352909",
+            "name": "Dragonmarked Handler",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of handling, enchantment, 3rd Party",
+            "cast": "focus, somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Handler, you can select a spell from the Dragonmarked Handler spell list at the heightened level of Dragonmarked Handler or lower. Dragonmarked Handler gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Handler.<br>A spell cast by Dragonmarked Handler doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HANDLER SPELL LIST</b><br>Level 2: Friendfetch, Pet Cache<br>Level 3: Animal Messenger, Speak with Animals<br>Level 4: Animal Vision<br>Level 5: Aromatic Lure<br>Level 6: Dominate (Animal or Beast trait targets only)<br>Level 7: Entrancing Eyes (Animal or Beast trait targets only)<br>Level 8: Power Word Stun (Animal or Beast trait targets only)<br>Level 9: Nature's Enmity<br><b>Heightened (3rd)</b> You may cast Dragonmarked Handler up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Handler up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Handler up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Handler.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "edc94668-4740-414e-87f7-e49be757d524",
+            "name": "Dragonmarked Healer",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of healing, enchantment, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Healer, you can select a spell from the Dragonmarked Healer spell list at the heightened level of Dragonmarked Healer or lower. Dragonmarked Healer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Healer.<br>A spell cast by Dragonmarked Healer doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HEALER SPELL LIST</b><br>Level 2: Endure, Soothe<br>Level 3: Restoration, Remove Paralysis, Restore Senses<br>Level 4: Neutralize Poison, Remove Disease<br>Level 5: Remove Curse<br>Level 6: Breath of Life<br>Level 7: Raise Dead<br>Level 8: Regenerate<br>Level 9: Moment of Renewal<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Healer up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Healer up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Healer up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Healer.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "43834e21-d8e9-4b06-8233-e99b7c05d139",
+            "name": "Dragonmarked Hospitality",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of hospitality, enchantment, 3rd Party",
+            "cast": "focus, somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Hospitality, you can select a spell from the Dragonmarked Hospitality spell list at the heightened level of Dragonmarked Hospitality or lower. Dragonmarked Hospitality gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Hospitality.<br>A spell cast by Dragonmarked Hospitality doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HOSPITALITY SPELL LIST</b><br>Level 1: Soothe<br>Level 2: Sleep, Charm<br>Level 3: Calm Emotions, Create Food<br>Level 4: Cozy Cabin, Enhance Victuals<br>Level 5: Enthral<br>Level 6: Suggestion<br>Level 7: Magnificent Mansion<br>Level 8: Moment of Renewal<br>Level 9: Resplendent Mansion<br><br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Hospitality up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Hospitality up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Hospitality up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Hospitality.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "83bfb19a-833b-4eee-bdb1-4a7a792a9e81",
+            "name": "Dragonmarked Hunter",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of finding, divination, 3rd Party",
+            "cast": "focus, somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Hunter, you can select a spell from the Dragonmarked Hunter spell list at the heightened level of Dragonmarked Hunter or lower. Dragonmarked Hunter gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Hunter.<br>A spell cast by Dragonmarked Hunter doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED HUNTER SPELL LIST</b><br>Level 2: Expeditious Excavation, Status<br>Level 3: Locate<br>Level 4: Wanderer's Guide<br>Level 5: Countless Eyes<br>Level 6: Scrying<br>Level 7: True Seeing<br>Level 8: Discern Location<br>Level 9: Unrelenting Observation<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Hunter up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Hunter up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Hunter up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Hunter.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "3fa08637-385a-4758-b838-5e7eaa8ed343",
+            "name": "Dragonmarked Mobility",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of passage, conjuration, 3rd Party",
+            "cast": "focus, somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Mobility, you can select a spell from the Dragonmarked Mobility spell list at the heightened level of Dragonmarked Mobility or lower. Dragonmarked Mobility gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Mobility.<br>A spell cast by Dragonmarked Mobility doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED MOBILITY SPELL LIST</b><br>Level 2: Fleet Step, Longstrider<br>Level 3: Safe Passage<br>Level 4: Haste<br>Level 5: Freedom of Movement, Dimension Door<br>Level 6: Return Beacon<br>Level 7: Teleport<br>Level 8: Ethereal Jaunt<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Mobility up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Mobility up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Mobility up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Mobility.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "df8592f7-9e07-4562-a133-1308a6296677",
+            "name": "Dragonmarked Scribe",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of scribing, illusion, 3rd Party",
+            "cast": "focus, somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Scribe, you can select a spell from the Dragonmarked Scribe spell list at the heightened level of Dragonmarked Scribe or lower. Dragonmarked Scribe gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Scribe.<br>A spell cast by Dragonmarked Scribe doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED SCRIBE SPELL LIST</b><br>Level 2: Imprint Message, Message Rune<br>Level 3: Comprehend Language<br>Level 4: Secret Page, Forgotten Lines<br>Level 5: Sending<br>Level 6: Hypercognition<br>Level 7: Telepathic Bond<br>Level 9: Mind Blank<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Scribe up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Scribe up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Scribe up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Scribe.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "4a54bae0-9fb8-4533-b36b-95f3abf794c6",
+            "name": "Dragonmarked Sentinel",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of sentinel, abjuration, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Sentinel, you can select a spell from the Dragonmarked Sentinel spell list at the heightened level of Dragonmarked Sentinel or lower. Dragonmarked Sentinel gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Sentinel.<br>A spell cast by Dragonmarked Sentinel doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED SENTINEL SPELL LIST</b><br>Level 2: Mage Armor, Sanctuary<br>Level 3: Resist Energy<br>Level 4: Fire Shield<br>Level 5: Rebounding Barrier<br>Level 6: Scintillating Safeguard<br>Level 7: Wall of Force<br>Level 8: Spell Turning<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Sentinel up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Sentinel up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Sentinel up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Sentinel.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "ace58726-54b8-478d-9c88-50c0491d26b5",
+            "name": "Dragonmarked Shadow",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of shadow, illusion, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Shadow, you can select a spell from the Dragonmarked Shadow spell list at the heightened level of Dragonmarked Shadow or lower. Dragonmarked Shadow gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Shadow.<br>A spell cast by Dragonmarked Shadow doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED SHADOW SPELL LIST</b><br>Level 2: Pass Without Trace, Penumbral Shroud<br>Level 3: Darkness, Invisibility, Mirror Image<br>Level 4: Hypnotic Pattern<br>Level 5: Illusory Scene<br>Level 6: Blanket of Stars<br>Level 7: Mislead<br>Level 8: Project Image<br>Level 9: Disappearance<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Shadow up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Shadow up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Shadow up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Shadow.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "446e9c89-4ea0-49df-996e-5d1d85072c4a",
+            "name": "Dragonmarked Stormbringer",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of storm, evocation, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Stormbringer, you can select a spell from the Dragonmarked Stormbringer spell list at the heightened level of Dragonmarked Stormbringer or lower. Dragonmarked Stormbringer gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Stormbringer.<br>A spell cast by Dragonmarked Stormbringer doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED STORMBRINGER SPELL LIST</b><br>Level 2: Gust of Wind, Personal Rain Cloud<br>Level 3: Obscuring Mist<br>Level 4: Wall of Wind<br>Level 5: Air Walk, Solid Fog<br>Level 6: Fly, Control Water<br>Level 7: Lightning Storm<br>Level 8: Wind Walk<br>Level 9: Punishing Winds<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Stormbringer up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Stormbringer up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Stormbringer up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Stormbringer.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "228c5921-d5a7-4751-bd14-b87312bb0071",
+            "name": "Dragonmarked Warder",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of warding, abjuration, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>With a concentrated effort to bend the powers of your mark, you can replicate the effects of a spell.<br>When you begin to cast Dragonmarked Warder, you can select a spell from the Dragonmarked Warder spell list at the heightened level of Dragonmarked Warder or lower. Dragonmarked Warder gains the traits of the selected spell, then you may replicate the spell's effect by completing the Cast a Spell activity using the selected spell's number of actions. The replicated spell is automatically heightened to the level of Dragonmarked Warder.<br>A spell cast by Dragonmarked Warder doesn’t require material or verbal components but always requires a dragonmark and somatic component. If the spell requires a focus, you must still have that focus to cast the spell, and if the spell has a cost, you must still pay that cost to cast the spell.<br><br><b>DRAGONMARKED WARDER SPELL LIST</b><br>Level 2: Alarm, Lock, Tether<br>Level 3: Knock, Magical Fetters<br>Level 4: Circle of Protection, Glyph of Warding<br>Level 5: Dimensional Anchor, Private Sanctum<br>Level 6: Wall of Stone<br>Level 7: Dimensional Lock<br>Level 8: Force Cage<br>Level 9: Disappearance<br><br><b>Heightened (3rd)</b> You may cast Dragonmarked Warder up to twice per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (6th)</b> You may cast Dragonmarked Warder up to three times per day. Only one of these casts may be from the heightened level 4 or above.<br><br><b>Heightened (7th)</b> You may cast Dragonmarked Warder up to three times per day. Only one of these casts may be from the heightened level 6 or above.<br><br><b>Heightened (9th)</b> Spells of the third heightened level or lower do not count against the frequency of Dragonmarked Warder.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "16853d03-8d6e-4d59-a1cc-cb9af4c3e351",
+            "name": "Eyes of the Finder",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of finding, divination, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "While this spell is sustained, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have if you don't already have it. This special sight lasts for 1 minute. During that time, you perceive objects as ghostly, transparent images. The spell can see through most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt. You then become immune to the eyes of the finder for 24 hours.<br><br><b>Heightened (3rd)</b> You can see through twice the thickness of materials. Any amount of lead still blocks your vision.<br><br><b>Heightened (5th)</b> You do not need to sustain Eyes of the Finder.<br><br><b>Heightened (6th)</b> You become immune to Eyes of the Finder for only 1 hour after the spell ends.<br><br><b>Heightened (7th)</b> The duration becomes 10 minutes.<br><br><b>Heightened (9th)</b> You do not become immune to Eyes of the Finder after the spell ends.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 1 minute"
+        },
+        {
+            "uniqueID": "3b7563de-8dfe-458b-83c4-af84468c7210",
+            "name": "Feral Blessing",
+            "type": "Focus",
+            "level": 4,
+            "traits": "dragonmark, mark of handling, abjuration, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "Grant a willing creature a +1 status bonus either Strength or Dexterity, selected when you cast the spell.<br><br><b>Heightened (+3)</b> The status bonus increases by 1",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "1 willing creature",
+            "duration": "Sustained up to 1 minute",
+            "range": "30 feet"
+        },
+        {
+            "uniqueID": "3414a02d-8f3a-41c0-8ec4-a45fd65afb9a",
+            "name": "Guard and Seal",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of warding, abjuration, 3rd Party",
+            "actions": 3,
+            "cast": "somatic",
+            "descriptionHeightened": "You draw upon your powers of warding to guard the presence of an item. Once the spell has been cast, you can choose to make the item come under the effects of Invisible Item If the target is magical, you can choose to also have it appear as entirely non-magical.<br><br>If a caster uses Detect Magic or Read Aura of an equal or higher level than this spell, the GM can roll a secret counteract check for them to see the presence of this ward.<br><br>If a creature interacts with the item, you immediately become aware of this fact.<br><br><b>Heightened (3rd) </b>You may target 1 object of 1 bulk or less.<br><br><b>Heightened (4th) </b>The object is additionally warded as if was behind running water and a thin sheet of lead to any magical effects that would attempt to locate it.<br><br><b>Heightened (6th)</b> You can target 1 object of 3 bulk or less. You can target a creature instead of an object. When you do, you can conceal the auras of all magic items it has.<br><br><b>Heightened (8th) </b>The duration is permanent until the object moves more than 15 feet from its starting location. You may target up to 10 items at once in this way. You can dismiss this spell.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "f83c5d37-4982-4227-b642-bee30cff1d64",
+            "name": "Guidance of the Healer",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of healing, necromancy, 3rd Party",
+            "actions": 2,
+            "cast": "focus, verbal",
+            "descriptionHeightened": "With a subtle manipulation of the powers of your mark, you can assist a creature in resisting maladies and wounds.<br><br>The creature gains a +1 status bonus to any healing it receives. If the creature is making a saving throw against a persistent effect, poison, or a disease, it gains a +1 status bonus to its save (and this spell counts for assisted recovery against persistent effects). If the creature has the dying condition, it loses the dying condition, though it remains unconscious at 0 Hit Points.<br><br>The target is then immune to the Guidance of the Healer for 1 hour.<br><br><b>Heightened (+2)</b> The status bonus to healing received increases by 1<br><br><b>Heightened (5th)</b> The status bonus to saves increases to +2<br><br><b>Heightened (9th)</b> The status bonus to saves increases to +3",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "1 creature",
+            "duration": "until the start of your next turn",
+            "range": "30 feet"
+        },
+        {
+            "uniqueID": "faaed135-a3fe-4d5a-884f-ada4149cdb89",
+            "name": "Healer's Intuition",
+            "type": "Focus",
+            "traits": "dragonmark, mark of healing, necromancy, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to better mend wounds. When you Cast the Spell, any time you Recall Knowledge (Medicine), Administer First Aid, Battle Medicine, Treat Disease, Treat Poison, or Treat Wounds you gain a +1 status bonus to the skill or perception used for the roll. This bonus remains as long as you Sustain the Spell.<br><br><b>Heightened (3rd)</b> You do not need to sustain Healer's hand.<br><br><b>Heightened (5th)</b> The bonus increases to +2.<br><br><b>Heightened (7th) </b>The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "self",
+            "duration": "sustained up to 10 minutes",
+            "range": "personal"
+        },
+        {
+            "uniqueID": "47a123e8-d55f-484f-ba72-10783469bb5a",
+            "name": "Healing Word",
+            "type": "Focus",
+            "traits": "dragonmark, healing, mark of healing, positive, necromancy, 3rd Party",
+            "actions": 1,
+            "cast": "focus, somatic, verbal",
+            "descriptionHeightened": "You call upon your dragonmark's power to heal the wounded. Your dragonmark channels a burst of positive energy, healing a living creature. If you use healing word on a living target, they restore 4 Hit Points.<br><br><b>Heightened (+1)</b> The amount of healing increases by 4.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "1 living creature",
+            "range": "30 Feet",
+            "area": "30 emanation"
+        },
+        {
+            "uniqueID": "73f58410-d678-4614-909f-74798ae95f21",
+            "name": "Homely Touch",
+            "type": "Focus",
+            "level": 2,
+            "traits": "cantrip, dragonmark, mark of hospitality, enchantment, 3rd Party",
+            "cast": "focus, somatic",
+            "descriptionHeightened": "<b>Cast</b> see replicated spell; dragonmark, somatic<br><br>With a subtle manipulation of the powers of your mark, you can replicate simple cantrips to aid you. <br><br>When you cast Homely Touch, you can choose Mage Hand or Prestidigitation. Homely Touch gains the traits of the cast cantrip. You then replicate the cantrip's effect by completing the Cast a Spell activity using the normal number of actions. These cantrips are automatically heightened to the level of this spell. <br><br>A spell cast by Homely Touch doesn't require material or verbal components but always requires a dragonmark and somatic component.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "6906db54-2f35-491f-ab10-48e2288b02f9",
+            "name": "Hunter's Intuition",
+            "type": "Focus",
+            "traits": "dragonmark, mark of finding, divination, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to better locate objects. When you Cast the Spell, any time you Recall Knowledge (Lore), Identify Magic, Seek, Sense Direction, Subsist, or Track. You gain a +1 status bonus to the skill or Perception used for the roll, and this bonus remains as long as you Sustain a Spell.<br><br><b>Heightened (3rd)</b> You do not need to sustain Hunter's Intuition.<br><br><b>Heightened (5th)</b> The bonus increases to +2.<br><br><b>Heightened (7th)</b> The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 10 minutes"
+        },
+        {
+            "uniqueID": "7f662045-3cb0-4ee9-9931-d364693b329e",
+            "name": "Inanimate Animation",
+            "type": "Focus",
+            "traits": "cantrip, dragonmark, mark of making, conjuration, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> (dragonmark, somatic)<br><br><b>Range</b> touch; Target one object of 1 bulk or less<br><br>With a touch of animation from your dragonmark, you can bring a minor construction to life. You can create a simple gadget with limited functionality, similar in power to prestidigitation or ghost sound. These objects are Bulk L; Hardness 1; HP (BT) 2 (1) and cease functioning when broken. Given their temporary nature, these objects have no value.<br><br>Examples of these simple gadgets include the following:<br><br>- Small clockwork animals, monsters, or people, such as a frog, mouse, bird, dragon, that moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.<br>- A Small fire starter which can produce a miniature flame. Sufficient to light a candle, torch, or campfire.<br>- A Music Box which plays a single song at a moderate volume when opened, and finishes when closed or at the end of the song.<br>- A small light that sheds bright light in a 5-foot radius and dim light for an additional 5 feet.<br>- A small message relay, which whenever tapped by a creature the object emits a 5 word long recorded message that can be heard up to 10 feet away.<br>- A small censer that continuously emits your choice of an odour or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away.<br>- A small visual effect on the construct's surface, which can be up to 25 words of text, lines and shapes, or a mixture of these elements, as you like.<br><br>The chosen property lasts indefinitely, or until dismissed by you with a touch. You can bestow magic on multiple objects, touching one object each time you use this feature, though a single object can only bear one property at a time. If you try to exceed 3 active objects, the oldest property immediately ends, and then the new property applies.<br><br><b>Heightened (+1)</b> you may have 1 additional active object at a time.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "one object of 1 bulk or less (up to 3 at a time)",
+            "range": "touch"
+        },
+        {
+            "uniqueID": "e6c55e9e-3ed6-4145-8d92-cdc02d436cf2",
+            "name": "Induce Chaos",
+            "type": "Focus",
+            "traits": "aberrant feedback, aberrant mark, dragonmark, enchantment, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> dragonmark, somatic<br><br><b>Range</b> 30 feet; <b>Targets</b> 1 creature<br><br><b>Saving Throw</b> Will<br><br>The target is subject to a random condition as its senses, mind, or body are twisted. The effects are determined by the target's Will save. Regardless of the result, the value of the condition caused by this spell is reduced by one at the end of each of the creature's turns. Roll 1d4 and consult below<br><br>INDUCE CHAOS TABLE<br>1: Stupified<br>2: Enfeebled<br>3: Clumsy<br>4: Stunned<br><br><b>Critical Success</b> The target is unaffected.<br><br><b>Success</b> The target takes a random condition from the table at value 1.<br><br><b>Failure</b> The target takes a random condition from the table, however the condition value is 2.<br><br><b>Critical Failure</b> The target takes a random condition from the table, however the condition value is 3.<br><br><b>Heightened (4th)</b> you may target 2 creatures at once<br><br><b>Heightened (8th)</b> you may target 4 creatures at once<br><br><b>Heightened (10th)</b> you may target all creatures within 30 feet at once",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "1 creature",
+            "duration": "Sustained up to 1 minute",
+            "range": "30 Feet",
+            "save": "will"
+        },
+        {
+            "uniqueID": "18b846dc-2280-4978-8173-85a85982858c",
+            "name": "Innkeeper's Magic",
+            "type": "Focus",
+            "traits": "dragonmark, mark of hospitality, enchantment, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to better interact with others. When you Cast the Spell, you can Recall Knowledge (Society), Gather Information, Make an Impression, or Request. You gain a +1 status bonus to the skill used for the roll, and this bonus remains as long as you Sustain the Spell.<br><br><b>Heightened (3rd)</b> You do not need to sustain Innkeeper's Magic.<br><br><b>Heightened (5th)</b> The bonus increases to +2.<br><br><b>Heightened (7th)</b> The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "sustained up to 10 minutes"
+        },
+        {
+            "uniqueID": "e3c0f9df-f9cc-4c24-9d3b-c8169615f1e7",
+            "name": "Kindle Friendship",
+            "type": "Focus",
+            "traits": "dragonmark, emotion, linguistic, mark of hospitality, mental, enchantment, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic, verbal",
+            "descriptionHeightened": "With a warm handshake and a friendly smile, the powers of your dragonmark help others open themselves to you. If the creature is unwilling, they may make a will save. They gain a +4 circumstance bonus to this save if you or your allies recently threatened or were hostile to it. Creatures are always unaware that you have cast Kindle Friendship. The creature is immune to all future uses of Kindle Friendship from you.<br><br><b>Success</b> No change in attitude.<br><br><b>Failure</b> The creature's attitude towards you increases by one step.<br><br><b>Critical Failure</b> The creature's attitude towards you increases by two steps.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "1 creature",
+            "range": "touch",
+            "save": "reflex"
+        },
+        {
             "uniqueID": "06ec623d-6b71-4a2e-a96a-cab8af11751e",
             "name": "Link Mind",
             "type": "Cantrip",
@@ -2559,6 +3281,329 @@
             "duration": "10 minutes",
             "range": "30 feet",
             "save": "will"
+        },
+        {
+            "uniqueID": "5742669a-3eda-4a00-82c7-8b3601e5e8bb",
+            "name": "Long March",
+            "type": "Focus",
+            "level": 3,
+            "traits": "cantrip, dragonmark, mark of passage, mental, enchantment, 3rd Party",
+            "actions": 3,
+            "cast": "somatic",
+            "descriptionHeightened": "Your dragonmark sustains your allies' endurance, enabling longer travel. You and your allies in the area can Hustle for the spell's duration, even though you are also Sustaining the Spell. You and your allies then become temporarily immune for 1 day.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 1 hour",
+            "range": "60-foot emanation"
+        },
+        {
+            "uniqueID": "4ec77b8b-6eaf-4bc7-bde6-8de2402e521e",
+            "name": "Loremaster's Scribe",
+            "type": "Focus",
+            "traits": "dragonmark, fortune, mark of scribing, divination, 3rd Party",
+            "actions": 0,
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Trigger</b> You or an ally within range attempts a skill check to Recall Knowledge.<br><br><b>Effect</b> You call upon your muse's deep mysteries, granting the target a greater ability to think and recall information. Roll the triggering Recall Knowledge skill check twice and use the better result.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "you or the triggering ally",
+            "range": "30 feet"
+        },
+        {
+            "uniqueID": "2a01d9f6-cf0f-4e04-a874-2b213b6b411e",
+            "name": "Maker's Gift",
+            "type": "Focus",
+            "traits": "dragonmark, mark of making, conjuration, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to drive your creative crafting powers. When you Cast the Spell, any time you Repair, or Craft you gain a +1 status bonus to the skill or perception used for the roll. This bonus remains as long as you Sustain the Spell.<br><br><b>Heightened (3rd)</b>You do not need to sustain Maker's Gift.<br><br><b>Heightened (5th)</b>The bonus increases to +2.<br><br><b>Heightened (7th)</b>The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 10 minute"
+        },
+        {
+            "uniqueID": "d3a703eb-76ff-4731-a9da-4d8da9f99ed8",
+            "name": "Mask Dragonmark",
+            "type": "Focus",
+            "level": 2,
+            "traits": "aberrant feedback, aberrant mark, dragonmark, enchantment, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "You reshape the dragonmark to make it look like another true dragonmark or even mask its presence. This spell physically alters your dragonmark's appearance to either hide it on your skin or look like a different mark of equal or lesser power to a quick inspection. If you modify it to appear as another dragonmark, you do not gain any of the abilities of the other mark.<br><br>If you use any dragonmark focus spell with the Aberrant Feedback trait, this spell ends.<br><br><b>Heightened (+1)</b> the duration increases by 5 minutes",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "1 will creature with the dragonmark trait",
+            "duration": "10 Minutes",
+            "range": "Touch"
+        },
+        {
+            "uniqueID": "c74207b7-dcc4-4abf-8eab-5e1922d7ed2a",
+            "name": "Primal Connection",
+            "type": "Focus",
+            "traits": "dragonmark, mark of handling, enchantment, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to better interact with animals. When you Cast the Spell, any time you Recall Knowledge (Nature), or Command an Animal you gain a +1 status bonus to the skill used for the roll. If you target an animal, it gains a +1 status bonus to all skill checks that it makes. This bonus remains as long as you Sustain the Spell.<br><br><b>Heightened (3rd)</b> You do not need to sustain Primal Connection.<br><br><b>Heightened (5th)</b> The bonus increases to +2.<br><br><b>Heightened (7th)</b> The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 10 minutes"
+        },
+        {
+            "uniqueID": "7bb41ac6-68c6-48b5-aac7-7bacb07bfd09",
+            "name": "Rain Cloud",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of storm, evocation, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "You can condense the humidity in the air and bring down precipitation. Depending on the region and weather, this may bring down rain or snow. The spell does not require sustainment, however if you use the Sustain a Spell action on this spell, you may move the area of effect 15 feet in a direction you choose. Creatures in the area of precipitation are concealed. Creatures outside the area are concealed from those inside the area. If you are in an extremely arid area, the spell fails. You may dismiss this spell.<br><br>When the spell finishes, the area under the cloud becomes difficult snowy terrain if it was snowing, or non-magical fires are extinguished if it was raining.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "1 minute",
+            "range": "60 feet",
+            "area": "15 burst"
+        },
+        {
+            "uniqueID": "aeb4856f-cdca-41c9-b31c-e6f07c4428d8",
+            "name": "Relay",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, linguistic, mark of scribing, mental, illusion, 3rd Party",
+            "actions": 3,
+            "cast": "material, somatic",
+            "descriptionHeightened": "You enchant magical items to relay your messages. At any time after you have enchanted the items, you may choose to send a message to the item. If the item is attended, the creature currently in possession of the item receives your spoken word - up to 25 words. The creature can then respond immediately with a message of 25 words or fewer. Once the item has been used in this way, it may not be used again for 24 hours. When you cast this spell again, for each new item you must choose a previous item to lose its enchantment.<br><br><b>Heightened (+2)</b> you may enchant one additional item.<br><br><b>Heightened (5th) </b>the item may transmit again after only 1 hour has passed.<br><br><b>Heightened (8th) </b>the item may transmit again after only 1 minute has passed.<br><br>",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "one mundane item",
+            "range": "touch"
+        },
+        {
+            "uniqueID": "8fb245e0-0cfb-4381-88a8-6a2c2fa656f8",
+            "name": "Scribe's Insight",
+            "type": "Focus",
+            "traits": "dragonmark, mark of scribing, illusion, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to transcribe ease. When you Cast the Spell, any time you Borrow an Arcane Spell, Create Forgery, Decipher Writing, Learn a Spell, or Recall Knowledge (Lore) you gain a +1 status bonus to the skill or perception used for the roll. This bonus remains as long as you Sustain the Spell.<br><br><b>Heightened (3rd)</b> You do not need to sustain Scribe's Insight.<br><br><b>Heightened (5th)</b>The bonus increases to +2.<br><br><b>Heightened (7th)</b>The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 10 minute"
+        },
+        {
+            "uniqueID": "53382ea9-4236-46d4-b10c-841689b435be",
+            "name": "Sentinel's Defense",
+            "type": "Focus",
+            "level": 2,
+            "traits": "dragonmark, mark of sentinel, abjuration, 3rd Party",
+            "actions": 1,
+            "cast": "somatic",
+            "descriptionHeightened": "You draw from the power of your dragonmark to better defend a creature. The target gains a +2 status bonus to AC",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "target": "1 willing living creature",
+            "duration": "sustained up to 1 minute",
+            "range": "touch"
+        },
+        {
+            "uniqueID": "8ff34e5f-498d-4a22-bc3e-325dc529c77e",
+            "name": "Sentinel's Intuition",
+            "type": "Focus",
+            "traits": "dragonmark, mark of sentinel, abjuration, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to heighten your awareness of danger. When you Cast the Spell, any time you disarm, grapple, shove, trip, or roll initiative you gain a +1 status bonus to the skill or perception used for the roll. This bonus remains as long as you Sustain the Spell.<br><br><b>Heightened (3rd)</b> You do not need to sustain Sentinel's Intuition.<br><br><b>Heightened (5th)</b> The bonus increases to +2.<br><br><b>Heightened (7th)</b> The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 10 minute"
+        },
+        {
+            "uniqueID": "d98eba19-a1d2-4f7a-9f94-e8e8440c86d8",
+            "name": "Shadow's Veil",
+            "type": "Focus",
+            "traits": "dragonmark, mark of shadow, illusion, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to weave illusions. When you Cast the Spell, any time you Perform, Hide, Sneak, or roll Initiative (stealth) you gain a +1 status bonus to the skill or perception used for the roll. This bonus remains as long as you Sustain the Spell.<br><br><b>Heightened (3rd)</b> You do not need to sustain Shadow's Veil.<br><br><b>Heightened (5th)</b> The bonus increases to +2.<br><br><b>Heightened (7th)</b> The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 10 minute"
+        },
+        {
+            "uniqueID": "8c6f1d28-221b-403e-b9b9-64023ef61067",
+            "name": "Shield of Ghallanda",
+            "type": "Focus",
+            "level": 3,
+            "traits": "dragonmark, mark of hospitality, abjuration, 3rd Party",
+            "actions": -1,
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Trigger </b>A creature makes a melee strike against you.<br><br>The power of your dragonmark turns your diplomacy into your shield. You gain a +1 status bonus to your AC against the strike.<br><br><b>Heightened (6th)</b> The status bonus becomes +2<br><br><b>Heightened (9th)</b> The status bonus becomes +3",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Immediate"
+        },
+        {
+            "uniqueID": "c2ceab1d-ea9e-4d13-96b1-832639e82215",
+            "name": "Siberys' Reconstruction",
+            "type": "Focus",
+            "level": 10,
+            "traits": "dragonmark, mark of making, conjuration, 3rd Party",
+            "cast": "somatic",
+            "descriptionHeightened": "With the powers of your mark, you can restore any item to its full grandeur. You can restore an item as if you cast the Remake spell.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "range": "5 feet"
+        },
+        {
+            "uniqueID": "81f0d689-f277-4e1e-af10-18a91a9dfeed",
+            "name": "Siberys' Sentinel",
+            "type": "Focus",
+            "level": 10,
+            "traits": "dragonmark, mark of sentinel, abjuration, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "Channelling the power of your mark, you ward yourself from damage in a shimmering golden aura, becoming indestructible. For the duration of the spell, you are immune to any effect or damage that would harm you, excluding effects caused by artefacts, deific power, and similarly powerful sources. You can still be affected by anything you're willing to have affect you.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "until the start of your next turn"
+        },
+        {
+            "uniqueID": "a8efaf93-1976-44af-b3c4-db25d23ca1e4",
+            "name": "Spell Guard",
+            "type": "Focus",
+            "level": 4,
+            "traits": "dragonmark, mark of sentinel, mark of warding, evocation, 3rd Party",
+            "actions": -1,
+            "cast": "material, somatic, verbal",
+            "descriptionHeightened": "<b>Trigger </b>A creature you can see casts a spell<b><br><br>Frequency</b> The strain of bending your dragonmark to counter a spell is so great, that you can only cast this spell once per 24 hours - even if you have focus points to cast it with.<br><br>You may immediately make a counteract check against the triggering spell.<br><br><b>Heightened (8th)</b> When you successfully counteract a spell that affects targeted creatures or an area, you can turn that spell's effect back on its caster. When reflected, the spell affects only the original caster, even if it's an area spell or it would normally affect more than one creature. The original caster can attempt a save and use other defences against the reflected spell as normal.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228"
+        },
+        {
+            "uniqueID": "d30849c3-fde0-4eed-9457-405cb5a70d4f",
+            "name": "Storm's Riposte",
+            "type": "Focus",
+            "traits": "dragonmark, mark of storm, evocation, 3rd Party",
+            "actions": -1,
+            "cast": "somatic",
+            "descriptionHeightened": "As an enemy strikes at you, the power of your mark strikes back - lightning arcs into the target. You deal electricity damage equal to 1d4 plus your spellcasting ability modifier.<br><br><b>Heightened (+1)</b> The damage increases by 1d4.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "save": "reflex"
+        },
+        {
+            "uniqueID": "525a4993-645e-47c4-84c7-1f68b25f6948",
+            "name": "Summon Living Dragonmark",
+            "type": "Focus",
+            "level": 7,
+            "traits": "dragonmark, conjuration, 3rd Party",
+            "actions": 3,
+            "cast": "material, somatic, verbal",
+            "descriptionHeightened": "You summon a writhing mass of energy in a dragonlike form, a three-dimensional projection of your dragonmark. A living dragonmark appears where you designate within the spell's range. Aberrant mark summons gains the Negative trait, while true mark summons gains the Positive trait.<br><br>b>Heightened (+1)</b> the level of the Greater Living Dragonmark summoned increases by 2. Its AC, DCs, and Saves increase by the equivalent amount.<br><br><b>Heightened (9th)</b> If you have a Siberys mark, you summon a Siberys Living Dragonmark instead of a Greater Living Dragonmark",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "sustained up to 1 minute",
+            "range": "30 feet"
+        },
+        {
+            "uniqueID": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+            "name": "Warded Reflex",
+            "type": "Focus",
+            "traits": "dragonmark, mark of detection, mark of passage, abjuration, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "You substitute your reflex for the creature for the duration of the spell, when the creature makes a reflex save, the creature may choose to use your reflex save rather than their own.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "1 minute",
+            "range": "touch"
+        },
+        {
+            "uniqueID": "dc6bd270-c1af-4289-8b51-318eccefd203",
+            "name": "Warded Resilience",
+            "type": "Focus",
+            "traits": "dragonmark, mark of sentinel, mark of warding, abjuration, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "You substitute your resilience for the creature for the duration of the spell, when the creature makes a fortitude save, the creature may choose to use your fortitude save modifier rather than their own.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "1 minute",
+            "range": "touch"
+        },
+        {
+            "uniqueID": "f413d262-a88e-497d-b6a9-f2a2367aa062",
+            "name": "Warded Willpower",
+            "type": "Focus",
+            "traits": "dragonmark, mark of healing, mark of hospitality, abjuration, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "You substitute your willpower for the creature for the duration of the spell, when the creature makes a will save, the creature may choose to use your will save modifier rather than their own.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "1 minute",
+            "range": "touch"
+        },
+        {
+            "uniqueID": "93d7466a-8bd1-480f-8c32-2d17beedcd45",
+            "name": "Warder's Intuition",
+            "type": "Focus",
+            "traits": "dragonmark, mark of shadow, illusion, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to ward off attacks. When you Cast the Spell, any time you Disable a Device, or Pick a Lock, Seek to Detect a Hazard or Search you gain a +1 status bonus to the skill or perception used for the roll. This bonus remains as long as you Sustain the Spell. If you craft an object with a stealth DC, the DC is increased by 1.\n<hr style=\"border-top:1px solid var(--color-border-light-primary);border-bottom:1px solid var(--color-border-light-highlight)\" />\n<b>Heightened (3rd)</b>You do not need to sustain Warder's Intuition.<br><br><b>Heightened (5th)</b>The bonus increases to +2.<br><br><b>Heightened (7th)</b>The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 10 minute"
+        },
+        {
+            "uniqueID": "0482b969-c0d2-4723-91a0-109c182505b8",
+            "name": "Windwright's Intuition",
+            "type": "Focus",
+            "traits": "dragonmark, mark of storm, evocation, 3rd Party",
+            "actions": 2,
+            "cast": "focus, somatic",
+            "descriptionHeightened": "You call upon your dragonmark's power to aid your reflex and skill. When you Cast the Spell, any acrobatics actions with the Move trait, Piloting checks, or Sailing checks on a sea or air vehicles gain a +1 status bonus. This bonus remains as long as you Sustain the Spell.<br><br><b>Heightened (3rd)</b> You do not need to sustain Windwright's Intuition.<br><br><b>Heightened (5th)</b> The bonus increases to +2.<br><br><b>Heightened (7th)</b> The duration is 1 hour.<br><br><b>Heightened (9th)</b> The bonus increases to +3.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "duration": "Sustained up to 10 minute"
+        },
+        {
+            "uniqueID": "ef474c21-0de7-48bb-aed0-6a536b8c49e5",
+            "name": "Wrath of Khyber",
+            "type": "Focus",
+            "level": 10,
+            "traits": "aberrant feedback, aberrant mark, acid, air, cold, dragonmark, earth, electricity, fire, water, evocation, 3rd Party",
+            "actions": 2,
+            "cast": "somatic",
+            "descriptionHeightened": "<b>Cast</b> dragonmark, somatic<br><br><b>Range</b> 1,000 feet; <b>Area</b> 60-foot burst<br><br><b>Saving Throw</b> basic Reflex<br><br><b>Frequency</b> The strain of bending your dragonmark to replicate a specific spell is so great, that you can only cast this spell once per day - even if you have focus points to cast it with.<br><br>Drawing on the violent powers of your mark, you may bring down destructive potential not seen since the days of the War of the Mark. You cast Cataclysm.",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1686136458228",
+            "range": "1,000 feet",
+            "save": "reflex",
+            "area": "60 burst"
         }
     ],
     "listCustomSpecial": [
