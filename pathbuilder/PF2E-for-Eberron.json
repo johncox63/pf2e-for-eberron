@@ -4479,6 +4479,325 @@
                     "string0": "GENERAL_Hefty Hauler"
                 }
             ]
+        },
+        {
+            "id": "36b3faef-55b3-47cd-931d-25003abc104c",
+            "name": "Aberrant Control",
+            "level": 3,
+            "reqFeats": [
+                "8c8b1e14-2e33-4c70-9613-04375a001abb"
+            ],
+            "textDescription": "You bring the powers of your Aberrant Mark under your control. When you cast a spell with the Aberrant Feedback trait, you may choose to ignore the effects of Aberrant Feedback.",
+            "traits": "Dragonmark, General, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690556445234"
+        },
+        {
+            "id": "3329bc19-9ccc-42e9-9759-cbf509ce6940",
+            "name": "Cannith Forgecraft",
+            "action": -1,
+            "reqFeats": [
+                "b97ac33d-6b63-496f-881b-b053ec857253",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "<b>Prerequisites</b> trained in Crafting<br><b>Frequency</b> once per day<br><b>Trigger</b> you fail a craft check.<br><br>The stubborn persistence you developed with Cannith training can sometimes salvage a failed construction. If you fail a craft check, you can reroll the check. You may select the better of the two rolls.",
+            "traits": "Fortune, General, Skill, 3rd Party",
+            "src": "PF2E for Eberron",
+            "hashMapRequiredProficiences": {
+                "Crafting": 2
+            },
+            "databaseID": 1,
+            "timestamp": "1690553559068"
+        },
+        {
+            "id": "524eb23b-7293-4312-9456-3e4ab06c5453",
+            "name": "Deneith Battle  Fortitude",
+            "action": -1,
+            "reqFeats": [
+                "74e289e9-c83e-48fe-85fd-822c323280ce",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "<b>Prerequisites</b> trained in Athletics<br><b>Frequency</b> once per day<br><b>Trigger</b> you fail an athletics check.<br><br>Your rigorous training in battlefield manoeuvres lets you push through failures. If you fail an Athletics check, you can reroll the check. You may select the better of the two rolls.",
+            "traits": "Fortune, General, Skill, 3rd Party",
+            "src": "PF2E for Eberron",
+            "hashMapRequiredProficiences": {
+                "Athletics": 2
+            },
+            "databaseID": 1,
+            "timestamp": "1690553736192"
+        },
+        {
+            "id": "309af273-b678-4e73-a70f-8698b172a064",
+            "name": "Deneith Battle Training",
+            "reqFeats": [
+                "74e289e9-c83e-48fe-85fd-822c323280ce",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "Thanks to your training, you are more difficult to push around on the battlefield. You gain a +1 circumstance bonus to saves to resist forced movement.",
+            "traits": "General, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690553817772"
+        },
+        {
+            "id": "3cb95331-77bb-40a1-99ac-25bc3e6e4764",
+            "name": "Dragonmarked Mastery",
+            "level": 11,
+            "action": -1,
+            "reqFeats": [
+                "8c8b1e14-2e33-4c70-9613-04375a001abb||8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "You can quickly channel the powers of your mark. If the next spell you cast is a dragonmark focus spell, reduce the number of actions to cast it by 1 (minimum 1 action).",
+            "traits": "Dragonmark, General, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690557873367"
+        },
+        {
+            "id": "b2b058ad-54ff-42cf-8e75-7687e4d78e40",
+            "name": "Eye of Medani",
+            "action": -1,
+            "reqFeats": [
+                "79a34a05-142b-4701-b0cb-8141f840f0fe",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "<b>Frequency</b> Once per day<br><b>Trigger</b> you fail a perception check.<br><br>Your eye for detail is enhanced by your training with house Medani. If you fail a perception check, you can reroll the check. You may select the better of the two rolls.",
+            "traits": "Fortune, General, Skill, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690553911799"
+        },
+        {
+            "id": "357eedfb-90ff-4189-ace9-0276640613b2",
+            "name": "Forewarned",
+            "level": 11,
+            "reqFeats": [
+                "79a34a05-142b-4701-b0cb-8141f840f0fe",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "Your dragonmark maintains your awareness of the world around you at all times, you gain a +1 status bonus to your perception. In addition, you are never flat-footed to hidden enemies.",
+            "traits": "Dragonmark, General, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690557809166",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Perception",
+                    "bonusType": 1,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "id": "c08ce751-b86b-4fa6-9508-440fef7e9d15",
+            "name": "Grace of Ghallanda",
+            "action": -1,
+            "reqFeats": [
+                "23a49295-b9a0-4cac-a34b-e5403843fdcb",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "<b>Prerequisites</b> trained in Diplomacy<br><b>Frequency</b> once per day<br><b>Trigger</b> you fail a diplomacy check.<br><br>Formal training with house Ghallanda allows you to upkeep your social grace. If you fail a Diplomacy check, you can reroll the check. You may select the better of the two rolls.",
+            "traits": "Fortune, General, Skill, 3rd Party",
+            "src": "PF2E for Eberron",
+            "hashMapRequiredProficiences": {
+                "Diplomacy": 2
+            },
+            "databaseID": 1,
+            "timestamp": "1690555089315"
+        },
+        {
+            "id": "132275bd-5fa9-461c-a3de-333954dda778",
+            "name": "Jorasco Treatment",
+            "action": -1,
+            "reqFeats": [
+                "6d2eab85-a9d1-416d-8835-f40bff6e0da5",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "<b>Prerequisites</b> trained in Medicine<br><b>Frequency</b> once per day<br><b>Trigger</b> you fail a medicine check.<br><br>Your training in the infirmaries of Jorasco improves your skill with medicine. If you fail a Medicine check, you can reroll the check. You may select the better of the two rolls.",
+            "traits": "Fortune, General, Skill, 3rd Party",
+            "src": "PF2E for Eberron",
+            "hashMapRequiredProficiences": {
+                "Medicine": 2
+            },
+            "databaseID": 1,
+            "timestamp": "1690555533711"
+        },
+        {
+            "id": "7853a1bc-e091-40ba-84fd-831fd479a01e",
+            "name": "Khyber's Reaper",
+            "level": 7,
+            "action": -1,
+            "reqFeats": [
+                "8c8b1e14-2e33-4c70-9613-04375a001abb"
+            ],
+            "textDescription": "<b>Frequency</b> once per day<br><b>Trigger</b> You reduce an enemy to 0 Hit Points with the powers of your mark.<br><br>As your powers wreak havoc, your mark reaps the chaos. You instantly regain 1 focus point.",
+            "traits": "General, Dragonmark, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690556957775"
+        },
+        {
+            "id": "80540fa3-214e-49da-9f55-0e593c0c1748",
+            "name": "Kundarak Insight",
+            "reqFeats": [
+                "b9217e45-051a-41eb-bab7-e49d1c9d3bdb",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "The development of Kundarak interests has granted you insight into the placement of structure wards and defenses. You become trained in Security lore. At 3rd, 6th, and 13th levels, you gain an additional skill increase to Security lore.",
+            "traits": "General, Skill, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690555800630",
+            "listCustomEffects": [
+                {
+                    "effectType": 14,
+                    "string0": "GENERAL_Additional Lore"
+                }
+            ]
+        },
+        {
+            "id": "9a2e8efe-37c1-4cb0-960d-9d99bad88d64",
+            "name": "Lyrandar Captain",
+            "reqFeats": [
+                "df236d43-b4fe-4082-bdae-a5717920f314",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "You were trained in the navigation and piloting of Lyrandar ships. You become trained in Sailing lore. At 3rd, 6th, and 13th levels, you gain an additional skill increase to Sailing lore. Additionally, if you have a Mark of Storm you may sail elemental ships using Lyrandar focus items.",
+            "traits": "General, Skill, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690555889684",
+            "listCustomEffects": [
+                {
+                    "effectType": 14,
+                    "string0": "GENERAL_Additional Lore"
+                }
+            ]
+        },
+        {
+            "id": "48eefe9c-0c40-42e4-967c-f59613053016",
+            "name": "Lyrandar Stormrider",
+            "action": -1,
+            "reqFeats": [
+                "df236d43-b4fe-4082-bdae-a5717920f314",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "<b>Prerequisites</b> trained in Acrobatics<br><b>Frequency</b> once per day<br><b>Trigger</b> you fail an acrobatics check.<br><br>Hard training on ships in all conditions improves your balance. If you fail an Acrobatics check, you can reroll the check. You may select the better of the two rolls.",
+            "traits": "Fortune, General, Skill, 3rd Party",
+            "src": "PF2E for Eberron",
+            "hashMapRequiredProficiences": {
+                "Acrobatics": 2
+            },
+            "databaseID": 1,
+            "timestamp": "1690555978787"
+        },
+        {
+            "id": "11ca5bc2-5341-49de-a7ae-a53541447da6",
+            "name": "Mark of Vermin",
+            "level": 3,
+            "reqFeats": [
+                "8c8b1e14-2e33-4c70-9613-04375a001abb"
+            ],
+            "textDescription": "Your aberrant dragonmark gives you a natural affinity for vermin. When you use a spell that can target individual animals such as Possession or Summon Animal, you may ignore the swarm mind immunity of swarms, and target swarms as an individual creature.",
+            "traits": "Dragonmark, General, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690556515952"
+        },
+        {
+            "id": "a5bf9f2c-7a79-4b35-9d9d-cbe67d9575ab",
+            "name": "Orien Battlestep",
+            "level": 7,
+            "action": 0,
+            "reqFeats": [
+                "1898a15a-d8be-4c98-a46f-2b147f6a2ce8",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "<b>Trigger</b> An enemy you can see misses a melee strike against you.<br><br>You have been trained to make your way through any danger that may be encountered on the road. When an enemy misses a melee strike against you, you may immediately step.",
+            "traits": "General, Dragonmark, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690557033754"
+        },
+        {
+            "id": "2f136528-4af9-410d-82e6-76c632f0ca4e",
+            "name": "Scribe's Eye",
+            "level": 3,
+            "reqFeats": [
+                "b417ea7d-8597-42fe-969b-413f3052fc7c",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "With an eye for the magic of symbols, you gain a +2 status bonus to detect arcane symbols such as Sigil or Glyph of Warding. When you come within 15 feet of a hidden symbol, the GM makes a secret check for you to detect them, even if you didn't spend an action to Seek for the symbol.",
+            "traits": "Dragonmark, General, Skill, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690556573507"
+        },
+        {
+            "id": "985cabd5-2a16-48f3-991d-0e4572e40b65",
+            "name": "Shield of Siberys",
+            "reqFeats": [
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "Your dragonmark protects you against the powers of those cursed with aberrant dragonmarks. If a creature with an aberrant dragonmark comes within 60 feet of you, it becomes undetected to you unless it has taken special precautions.",
+            "traits": "Dragonmark, General, True Dragonmark, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690556053491"
+        },
+        {
+            "id": "b9aaabb0-421e-4390-a1ba-88e72fa42033",
+            "name": "Test of Siberys",
+            "level": 3,
+            "reqFeats": [
+                "79a34a05-142b-4701-b0cb-8141f840f0fe||25adc5b7-83f7-4a51-9e23-d5b5c03f9d05||3a6cb123-d5f0-4b5c-93eb-bf5f831fa92b||6d2eab85-a9d1-416d-8835-f40bff6e0da5||23a49295-b9a0-4cac-a34b-e5403843fdcb||b97ac33d-6b63-496f-881b-b053ec857253||1898a15a-d8be-4c98-a46f-2b147f6a2ce8||b417ea7d-8597-42fe-969b-413f3052fc7c||74e289e9-c83e-48fe-85fd-822c323280ce||f4b3d2db-2b85-42ff-94fe-b6e7ba561d46||df236d43-b4fe-4082-bdae-a5717920f314||b9217e45-051a-41eb-bab7-e49d1c9d3bdb"
+            ],
+            "textDescription": "<b>Prerequisites</b>You do not have a Dragonmark, Access to the Test of Siberys<br><br>If you choose the Test of Siberys, your character must undergo the test associated with their mark. If you succeed, gain the Least Mark ancestry feat.",
+            "traits": "General, Unique, 3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1690556867790",
+            "listCustomEffects": [
+                {
+                    "effectType": 14,
+                    "string0": "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+                }
+            ]
+        },
+        {
+            "id": "0af9cd54-4054-4f21-bae5-d23e3f74e807",
+            "name": "Tharashk Survivalist",
+            "action": -1,
+            "reqFeats": [
+                "25adc5b7-83f7-4a51-9e23-d5b5c03f9d05",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "<b>Prerequisites</b> trained in Survival<br><b>Frequency</b> once per day<br><b>Trigger</b> you fail a survival check.<br><br>Your training with Tharashk provided you with the training to make the best of a bad survival situation. If you fail a Survival check, you can reroll the check. You may select the better of the two rolls.",
+            "traits": "Fortune, General, Skill, 3rd Party",
+            "src": "PF2E for Eberron",
+            "hashMapRequiredProficiences": {
+                "Survival": 2
+            },
+            "databaseID": 1,
+            "timestamp": "1690556152619"
+        },
+        {
+            "id": "9d1fb0f3-9ea2-4e94-a574-6ee54e83f7b9",
+            "name": "Vadalis Instincts",
+            "action": -1,
+            "reqFeats": [
+                "3a6cb123-d5f0-4b5c-93eb-bf5f831fa92b",
+                "8d1ee195-68ee-4e86-9b29-227cc5c0e6c2"
+            ],
+            "textDescription": "<b>Prerequisites</b> trained in Nature<br><b>Frequency</b> once per day<br><b>Trigger</b> you fail a nature check.<br><br>Your training with animals and nature improves your ties to the primal world. If you fail a Nature check, you can reroll the check. You may select the better of the two rolls.",
+            "traits": "Fortune, General, Skill, 3rd Party",
+            "src": "PF2E for Eberron",
+            "hashMapRequiredProficiences": {
+                "Nature": 2
+            },
+            "databaseID": 1,
+            "timestamp": "1690556260358"
         }
     ],
     "listCustomHeritages": [
