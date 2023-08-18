@@ -6439,6 +6439,36 @@
     ],
     "listCustomSpecial": [
         {
+            "name": "Constructed Resistance",
+            "id": "73c8f32a-e84d-4012-ad1f-ad4dc0921768",
+            "description": "Your constructed body has advantages and disadvantages that most humanoid creatures do not. You gain a +1 circumstance bonus to saving throws against diseases and poisons. However, you are considered to be a creature composed entirely of wood and metal for the purposes of magical or other effects regardless of your integrated armor type. Your integrated armor and physical composition do not violate anathemas - such as the druid's anathema - against metals.<br><br><b>Pathbuilder Note</b> - please add this bonus as a Custom Buff",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1692143483223"
+        },
+        {
+            "name": "Emotionally Unaware",
+            "id": "a4cc21a4-c99a-4186-9e52-0873041b30dd",
+            "description": "Warforged find it difficult to understand and express complex emotions. You take a –1 circumstance penalty to Diplomacy, and Performance checks, and on Perception checks to Sense Motive.<br><br><b>Pathbuilder Note:</b> Please add the penalty to Sense Motive checks as a Custom Buff",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "databaseID": 1,
+            "timestamp": "1692143483223",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Diplomacy",
+                    "bonusType": 2,
+                    "bonusAmount": -1
+                },
+                {
+                    "proficiencyName": "Performance",
+                    "bonusType": 2,
+                    "bonusAmount": -1
+                }
+            ]
+        },
+        {
             "name": "Darkvision",
             "id": "01ffbbc0-c217-41bf-b1f4-c32f8ec983bb",
             "description": "You can see in darkness and dim light just as well as you can in bright light, though your vision in darkness is only black and white.",
