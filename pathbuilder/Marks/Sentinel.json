@@ -1,0 +1,66 @@
+{
+    "customPackID": "35b925d2-efe7-4571-897a-142752701ec3",
+    "customPackName": "pf2e-for-eberron",
+    "listCustomSpecial": [
+        {
+            "name": "Least Mark of Sentinel Spell Selection",
+            "id": "fed81f26-287e-4958-b45e-46608023462e",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 1
+        },
+        {
+            "name": "Lesser Mark of Sentinel Spell Selection",
+            "id": "5c7fb4b3-ca60-4f34-b0f3-2f4bbffd7b42",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 5
+        },
+        {
+            "name": "Mark of Sentinel Evolution Spell 1 Selection",
+            "id": "c1a47009-03a3-4dc8-935f-00c1ce079642",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 9
+        },
+        {
+            "name": "Mark of Sentinel Evolution Spell 2 Selection",
+            "id": "ef49d362-896e-4a36-8315-336836acb46e",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 9
+        },
+        {
+            "name": "Greater Mark of Sentinel Spell Selection",
+            "id": "b3befea8-7475-4624-b205-3ca623d196f0",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 13
+        },
+        {
+            "name": "Siberys Mark of Sentinel Spell Selection",
+            "id": "2fd9b7cf-a04d-4c10-a81b-91d961dc17eb",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 17
+        }
+    ]
+}

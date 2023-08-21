@@ -1,0 +1,66 @@
+{
+    "customPackID": "35b925d2-efe7-4571-897a-142752701ec3",
+    "customPackName": "pf2e-for-eberron",
+    "listCustomSpecial": [
+        {
+            "name": "Least Mark of Making Spell Selection",
+            "id": "903db4ee-02f2-4a0b-ba68-2b995c2b022f",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 1
+        },
+        {
+            "name": "Lesser Mark of Making Spell Selection",
+            "id": "115f287f-8fd4-4a38-987a-a0d6a8a1f0c2",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 5
+        },
+        {
+            "name": "Mark of Making Evolution Spell 1 Selection",
+            "id": "19451bd1-ce70-480f-a524-a95e4f386773",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 9
+        },
+        {
+            "name": "Mark of Making Evolution Spell 2 Selection",
+            "id": "f0e90343-247d-40df-96a1-736e1c30c583",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 9
+        },
+        {
+            "name": "Greater Mark of Making Spell Selection",
+            "id": "daf579f8-2e8b-4335-b7b2-eb792433ac02",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 13
+        },
+        {
+            "name": "Siberys Mark of Making Spell Selection",
+            "id": "bd662ed4-fa42-4a0a-a52c-a930cf5faf0e",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 17
+        }
+    ]
+}

@@ -1,0 +1,1194 @@
+{
+    "customPackID": "35b925d2-efe7-4571-897a-142752701ec3",
+    "customPackName": "pf2e-for-eberron",
+    "listCustomSpecial": [
+        {
+            "name": "Rank 1 - Deductive Intuition",
+            "id": "412da7c5-11b5-4af0-9493-5e98e7389515",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "87b618d7-ba3d-41d2-bef6-47f9d0b80429",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "30c7820b-33c4-4992-adeb-784a05f12ad1",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Deductive Intuition",
+            "id": "1bdbeac7-54d9-4a59-b8ec-ed8261216a77",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "ac164ddb-e790-4900-be61-68dbfb3e0501",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "30c7820b-33c4-4992-adeb-784a05f12ad1",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Deductive Intuition",
+            "id": "a0e921a3-6c59-4be1-a172-508106cdfe38",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "6e053205-eeb1-4008-8e10-6f1fbc5ac8f3",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "30c7820b-33c4-4992-adeb-784a05f12ad1",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Deductive Intuition",
+            "id": "02cb84f5-399a-450b-9c3a-ca8bd91d8f9e",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "0b867aea-d071-49a4-ad7d-28ab83eb67ec",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "30c7820b-33c4-4992-adeb-784a05f12ad1",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Deductive Intuition",
+            "id": "a71e93ef-83aa-463a-a344-d5902347b32b",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "01012c5f-1127-4319-8a68-91ed37ec74a7",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "30c7820b-33c4-4992-adeb-784a05f12ad1",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Deductive Intuition",
+            "id": "e5947dfc-0a83-4b37-a819-654c577a7c53",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "882a3ba8-1029-4439-8faf-df17f4fe9a29",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "30c7820b-33c4-4992-adeb-784a05f12ad1",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "c7a327d6-2262-4008-9d5a-e299637d9b13",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "87b618d7-ba3d-41d2-bef6-47f9d0b80429",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "4e720afb-20ce-42f5-a498-46645a5c2c91",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "ac164ddb-e790-4900-be61-68dbfb3e0501",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "fc2e0b2c-2ea1-48d0-b2f5-f485d83a04ec",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "6e053205-eeb1-4008-8e10-6f1fbc5ac8f3",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "ce86ce24-6c57-43ec-a2cc-68ca6f1ea946",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "0b867aea-d071-49a4-ad7d-28ab83eb67ec",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "95dcfab5-8744-4448-8b62-c3004d62084b",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "01012c5f-1127-4319-8a68-91ed37ec74a7",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "01826b12-a85e-4199-ba03-5ead4ca896ee",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "882a3ba8-1029-4439-8faf-df17f4fe9a29",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Hyperfocus",
+            "id": "1cfc67fc-ca04-49ae-9f81-7a781345ff7c",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "87b618d7-ba3d-41d2-bef6-47f9d0b80429",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Hyperfocus",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Hyperfocus",
+            "id": "08fd87c4-81c4-40c7-a9cc-25c0e3bece21",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "ac164ddb-e790-4900-be61-68dbfb3e0501",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Hyperfocus",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Hyperfocus",
+            "id": "58c2db29-0d09-4c89-8b90-099b14b1a549",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "6e053205-eeb1-4008-8e10-6f1fbc5ac8f3",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Hyperfocus",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Hyperfocus",
+            "id": "46eed094-67f2-4014-a13b-658842e9c6f3",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "0b867aea-d071-49a4-ad7d-28ab83eb67ec",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Hyperfocus",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Hyperfocus",
+            "id": "58e5b2bc-368b-4564-8163-2a24cdba9090",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "01012c5f-1127-4319-8a68-91ed37ec74a7",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Hyperfocus",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Hyperfocus",
+            "id": "272699f3-89e3-4e25-b1d8-9d7f414950fc",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "882a3ba8-1029-4439-8faf-df17f4fe9a29",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Hyperfocus",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "e83d89be-a7e3-4180-97da-49a2e826dab3",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "87b618d7-ba3d-41d2-bef6-47f9d0b80429",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "c3a3d876-ada1-4195-ad6a-902a4a15e25b",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "ac164ddb-e790-4900-be61-68dbfb3e0501",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "5630b209-0441-4c3f-89f2-e4548897f6b8",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "6e053205-eeb1-4008-8e10-6f1fbc5ac8f3",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "62054c68-0ac5-4854-9fa2-bf42dbf1558f",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "0b867aea-d071-49a4-ad7d-28ab83eb67ec",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "24d33617-d4e5-4bb0-b0e5-8acc5ae4c511",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "01012c5f-1127-4319-8a68-91ed37ec74a7",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "5628daf8-9150-4549-be84-ba10c0c65480",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "882a3ba8-1029-4439-8faf-df17f4fe9a29",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of Detection",
+            "id": "39233b4f-39a4-4885-b978-fe346a1eca32",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "87b618d7-ba3d-41d2-bef6-47f9d0b80429",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fb16e35a-cf69-4647-9708-139c6edbe1f6",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of Detection",
+            "id": "5cf32686-a4ff-4c5f-ae34-54dd3500000e",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "ac164ddb-e790-4900-be61-68dbfb3e0501",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fb16e35a-cf69-4647-9708-139c6edbe1f6",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of Detection",
+            "id": "ab68a73a-6166-4854-8444-8b1e3a57467c",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "6e053205-eeb1-4008-8e10-6f1fbc5ac8f3",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fb16e35a-cf69-4647-9708-139c6edbe1f6",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of Detection",
+            "id": "c91d9907-a78b-4ce0-af6a-2ba31cb233d6",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "0b867aea-d071-49a4-ad7d-28ab83eb67ec",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fb16e35a-cf69-4647-9708-139c6edbe1f6",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of Detection",
+            "id": "14b14fa9-3d89-421f-8865-14a85ac01a73",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "01012c5f-1127-4319-8a68-91ed37ec74a7",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fb16e35a-cf69-4647-9708-139c6edbe1f6",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of Detection",
+            "id": "3978e8dd-c937-4730-aa14-fbf2ea40db58",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "882a3ba8-1029-4439-8faf-df17f4fe9a29",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fb16e35a-cf69-4647-9708-139c6edbe1f6",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Detect Danger",
+            "id": "59f2bb86-0a0e-4116-96dc-0498468cda7b",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "87b618d7-ba3d-41d2-bef6-47f9d0b80429",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "e8fcfe6a-4beb-4fdb-a1eb-ca0f4701a1d7",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Detect Danger",
+            "id": "a33a81c3-b438-4a73-8b9c-d40af18ad4d9",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "ac164ddb-e790-4900-be61-68dbfb3e0501",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "e8fcfe6a-4beb-4fdb-a1eb-ca0f4701a1d7",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Detect Danger",
+            "id": "307674e1-4d67-4a67-a349-da6a2c5158fb",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "6e053205-eeb1-4008-8e10-6f1fbc5ac8f3",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "e8fcfe6a-4beb-4fdb-a1eb-ca0f4701a1d7",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Detect Danger",
+            "id": "cd2d7bf4-22c5-47e2-a8ab-18aeefcd7eab",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "0b867aea-d071-49a4-ad7d-28ab83eb67ec",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "e8fcfe6a-4beb-4fdb-a1eb-ca0f4701a1d7",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Detect Danger",
+            "id": "962dfe27-41e8-4aa9-bf53-e793f1628e0e",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "01012c5f-1127-4319-8a68-91ed37ec74a7",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "e8fcfe6a-4beb-4fdb-a1eb-ca0f4701a1d7",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Detect Danger",
+            "id": "5e0dd2ba-013a-4dc7-9ff2-eed855fed492",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "882a3ba8-1029-4439-8faf-df17f4fe9a29",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "e8fcfe6a-4beb-4fdb-a1eb-ca0f4701a1d7",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Detector",
+            "id": "1e1a10d5-334d-47b0-9122-85f8489b6f1c",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "87b618d7-ba3d-41d2-bef6-47f9d0b80429",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "adff664b-b6c2-463c-a6af-18386fb95c5a",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Detector",
+            "id": "b54e893a-30ca-4d7f-84d3-75fd57ca1699",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "ac164ddb-e790-4900-be61-68dbfb3e0501",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "adff664b-b6c2-463c-a6af-18386fb95c5a",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Detector",
+            "id": "cb2f80bd-67ba-49b8-a4b8-12371e0128f2",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "6e053205-eeb1-4008-8e10-6f1fbc5ac8f3",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "adff664b-b6c2-463c-a6af-18386fb95c5a",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Detector",
+            "id": "0ac756ae-0eed-4c27-ac56-c0b2767d70e5",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "0b867aea-d071-49a4-ad7d-28ab83eb67ec",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "adff664b-b6c2-463c-a6af-18386fb95c5a",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Detector",
+            "id": "f7c36c2c-c343-474a-a9bc-c7990acd1afc",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "01012c5f-1127-4319-8a68-91ed37ec74a7",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "adff664b-b6c2-463c-a6af-18386fb95c5a",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Detector",
+            "id": "95c6b85b-8678-4d1d-83a9-e064b6b872cf",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "882a3ba8-1029-4439-8faf-df17f4fe9a29",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "adff664b-b6c2-463c-a6af-18386fb95c5a",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Light of Revelation",
+            "id": "0b5cb4dd-992a-4140-8054-5a9e18c9707a",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "87b618d7-ba3d-41d2-bef6-47f9d0b80429",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Light of Revelation",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Light of Revelation",
+            "id": "8cba2a3a-1968-4f95-8da7-ef09115a790c",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "ac164ddb-e790-4900-be61-68dbfb3e0501",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Light of Revelation",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Light of Revelation",
+            "id": "78a96ffb-f38f-4ebf-b1cb-fcf193c522a4",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "6e053205-eeb1-4008-8e10-6f1fbc5ac8f3",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Light of Revelation",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Light of Revelation",
+            "id": "3efa1baf-0a64-40d0-b698-2509af218e8d",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "0b867aea-d071-49a4-ad7d-28ab83eb67ec",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Light of Revelation",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Light of Revelation",
+            "id": "7caab548-e86b-46ba-8208-a79183a92978",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "01012c5f-1127-4319-8a68-91ed37ec74a7",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Light of Revelation",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Light of Revelation",
+            "id": "7d9c3d16-d377-41c7-b8f9-127d71dcad10",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "882a3ba8-1029-4439-8faf-df17f4fe9a29",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Light of Revelation",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Glimpse the Truth",
+            "id": "b90bc1db-ec61-42c5-b629-f97c1f51b739",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "87b618d7-ba3d-41d2-bef6-47f9d0b80429",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Glimpse the Truth",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Glimpse the Truth",
+            "id": "5423ae89-0c37-4596-9b64-091ac592808f",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "ac164ddb-e790-4900-be61-68dbfb3e0501",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Glimpse the Truth",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Glimpse the Truth",
+            "id": "1a25638f-6098-44a1-aed5-3ef7e01cc136",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "6e053205-eeb1-4008-8e10-6f1fbc5ac8f3",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Glimpse the Truth",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Glimpse the Truth",
+            "id": "378012e4-f499-4569-9726-2b913d34b929",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "0b867aea-d071-49a4-ad7d-28ab83eb67ec",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Glimpse the Truth",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Glimpse the Truth",
+            "id": "c76cc91d-1832-440b-9631-fb8b45fd79a1",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "01012c5f-1127-4319-8a68-91ed37ec74a7",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Glimpse the Truth",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Glimpse the Truth",
+            "id": "a01e7fac-11b3-49c1-850f-560aef10098f",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "882a3ba8-1029-4439-8faf-df17f4fe9a29",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Glimpse the Truth",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Know the Enemy",
+            "id": "75bb5e42-fbe6-4e85-8570-e0675fa94d6c",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "87b618d7-ba3d-41d2-bef6-47f9d0b80429",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Know the Enemy",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Know the Enemy",
+            "id": "478f2a26-1c45-4386-aedc-15dfe0178d59",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "ac164ddb-e790-4900-be61-68dbfb3e0501",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Know the Enemy",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Know the Enemy",
+            "id": "62d08f1d-b885-440b-80bb-a021c896c8cc",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "6e053205-eeb1-4008-8e10-6f1fbc5ac8f3",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Know the Enemy",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Know the Enemy",
+            "id": "b01fa210-064f-48e5-8a75-0cafcc5d270f",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "0b867aea-d071-49a4-ad7d-28ab83eb67ec",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Know the Enemy",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Know the Enemy",
+            "id": "81e2ce32-66a9-4d5b-80c7-65cf4329cb59",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "01012c5f-1127-4319-8a68-91ed37ec74a7",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Know the Enemy",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Know the Enemy",
+            "id": "6727658c-7e34-47c2-b610-3a04fa438687",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "882a3ba8-1029-4439-8faf-df17f4fe9a29",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Know the Enemy",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "bc664285-b0de-464a-9906-793ef3a489ef",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "87b618d7-ba3d-41d2-bef6-47f9d0b80429",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "8b1f08c0-7266-41c3-ad41-c23106db5114",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "ac164ddb-e790-4900-be61-68dbfb3e0501",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "fca05e6e-1a40-453d-986e-dfae1622de28",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "6e053205-eeb1-4008-8e10-6f1fbc5ac8f3",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "877c90c0-e106-4038-848a-79147d463db4",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "0b867aea-d071-49a4-ad7d-28ab83eb67ec",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "3b646377-0fdb-408c-a6c4-dc21d06ba416",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "01012c5f-1127-4319-8a68-91ed37ec74a7",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "b5c93efa-ddd9-40a6-879e-255e2afa38e8",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "882a3ba8-1029-4439-8faf-df17f4fe9a29",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        }
+    ]
+}

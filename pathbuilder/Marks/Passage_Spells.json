@@ -1,0 +1,1302 @@
+{
+    "customPackID": "35b925d2-efe7-4571-897a-142752701ec3",
+    "customPackName": "pf2e-for-eberron",
+    "listCustomSpecial": [
+        {
+            "name": "Rank 1 - Agile Feet",
+            "id": "9db7f3fa-f5cc-4dda-b63d-6f15bca61d87",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Agile Feet",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Agile Feet",
+            "id": "019eb91b-78b2-4fb7-a614-a57ec4b71023",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Agile Feet",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Agile Feet",
+            "id": "dac60ec8-e26a-4cfd-b4bc-676edbff0431",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Agile Feet",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Agile Feet",
+            "id": "841eef43-a313-429b-ae76-ed4921e903fb",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Agile Feet",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Agile Feet",
+            "id": "cdb60650-c5a8-4c92-822b-a8f7b353c1b6",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Agile Feet",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Agile Feet",
+            "id": "6b82f9f4-5887-4667-86d8-1806ff2682e5",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Agile Feet",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Courier's Skill",
+            "id": "30cd6d03-3ebb-4d79-9882-362d34948f02",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fc158a87-dd1e-4bb4-81c2-fd27bb5f6569",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Courier's Skill",
+            "id": "5f0c449f-2730-49d0-8aa6-ddc894a7f84e",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fc158a87-dd1e-4bb4-81c2-fd27bb5f6569",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Courier's Skill",
+            "id": "166f3f84-a21c-4cd2-b97c-63244b2ca393",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fc158a87-dd1e-4bb4-81c2-fd27bb5f6569",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Courier's Skill",
+            "id": "e1b81a76-0b47-4a08-a4a8-a827527715d5",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fc158a87-dd1e-4bb4-81c2-fd27bb5f6569",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Courier's Skill",
+            "id": "930cc691-d85e-446b-a2ac-39620ca182ad",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fc158a87-dd1e-4bb4-81c2-fd27bb5f6569",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Courier's Skill",
+            "id": "4c8da6db-d0e0-40ec-8c8d-b1aac4b20665",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "fc158a87-dd1e-4bb4-81c2-fd27bb5f6569",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "136d258f-cde7-4c08-9e18-f9b499489442",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "6fd89cf9-dae7-492c-93ce-0b07ff139986",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "4ddf1f79-1d8c-4834-946a-6cd6346b1c06",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "c92382fe-c528-446a-9338-7a5edf94c449",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "9f1cb046-072c-47df-8e34-3f4967fcf338",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Dragonmarked Guidance",
+            "id": "8661573c-c734-4947-a4d9-d9977096a48a",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "8b731280-14cd-4560-af02-a79838402f79",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Unimpeded Stride",
+            "id": "fa2fff90-92a6-4a1b-9935-5b7b490a80cb",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Unimpeded Stride",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Unimpeded Stride",
+            "id": "acb629ca-3661-47d2-8947-6417e3b5ae90",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Unimpeded Stride",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Unimpeded Stride",
+            "id": "1efc3f6d-73a3-4ad3-b856-9bf93f1f78f5",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Unimpeded Stride",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Unimpeded Stride",
+            "id": "32be9ff2-9fa9-472e-a68d-4aac20e6ab94",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Unimpeded Stride",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Unimpeded Stride",
+            "id": "845ae89a-0f2a-486c-872a-82fde080f296",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Unimpeded Stride",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Unimpeded Stride",
+            "id": "6dcead5e-55ad-43ef-b50c-b068786cb816",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Unimpeded Stride",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "01496f60-1fd8-4b13-9fd1-d3e7fbe27eb6",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "72c3750f-12ff-4523-86de-2ba62ac497b3",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "75734a8c-48a2-4c64-be96-5bae24df713c",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "583bc6d8-7bf7-41f0-a301-ee3d7abf5e6b",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "158fbc5a-9927-47fa-bf72-427af01580e3",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 1 - Warded Reflex",
+            "id": "f20c8d18-9cf1-43d7-9250-e446dd7445a4",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "d8aa1599-39f2-4a35-aec5-37544e5a7837",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of the Courier",
+            "id": "5892c188-47f2-4510-94cc-8ab0dd0db499",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "dd5869f6-d427-41e0-aaff-c34eb131c67c",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of the Courier",
+            "id": "c2d95dce-abce-496b-8582-e2c1eae1675a",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "dd5869f6-d427-41e0-aaff-c34eb131c67c",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of the Courier",
+            "id": "7b3ebaf1-e44e-47c9-b0f2-109bfaf238b6",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "dd5869f6-d427-41e0-aaff-c34eb131c67c",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of the Courier",
+            "id": "01da9a5f-bc64-4743-bcf2-af791a00ddea",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "dd5869f6-d427-41e0-aaff-c34eb131c67c",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of the Courier",
+            "id": "1818c782-8eb0-4c65-a9f5-4bf710809e0d",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "dd5869f6-d427-41e0-aaff-c34eb131c67c",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Cantrip of the Courier",
+            "id": "c0b7fe55-3472-4a23-b369-90eb4fee95f6",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "dd5869f6-d427-41e0-aaff-c34eb131c67c",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dimension Step",
+            "id": "cd442911-83ad-4616-a243-c4b1c482d5e3",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "1e0187b7-0a46-44d9-b2b1-52456deed2b2",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dimension Step",
+            "id": "cbb790df-8ba8-469a-a6fe-1a4dbd823dc3",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "1e0187b7-0a46-44d9-b2b1-52456deed2b2",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dimension Step",
+            "id": "77a611af-b67e-4887-b791-2239e08414d1",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "1e0187b7-0a46-44d9-b2b1-52456deed2b2",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dimension Step",
+            "id": "ce21dbf9-80de-4b3d-9ac7-ad6ef782830d",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "1e0187b7-0a46-44d9-b2b1-52456deed2b2",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dimension Step",
+            "id": "168b3c7e-bc29-40f7-8561-3b1d77b3528b",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "1e0187b7-0a46-44d9-b2b1-52456deed2b2",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dimension Step",
+            "id": "ba3b5416-accd-4ad9-9fee-735d1d5086a3",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "1e0187b7-0a46-44d9-b2b1-52456deed2b2",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Mobility",
+            "id": "be985ecb-dfde-40ef-982b-8d01fdef1bec",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "3fa08637-385a-4758-b838-5e7eaa8ed343",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Mobility",
+            "id": "a967787a-7bfb-48e4-bd0b-c997eae95fec",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "3fa08637-385a-4758-b838-5e7eaa8ed343",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Mobility",
+            "id": "3977e41d-83b2-4603-9150-10a29be0e6d1",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "3fa08637-385a-4758-b838-5e7eaa8ed343",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Mobility",
+            "id": "4125527a-f68d-4387-b336-0764b9446fdf",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "3fa08637-385a-4758-b838-5e7eaa8ed343",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Mobility",
+            "id": "9a606046-82b7-489a-a18d-1428f9077d8c",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "3fa08637-385a-4758-b838-5e7eaa8ed343",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 2 - Dragonmarked Mobility",
+            "id": "ab524980-0823-46cb-9ce2-8d9678e3cb3b",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "3fa08637-385a-4758-b838-5e7eaa8ed343",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 3 - Long March",
+            "id": "b9cb779f-ec5b-4767-9ec5-16e6495aaa52",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "5742669a-3eda-4a00-82c7-8b3601e5e8bb",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 3 - Long March",
+            "id": "eb4ec92f-b99a-4581-8dac-2eabe36a8f03",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "5742669a-3eda-4a00-82c7-8b3601e5e8bb",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 3 - Long March",
+            "id": "856e16ea-18b2-4907-89e7-f76d2ab75a3c",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "5742669a-3eda-4a00-82c7-8b3601e5e8bb",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 3 - Long March",
+            "id": "89929eac-41b3-4c89-a631-e9b2332461f8",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "5742669a-3eda-4a00-82c7-8b3601e5e8bb",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 3 - Long March",
+            "id": "aafbd935-ab9b-4438-af92-991cbfd011bd",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "5742669a-3eda-4a00-82c7-8b3601e5e8bb",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 3 - Long March",
+            "id": "782f194a-3822-4066-aa9e-ec8c29272e0b",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "5742669a-3eda-4a00-82c7-8b3601e5e8bb",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Abundant Step",
+            "id": "04928b0a-6c45-4021-b0ed-8df102b679a6",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Abundant Step",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Abundant Step",
+            "id": "2b2fe47c-b1f7-45e2-9dce-472f8342cdec",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Abundant Step",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Abundant Step",
+            "id": "dabe4ab0-ebd8-4ad6-88be-48a0a2bf555c",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Abundant Step",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Abundant Step",
+            "id": "d16b626b-8d02-4cc6-b692-fa56e4625299",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Abundant Step",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Abundant Step",
+            "id": "e289c5d6-4262-4070-9033-79c2b7dbefcc",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Abundant Step",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Abundant Step",
+            "id": "293e9554-26f8-43ca-b63e-d0844ab97c29",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Abundant Step",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Traveler's Transit",
+            "id": "f2050093-34c5-4c2d-90fa-f243f9f250f3",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Traveler's Transit",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Traveler's Transit",
+            "id": "832d9bee-4171-4bc8-bcf3-7e53d72c00db",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Traveler's Transit",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Traveler's Transit",
+            "id": "814130f5-47f6-4757-8964-754fbd5f6774",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Traveler's Transit",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Traveler's Transit",
+            "id": "b4b88734-84cf-49bb-92e3-663feb654add",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Traveler's Transit",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Traveler's Transit",
+            "id": "cccffb2f-afdb-4988-88cb-ba1b289d8f56",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Traveler's Transit",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 4 - Traveler's Transit",
+            "id": "73a58d67-0feb-4dbf-ac0d-28f26bc5bd05",
+            "description": "You gain access to the focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "Traveler's Transit",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "908cf8f2-9b1a-418b-9e17-dd12cafa0785",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 1,
+            "parentID": "862709dc-9edf-4334-8eec-3698cfdfa03f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "24d7e0df-5bb8-4f8a-93cb-2d336c40b813",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 5,
+            "parentID": "609495a2-ee3a-427b-973d-3a36ff0337dd",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "ba19a735-21b6-430d-9ab8-5383f8a08175",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "d7d959ac-2877-4e0d-a21a-5f61ef2f6fa5",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "20807748-9b43-4291-bfe8-acdf3688a6ae",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 9,
+            "parentID": "3d9626a2-9dd6-41df-bd9c-98d7f54e3e6f",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "93ac1c03-a05f-4c5f-9c6f-4c625d365ef7",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 13,
+            "parentID": "fa014dde-af2c-4858-9707-bc67df377486",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 0
+                }
+            ]
+        },
+        {
+            "name": "Rank 7 - Summon Living Dragonmark",
+            "id": "553d6a4e-ac53-4588-b69a-e3fa298c0e90",
+            "description": "You gain this focus spell",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -2,
+            "databaseID": 1,
+            "level": 17,
+            "parentID": "ff62030f-c940-48e9-a9e3-afc2b2e14350",
+            "listCustomEffects": [
+                {
+                    "proficiencyName": "525a4993-645e-47c4-84c7-1f68b25f6948",
+                    "effectType": 10,
+                    "bonusAmount": 1
+                }
+            ]
+        }
+    ]
+}

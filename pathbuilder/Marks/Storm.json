@@ -1,0 +1,66 @@
+{
+    "customPackID": "35b925d2-efe7-4571-897a-142752701ec3",
+    "customPackName": "pf2e-for-eberron",
+    "listCustomSpecial": [
+        {
+            "name": "Least Mark of Storm Spell Selection",
+            "id": "7691bdc8-1054-4c1a-af51-d494e85051da",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 1
+        },
+        {
+            "name": "Lesser Mark of Storm Spell Selection",
+            "id": "1193dd2b-a161-40c5-a784-54287f39dd08",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 5
+        },
+        {
+            "name": "Mark of Storm Evolution Spell 1 Selection",
+            "id": "85ff3cff-7aac-49f7-84de-a2fdfc01dd91",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 9
+        },
+        {
+            "name": "Mark of Storm Evolution Spell 2 Selection",
+            "id": "a383b70a-19f3-4605-8963-10fda22266de",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 9
+        },
+        {
+            "name": "Greater Mark of Storm Spell Selection",
+            "id": "5defbba5-51d0-4aba-82cc-b54705e84894",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 13
+        },
+        {
+            "name": "Siberys Mark of Storm Spell Selection",
+            "id": "abdc7ae4-55ea-465b-8819-90f4616020d5",
+            "description": "Choose the Dragonmarked Spell you'd like to acquire.",
+            "traits": "3rd Party",
+            "src": "PF2E for Eberron",
+            "specialType": -1,
+            "databaseID": 1,
+            "level": 17
+        }
+    ]
+}
